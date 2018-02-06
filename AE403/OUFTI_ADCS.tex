@@ -1,0 +1,95 @@
+% Specify the type of document
+\documentclass[10pt]{article}
+
+% Load a number of useful packages
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+ \usepackage[margin=1.0in]{geometry}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{cite}
+\usepackage[caption=false,font=footnotesize]{subfig}
+
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+\newcommand\scalemath[2]{\scalebox{#1}{\mbox{\ensuremath{\displaystyle #2}}}}
+
+
+% Say where pictures (if any) will be placed
+\graphicspath{{./pictures/}}
+
+% Define title, author, and date
+\title{OUFTI 1 \& OUFTI 2 \\
+  \large Attitude Determination and Control System}
+\author{Emilio R. Gordon}
+\date{March 13, 2018}
+
+
+% Start of document
+\begin{document}
+% Put the title, author, and date at top of first page
+\maketitle
+
+\tableofcontents
+\newpage
+\section{Introduction }
+\subsection{The CubeSat concept}
+\subsection{The OUFTI family}
+\subsection{OUFTI-1}
+\subsection{OUFTI-2}
+\subsection{Attitude Determination and Control System}
+\subsubsection{Passive attitude control and OUFTI-1}
+\subsubsection{Active attitude control and OUFTI-2}
+\section{Mathematical modelling and Coordinate systems}
+\section{Passive ADCS of OUFTI-1}
+\subsection{Attitude determination of OUFTI-1}
+\subsection{Conclusion}
+\section{Towards an active control for Oufti-2}
+\subsection{Payload, orbit and requirements}
+\subsection{Attitude determination}
+\subsubsection{Sun sensors}
+\subsubsection{Magnetometers}
+\subsubsection{Gyroscopes}
+\subsubsection{Star sensors}
+\subsection{Attitude control}
+\subsubsection{Magnetic torquers}
+\subsubsection{Momentum exchange devices}
+\subsubsection{Thrusters}
+\subsection{Existing hardware for active control }
+\subsection{Conclusion}
+\section{Simulations of an active attitude control}
+\subsection{Application of quaternions to active control}
+\subsection{Attitude determination}
+\subsection{Torque free motion}
+\subsection{Attitude control models}
+\subsection{General parameters for the active control simulations}
+\subsection{PID controller}
+\subsection{The linear quadratic regulator controller}
+\subsection{Detumbling controller based on B-dot}
+\subsection{Attitude model with full controllability}
+\subsection{Attitude model with only magnetic torquers}
+\subsubsection{Magnetic torquers with one reaction wheel}
+\section{Conclusions}
+\subsection{OUFTI-1}
+\subsection{OUFTI-2}
+\end{document}

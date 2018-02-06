@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {2}Electrostatics with Dielectric Media}{11}
+\contentsline {subsection}{\numberline {2.1}Polarization}{12}
+\contentsline {subsection}{\numberline {2.2}Surface and Volume Charge Density}{15}
+\contentsline {subsection}{\numberline {2.3}Gauss' Law for Dielectrics}{17}
+\contentsline {subsection}{\numberline {2.4}Susceptibility, Permittivity, \& Dielectric Constant}{19}
+\contentsline {subsection}{\numberline {2.5}Boundary Conditions at Interfaces}{21}
+\contentsline {subsection}{\numberline {2.6}Poisson \& Laplace's Eqns. for Dielectrics}{22}

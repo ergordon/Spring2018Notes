@@ -1,0 +1,90 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+\setcounter{section}{0}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Homework 1 Problem 2}\\
+{\large AE370 - Spring 2018 \\ Emilio R. Gordon}
+\end{center}
+\vspace{20mm}
+\begin{lstlisting}
+N = 1:30; % Number of Intervals
+intLB = 0; % Integral Lower Bound
+intUB = 2*pi; %Integral Upper Bound
+
+IRECT = [];
+ITRAP = [];
+%Nested For Loops
+%% First Loop: Iterates through number of intervals
+%% Second Loops: Iterates depending on the number of intervals to calculate Irect or Itrap
+for j=1:length(N)
+    n = N(j);
+    h = (intUB - intLB)/n;     %Length of each SubInterval
+  
+    %Creates Array for Interval Range given number of intervals
+    xi = intLB;
+    for i=1:n
+        xi = [xi xi(i)+h];
+    end
+    
+    %% Rectangule Rule
+    Irect = 0;
+    for i=1:n
+        xx = (xi(i)+xi(i+1))/2;
+        fxx = (cos(xx^3 + 3*xx))/(exp(xx^2));
+        Irect = Irect + fxx;
+    end
+    IRECT = [IRECT Irect];
+    
+    %% Trapezoid Rule
+    Itrap = 0;
+    for i=1:n
+        fx1 =(cos(xi(i)^3 + 3*xi(i)))/(exp(xi(i)^2));
+        fx2 = (cos(xi(i+1)^3 + 3*xi(i+1)))/(exp(xi(i+1)^2));
+        Itrap = Itrap + (h/2)*(fx1+fx2);
+    end
+    ITRAP = [ITRAP Itrap];
+end
+
+%Plotting Code Not Shown
+\end{lstlisting}
+\end{document}
