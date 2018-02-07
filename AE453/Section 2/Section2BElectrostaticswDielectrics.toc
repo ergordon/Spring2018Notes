@@ -1,9 +1,7 @@
-\contentsline {section}{\numberline {3}Magnetostatics}{23}
-\contentsline {subsection}{\numberline {3.1}Electric Current}{24}
-\contentsline {subsection}{\numberline {3.2}Current Density}{25}
-\contentsline {subsection}{\numberline {3.3}Continuity}{26}
-\contentsline {subsection}{\numberline {3.4}Ohm's Law}{27}
-\contentsline {subsection}{\numberline {3.5}Magnetic Field}{28}
-\contentsline {subsection}{\numberline {3.6}Forces on Conductors}{29}
-\contentsline {subsection}{\numberline {3.7}Biot-Savart Law}{30}
-\contentsline {section}{\numberline {4}Basic Templates}{31}
+\contentsline {section}{\numberline {2}Electrostatics with Dielectric Media}{11}
+\contentsline {subsection}{\numberline {2.1}Polarization}{12}
+\contentsline {subsection}{\numberline {2.2}Surface and Volume Charge Density}{15}
+\contentsline {subsection}{\numberline {2.3}Gauss' Law for Dielectrics}{17}
+\contentsline {subsection}{\numberline {2.4}Susceptibility, Permittivity, \& Dielectric Constant}{19}
+\contentsline {subsection}{\numberline {2.5}Boundary Conditions at Interfaces}{23}
+\contentsline {subsection}{\numberline {2.6}Poisson \& Laplace's Eqns. for Dielectrics}{24}

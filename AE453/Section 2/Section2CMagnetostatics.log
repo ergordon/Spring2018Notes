@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 FEB 2018 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 FEB 2018 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1398,20 +1398,33 @@ File: uesvect.fd
 \tf@toc=\write6
 \openout6 = `Section2CMagnetostatics.toc'.
 
- [11
+ [25
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
@@ -1421,23 +1434,53 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 85--89
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--110
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
@@ -1447,145 +1490,189 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 180--183
 
  []
 
 
-./Section2CMagnetostatics.tex:135: Package amsmath Error: Erroneous nesting of 
-equation structures;
-(amsmath)                trying to recover with `aligned'.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-See the amsmath package documentation for explanation.
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--243
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 247--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+./Section2CMagnetostatics.tex:278: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{align}
-                 
+l.278 \newline
+              
 ? r
 OK, entering \nonstopmode...
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-./Section2CMagnetostatics.tex:158: LaTeX Error: There's no line here to end.
+./Section2CMagnetostatics.tex:279: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \newline
+l.279 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Section2CMagnetostatics.tex:159: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+./Section2CMagnetostatics.tex:321: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 \newline
+l.321 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 173--184
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--184
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
-
- []
-
-
-./Section2CMagnetostatics.tex:196: LaTeX Error: There's no line here to end.
+./Section2CMagnetostatics.tex:335: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \newline
+l.335 \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Section2CMagnetostatics.tex:197: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
 
@@ -1595,66 +1682,38 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-./Section2CMagnetostatics.tex:246: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.246 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--264
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--264
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--264
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--298
+Underfull \hbox (badness 10000) in paragraph at lines 347--371
 
  []
 
@@ -1664,121 +1723,23 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
-
- []
-
+[34]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--361
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-./Section2CMagnetostatics.tex:379: Missing $ inserted.
-<inserted text> 
-                $
-l.379 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Section2CMagnetostatics.tex:379: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.379 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 424--429
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 456--460
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--468
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--476
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--488
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--488
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--488
-
- []
+<pictures/1.png, id=90, 491.8375pt x 392.46625pt>
+File: pictures/1.png Graphic file (type png)
+ <use pictures/1.png>
+Package pdftex.def Info: pictures/1.png used on input line 401.
+(pdftex.def)             Requested size: 368.87721pt x 294.34895pt.
 
 
 AED: lastpage setting LastPage
@@ -1788,31 +1749,34 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] (./Section2CMagnetostatics.aux) ) 
+[36 <./pictures/1.png>] (./Section2CMagnetostatics.aux) ) 
 Here is how much of TeX's memory you used:
- 28092 strings out of 493014
- 573047 string characters out of 6133351
- 647702 words of memory out of 5000000
- 31175 multiletter control sequences out of 15000+600000
+ 28115 strings out of 493014
+ 573422 string characters out of 6133351
+ 648702 words of memory out of 5000000
+ 31192 multiletter control sequences out of 15000+600000
  11161 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,20n,101p,10501b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/es
-vect/vect10.pfb>
-Output written on Section2CMagnetostatics.pdf (12 pages, 143462 bytes).
+ 63i,29n,101p,10501b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/esvect/vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/esvect/vect8.pfb>
+Output written on Section2CMagnetostatics.pdf (12 pages, 307912 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
