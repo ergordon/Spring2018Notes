@@ -45,7 +45,6 @@
 {\LARGE \bf Homework 1 Problem 2}\\
 {\large AE370 - Spring 2018 \\ Emilio R. Gordon}
 \end{center}
-\vspace{20mm}
 \begin{lstlisting}
 N = 1:30; % Number of Intervals
 intLB = 0; % Integral Lower Bound
@@ -53,9 +52,11 @@ intUB = 2*pi; %Integral Upper Bound
 
 IRECT = [];
 ITRAP = [];
+
 %Nested For Loops
 %% First Loop: Iterates through number of intervals
-%% Second Loops: Iterates depending on the number of intervals to calculate Irect or Itrap
+%% Second Loops: Iterates depending on the number 
+%                             of intervals to calculate Irect or Itrap
 for j=1:length(N)
     n = N(j);
     h = (intUB - intLB)/n;     %Length of each SubInterval
@@ -71,7 +72,7 @@ for j=1:length(N)
     for i=1:n
         xx = (xi(i)+xi(i+1))/2;
         fxx = (cos(xx^3 + 3*xx))/(exp(xx^2));
-        Irect = Irect + fxx;
+        Irect = Irect + h*fxx;
     end
     IRECT = [IRECT Irect];
     
@@ -84,7 +85,8 @@ for j=1:length(N)
     end
     ITRAP = [ITRAP Itrap];
 end
+plot(N,IRECT,N,ITRAP)
 
-%Plotting Code Not Shown
+%Additional Plotting code removed for space
 \end{lstlisting}
 \end{document}

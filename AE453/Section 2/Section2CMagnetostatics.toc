@@ -6,4 +6,3 @@
 \contentsline {subsection}{\numberline {3.5}Magnetic Field}{32}
 \contentsline {subsection}{\numberline {3.6}Forces on Conductors}{34}
 \contentsline {subsection}{\numberline {3.7}Biot-Savart Law}{35}
-\contentsline {section}{\numberline {4}Basic Templates}{36}

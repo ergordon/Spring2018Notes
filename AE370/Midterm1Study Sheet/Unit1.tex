@@ -1,0 +1,185 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.5in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\usepackage{setspace}
+%\singlespacing
+%\onehalfspacing
+%\doublespacing
+\setstretch{1.5}
+\newtheorem{note}{Note}
+\begin{document}
+\setcounter{section}{0}
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{AE370: Equation Sheet}
+\begin{framed}
+\textbf{Rectangle Rule for Integration} \newline
+\begin{equation*}
+\int_{x_{i-1}}^{x_i} f(x) \mathrm{d}x \approx \sum_{i=1}^{n} \, h \, f\bigg(\frac{x_{i-1}+x_{i}}{2}\bigg)
+\end{equation*}
+Where:
+\begin{equation*}
+\begin{split}
+n &= \text{Number of Subintervals} \\
+h &= \frac{x_{\text{final}} - x_{\text{initial}}}{n} \\
+& = \text{Length of a Single Subinterval} \\
+\end{split}
+\end{equation*}
+\end{framed}
+\begin{framed}
+\textbf{Trapezoidal Rule for Integration} \newline
+\begin{equation*}
+\int_{x_{i-1}}^{x_i} f(x) \mathrm{d}x \approx \sum_{i=1}^{n} \, \frac{h}{2} \, \bigg(f(x_{i-1})+f(x_{i})\bigg)
+\end{equation*}
+Where:
+\begin{equation*}
+\begin{split}
+n &= \text{Number of Intervals} \\
+h &= \frac{x_{\text{final}} - x_{\text{initial}}}{n} \\
+& = \text{Length of a Single Subinterval}
+\end{split}
+\end{equation*}
+\end{framed}
+\begin{framed}
+\textbf{Simpson Rule for Integration} \newline
+\begin{equation*}
+\int_{x_{i-1}}^{x_i} f(x) \mathrm{d}x \approx \frac{2}{3} \, I_{\text{rectangular}} + \frac{1}{3} \, I_{\text{trapezoidal}}
+\end{equation*}
+Where:
+\begin{equation*}
+\begin{split}
+I_{\text{rectangular}} &= \text{Rectangle Rule Estimate} \\
+I_{\text{trapezoidal}} &= \text{Trapezoidal Rule Estimate} \\
+\end{split}
+\end{equation*}
+\end{framed}
+\newpage
+\begin{framed}
+\textbf{Gauss Quadrature Rule for Integration} \newline
+\begin{equation*}
+\int_{-1}^{1} \, f_n (\xi) \, \mathrm{d}\xi = \sum_{k=1}^{q} f_n (\xi_k) \, w_k
+\end{equation*}
+\textbf{Basic Idea:} We will try to minimize the number of sampling points needed to integrate exactly a polynomial of a chosen degree n on the domain [-1, 1].
+\newline
+\newline
+Where:
+\newline
+$w_k$ = Weighting Function
+\begin{itemize}
+\item \textbf{To integrate exactly (n=1) $f_1(\xi) = \alpha_0 + \alpha_1 \, \xi$} \\
+\[ 
+\left \{
+  \begin{tabular}{cc}
+  $w_1 = 2$ \\
+  $\xi_1 = 0$
+  \end{tabular}}
+\]
+\item \textbf{To integrate exactly (n=3) $f_3(\xi) = \alpha_0 + \alpha_1 \, \xi + \alpha_2 \, \xi^2 + \alpha_3 \, \xi^3$}\\
+We need 2 sampling points (and 2 weights)
+\[ 
+\left \{
+  \begin{tabular}{cc}
+  $w_1 = 1$&$w_2 = 1$ \\
+  $\xi_1 = -\frac{\sqrt{3}}{3}$ & $\xi_2 = \frac{\sqrt{3}}{3}$
+  \end{tabular}}
+\]
+\item \textbf{To integrate exactly (n=5) $f_5(\xi) = \alpha_0 + \alpha_1 \, \xi + \alpha_2 \, \xi^2 + \alpha_3 \, \xi^3 + \alpha_4 \, \xi^4 + \alpha_5 \, \xi^5 $} \\
+We need 3 sampling points (and 3 weights):
+\[ 
+\left \{
+  \begin{tabular}{ccc}
+  $w_1 = \frac{8}{9}$ & $w_2 = \frac{5}{9}$ & $w_3 = \frac{5}{9}$ \\
+  $\xi_1 = 0$ & $\xi_2 = \sqrt{\frac{3}{5}}$ & $\xi_3 = -\sqrt{\frac{3}{5}}$
+  \end{tabular}}
+\]
+\end{itemize}
+\end{framed}
+
+\newpage
+
+\begin{framed}
+\textbf{Coordinate Transformation}
+\begin{equation*}
+\begin{aligned}
+\xi = \frac{2x}{b-a} + \frac{a+b}{a-b} = \frac{2x-(a+b)}{b-a}
+\end{aligned}
+\end{equation*}
+such that
+\begin{equation*}
+\begin{aligned}
+\int_{a}^{b}f(x)\, \mathrm{d}x = \frac{b-a}{2}\int_{-1}^{1} f\bigg(\frac{(b-a)\xi+(a+b)}{2}\bigg) \mathrm{d}\xi
+\end{aligned}
+\end{equation*}
+\end{framed}
+
+\begin{framed}
+\textbf{Forward Difference Scheme}
+\begin{equation*}
+\begin{aligned}
+f'(x) = \frac{f(x+h)-f(x)}{h} - \frac{h}{2} f''(\xi) \qquad \text{with } \xi \in (x,x+h)
+\end{aligned}
+\end{equation*}
+\end{framed}
+
+\begin{framed}
+\textbf{Central Difference Scheme}
+\begin{equation*}
+\begin{aligned}
+f'(x) = \frac{f(x+h)-f(x-h)}{2h} - \frac{h^2}{6} f'''(\xi) \qquad \text{with } \xi \in (x,x+h)
+\end{aligned}
+\end{equation*}
+\end{framed}
+
+\begin{framed}
+\textbf{Richardson Extrapolation}
+\begin{equation*}
+\begin{aligned}
+a_o = F(h) + \frac{F(h) - F(qh)}{q^p - 1} + O(h^r) \qquad \text{or} \qquad a_o = \frac{F(qh) - q^p\,F(h)}{1 - q^p}+ O(h^r)
+\end{aligned}
+\end{equation*}
+Where:
+\begin{equation*}
+\begin{split}
+p &= 1 \qquad \text{For Forward Difference Scheme since error is linear.} \\
+p &= 2 \qquad \text{For Central Difference Scheme since error is squared.} \\
+\end{split}
+\end{equation*}
+
+\end{framed}
+\end{document}

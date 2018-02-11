@@ -48,11 +48,11 @@ for j=1:length(N)
     %% Rectangule Rule
     Irect = 0;
     for i=1:n
-        xx = (xi(i)+xi(i+1))/2;
+        xx = (xi(i)+xi(i+1))/2
         fxx = (cos(xx^3 + 3*xx))/(exp(xx^2));
-        Irect = Irect + fxx;
+        Irect = Irect + h*fxx;
     end
-    IRECT = [IRECT Irect];
+    IRECT = [IRECT Irect]
     %% Trapezoid Rule
     Itrap = 0;
     for i=1:n
@@ -63,7 +63,7 @@ for j=1:length(N)
     ITRAP = [ITRAP Itrap];
     j
 end
-plot(N,IRECT,N,ITRAP)
+plot(N,IRECT,('.-'),N,ITRAP,('x-'))
      p(1).LineWidth = 2;
      p(2).LineWidth = 2;
      title('Integration Method V. Number of Intervals', 'FontSize', 24)
@@ -77,4 +77,4 @@ plot(N,IRECT,N,ITRAP)
      set(gcf,'paperorientation','landscape');
      set(gcf,'paperunits','normalized');
      set(gcf,'paperposition',[0 0 1 1]);
-     print(gcf,'-dpdf','graph.pdf');
+     print(gcf,'-dpdf','graph2.pdf');

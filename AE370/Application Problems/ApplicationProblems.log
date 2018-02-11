@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 FEB 2018 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2018 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Section Template.tex"
-(./Section Template.tex
+**ApplicationProblems.tex
+(./ApplicationProblems.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -1273,21 +1273,21 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 \c@reg=\count199
 \c@exer=\count266
 \c@note=\count267
- (./Section Template.aux)
-\openout1 = `"Section Template.aux"'.
+ (./ApplicationProblems.aux)
+\openout1 = `ApplicationProblems.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1305,7 +1305,7 @@ LaTeX Font Info:    ... okay on input line 41.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 41.
+(lastpage)             ! on input line 46.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1353,9 +1353,9 @@ e
 * \textheight=650.43001pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-18.06749pt
+* \topmargin=-36.135pt
 * \headheight=0.0pt
-* \headsep=18.06749pt
+* \headsep=36.135pt
 * \topskip=11.0pt
 * \footskip=30.0pt
 * \marginparwidth=59.0pt
@@ -1374,68 +1374,47 @@ e
 \Hy@linkcounter=\count274
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count275
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
-<pictures/1.png, id=41, 706.64pt x 204.765pt>
-File: pictures/1.png Graphic file (type png)
- <use pictures/1.png>
-Package pdftex.def Info: pictures/1.png used on input line 50.
-(pdftex.def)             Requested size: 529.9787pt x 153.57335pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
-
- []
-
-
-Overfull \hbox (60.22368pt too wide) in paragraph at lines 49--52
-[] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 54.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 52.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+esvect on input line 54.
+LaTeX Font Info:    Try loading font information for U+esvect on input line 52.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
+
+ []
+
+
+Overfull \hbox (3.23587pt too wide) in paragraph at lines 51--57
+\OT1/cmr/bx/n/10.95 Compute $[][] \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 d\
+OML/cmm/m/it/10.95 x$ \OT1/cmr/bx/n/10.95 us-ing the $[]$ Com-pare your
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1444,19 +1423,19 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./pictures/1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+]
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
 
-Overfull \hbox (21.00902pt too wide) detected at line 90
-[] []
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
  []
 
 
@@ -1466,13 +1445,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
 
  []
 
 
-Overfull \hbox (62.30559pt too wide) detected at line 117
-[] []
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
  []
 
 
@@ -1482,99 +1461,81 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 164--168
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 168.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4] <pictures/2.png, id=69, 703.62875pt x 117.43875pt>
-File: pictures/2.png Graphic file (type png)
- <use pictures/2.png>
-Package pdftex.def Info: pictures/2.png used on input line 152.
-(pdftex.def)             Requested size: 527.72026pt x 88.07883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 175--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 175--179
 
  []
 
 
-Overfull \hbox (57.96524pt too wide) in paragraph at lines 151--153
-[] 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./pictures/2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
-
- []
-
-
-Overfull \hbox (140.75987pt too wide) detected at line 183
+Overfull \hbox (140.75987pt too wide) detected at line 191
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 204--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+Overfull \hbox (140.75987pt too wide) detected at line 239
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
 
@@ -1585,82 +1546,23 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--226
-
- []
-
-
-Overfull \hbox (140.75987pt too wide) detected at line 230
+Overfull \hbox (132.11284pt too wide) detected at line 278
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
@@ -1670,83 +1572,19 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <pictures/3.png, id=81, 709.65125pt x 116.435pt>
-File: pictures/3.png Graphic file (type png)
- <use pictures/3.png>
-Package pdftex.def Info: pictures/3.png used on input line 247.
-(pdftex.def)             Requested size: 532.23712pt x 87.32602pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--249
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
- []
-
-
-Overfull \hbox (62.4821pt too wide) in paragraph at lines 246--249
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--270
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--270
-
- []
-
-
-Overfull \hbox (132.11284pt too wide) detected at line 274
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--276
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
 
  []
 
@@ -1758,35 +1596,32 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./pictures/3.png>] (./Section Template.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[10] (./ApplicationProblems.aux) ) 
 Here is how much of TeX's memory you used:
- 28116 strings out of 493014
- 573400 string characters out of 6133351
- 643670 words of memory out of 5000000
- 31195 multiletter control sequences out of 15000+600000
+ 28097 strings out of 493014
+ 573143 string characters out of 6133351
+ 643675 words of memory out of 5000000
+ 31181 multiletter control sequences out of 15000+600000
  9951 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,20n,101p,10496b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Section Template.pdf" (8 pages, 192524 bytes).
+ 63i,20n,101p,10497b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on ApplicationProblems.pdf (10 pages, 148600 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

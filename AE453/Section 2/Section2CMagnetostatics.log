@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 FEB 2018 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2018 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1683,37 +1683,27 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
+Underfull \hbox (badness 10000) in paragraph at lines 360--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
+Underfull \hbox (badness 10000) in paragraph at lines 368--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
+Underfull \hbox (badness 10000) in paragraph at lines 376--380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--371
+Underfull \hbox (badness 10000) in paragraph at lines 384--388
 
  []
 
@@ -1724,6 +1714,30 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
+Underfull \hbox (badness 10000) in paragraph at lines 404--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--412
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1731,15 +1745,252 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 438--445
 
  []
 
-<pictures/1.png, id=90, 491.8375pt x 392.46625pt>
-File: pictures/1.png Graphic file (type png)
- <use pictures/1.png>
-Package pdftex.def Info: pictures/1.png used on input line 401.
-(pdftex.def)             Requested size: 368.87721pt x 294.34895pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--445
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--461
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--469
+
+ []
+
+
+./Section2CMagnetostatics.tex:477: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477  \newline
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Section2CMagnetostatics.tex:486: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Section2CMagnetostatics.tex:487: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--499
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 511--519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--543
+
+ []
+
+
+./Section2CMagnetostatics.tex:549: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.549 \begin{aligned}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Section2CMagnetostatics.tex:549: Missing $ inserted.
+<inserted text> 
+                $
+l.549 \begin{aligned}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Section2CMagnetostatics.tex:551: Missing $ inserted.
+<inserted text> 
+                $
+l.551 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Section2CMagnetostatics.tex:552: LaTeX Error: Bad math environment delimiter.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.552 \end{equation*}
+                      \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Section2CMagnetostatics.tex:555: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 \begin{aligned}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Section2CMagnetostatics.tex:555: Missing $ inserted.
+<inserted text> 
+                $
+l.555 \begin{aligned}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Section2CMagnetostatics.tex:557: Missing $ inserted.
+<inserted text> 
+                $
+l.557 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Section2CMagnetostatics.tex:558: LaTeX Error: Bad math environment delimiter.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 \end{equation*}
+                      \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Section2CMagnetostatics.tex:560: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.560 \begin{aligned}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Section2CMagnetostatics.tex:560: Missing $ inserted.
+<inserted text> 
+                $
+l.560 \begin{aligned}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Section2CMagnetostatics.tex:562: Missing $ inserted.
+<inserted text> 
+                $
+l.562 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Section2CMagnetostatics.tex:563: LaTeX Error: Bad math environment delimiter.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.563 \end{equation*}
+                      \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 AED: lastpage setting LastPage
@@ -1749,34 +2000,34 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./pictures/1.png>] (./Section2CMagnetostatics.aux) ) 
+[37] (./Section2CMagnetostatics.aux) ) 
 Here is how much of TeX's memory you used:
- 28115 strings out of 493014
- 573422 string characters out of 6133351
- 648702 words of memory out of 5000000
- 31192 multiletter control sequences out of 15000+600000
+ 28108 strings out of 493014
+ 573329 string characters out of 6133351
+ 652702 words of memory out of 5000000
+ 31188 multiletter control sequences out of 15000+600000
  11161 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,29n,101p,10501b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/esvect/vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/esvect/vect8.pfb>
-Output written on Section2CMagnetostatics.pdf (12 pages, 307912 bytes).
+ 63i,29n,101p,10501b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/
+vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/vect8.
+pfb>
+Output written on Section2CMagnetostatics.pdf (13 pages, 164339 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
