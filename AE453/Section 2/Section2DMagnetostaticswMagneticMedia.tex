@@ -1,0 +1,210 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{3}
+\setcounter{page}{38}
+\setcounter{equation}{74}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 2: Electromagnetics}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 2: Electromagnetics}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+In this section, we will review the basics of charge, electricity, magnetism, and Maxwell equations.
+\vspace{5mm}
+\section{Magnetostatics with Magnetic Media}
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+\subsection{Effect of Magnetic Media}
+In our previous discussion, we only considered magnetostatics involving steady currents in a vacuum. Now we will examine...
+\begin{itemize}
+\item \textbf{Question: }What happens if matter is present?
+\item \textbf{Answer: }The magnetic field $\vv{B}$ changes!
+\item \textbf{Reason: }Matter has micro-currents associated with the motion of the electrons around atoms, "atomic currents"
+\item \textbf{Aftermath: }So now we must consider two kinds of currents:
+\begin{itemize}
+\item Conduction currents, involving free charges
+\item Atomic currents, with no charge transport (to the first order)
+\end{itemize}
+\end{itemize}
+\newline
+Each atom has a magnetic dipole moment.
+\begin{shaded}
+ \newline
+ \textbf{Magnetic Dipole Moment}
+\begin{equation}
+\begin{aligned}
+\vv{m}_i = \frac{1}{2} J_i \oint_c \vv{r}_i \times \mathrm{d}\vv{l}
+\end{aligned}
+\end{equation}
+\end{shaded}
+We can define a macroscopic vector quantity analogous to polarization, known as the \textbf{magnetization} or the magnetic dipole moment per unit volume. 
+\begin{shaded}
+ \newline
+ \textbf{Magnetization}
+\begin{equation}
+\begin{aligned}
+\vv{M} = \lim_{\Delta\volume\rightarrow0} \, \frac{1}{\Delta\volume} \, \sum_i \vv{m}_i
+\end{aligned}
+\end{equation}
+\end{shaded}
+In the \textbf{unmagnetized state}, $\vv{M}=0$ because $\vv{m}_i$ have random orientations that cancel out. In the presence of an external $\vv{B}$, matter becomes organized and $\vv{M}$ can become nonzero depending on the material properties. 
+\newpage
+\begin{center}
+\vspace{1mm}
+\end{center}
+\textbf{Magnetization Current: }How does magnetization give rise to currents?
+\begin{center}
+\vspace{40mm}
+\textbf{Figure 20}
+\end{center}
+
+For a uniform $\vv{M}$, currents cancel in the interior but not on the exterior. The result is a net surface current as shown in Figure 20. 
+\newline
+\newline
+Similarly, if $\vv{M}$ is non-uniform, we can have an internal net current.
+\newline
+\newline
+\newline
+We can define a \textbf{Magnetization Current Density: }
+\newline
+\begin{equation}
+\begin{aligned}
+\vv{j}_m = \nabla \times \vv{M}
+\end{aligned}
+\end{equation}
+\newpage
+\subsection{Total Magnetic Field}
+To incorporate $\vv{j}_m$ into Ampere's Law (Equation 72) we have to modify the magnetic field equations, just as we modified Gauss' law to include $\rho_e$. 
+\newline
+\newline
+As before, we still have no monopoles:
+\newline
+\begin{equation*}
+\begin{aligned}
+\nabla \cdot \vv{B} = 0
+\end{aligned}
+\end{equation*}
+But now, Ampere's law becomes:
+\newline
+\begin{equation}
+\begin{aligned}
+\nabla \times \vv{B} = \mu_o \, (\vv{j}+\vv{j}_m)
+\end{aligned}
+\end{equation}
+Using Equation 77, we can write this as:
+\begin{equation*}
+\begin{aligned}
+\nabla \times \bigg(\frac{1}{\mu_o}\,\vv{B}-\vv{M}\bigg) = \vv{j}
+\end{aligned}
+\end{equation*}
+Where $(\frac{1}{\mu_o}\,\vv{B}-\vv{M})$ depends only on conduction current density $\vv{j}$ as its source. As a results, we define a vector field:
+\begin{shaded}
+ \newline
+ \textbf{Magnetic Intensity or "H"-field}
+ \newline
+\begin{equation}
+\begin{aligned}
+\vv{H} = \frac{1}{\mu_o}\,\vv{B}-\vv{M} \qquad \bigg[\frac{\text{A}}{m}\bigg] = [\text{Oersted}]
+\end{aligned}
+\end{equation}
+\newline
+\textbf{Note:} 1 $\frac{\text{A}}{m}$ = 0.01257 Oersted
+\end{shaded}
+Finally, \textbf{Ampere's Law for Magnetic Media} is:
+\newline
+\begin{equation}
+\begin{aligned}
+\nabla \times \vv{H} = \vv{j}
+\end{aligned}
+\end{equation}
+\newpage
+A comparison of Magnetostatics and Electrostatics:
+\setlength{\arrayrulewidth}{.5 mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{2}
+\begin{center}
+ \begin{tabular}{| c | c |} 
+ \hline
+ \rowcolor{gray} \textbf{Electrostatics} & \textbf{Magnetostatics} \\ [1ex] 
+ \hline
+ \rowcolor{lightgray} In vacuum (no $\rho_p$) & In vacuum (no $\vv{j}_m$) \\  [1ex] 
+ \hline
+ $\nabla \cdot \vv{E} = \frac{q}{\epsilon_o} \quad$ (isolated charges) & $\nabla \cdot \vv{B} = 0$ \\ [1ex] 
+ $\nabla \cdot \vv{E} = \frac{\rho_e(\vv{r})}{\epsilon_o} \quad$ (distributed charges) & \\ [1ex] 
+ $\nabla \times \vv{E} = 0 & $\nabla \times \vv{B} = \mu_o \vv{j}$ \\ [1ex] 
+  \hline
+  \rowcolor{lightgray} With media effects (finite $\rho_p$) & With media effects (finite $\vv{j}_m$) \\ [0.5ex] 
+ \hline
+ $\nabla \cdot \vv{E} = (\rho_f + \rhp_p)/\epsilon_o$ & $\nabla \cdot \vv{B} = 0$ \\ [1ex] 
+ $\nabla \cdot \vv{D} = \rho_f$                                   &  \\ [1ex] 
+ $\nabla \times \vv{E} = 0$                                        & $\nabla \times \vv{B} = \mu_o (\vv{j}+\vv{j}_m)$ \\ [1ex] 
+ & $\nabla \times \vv{H} = \vv{j}$ \\ [1ex] 
+ \hline
+ \end{tabular}
+\end{center}
+We can also derive the intergral equation for magnetic intensity. From Equation 80, if we integrate over a surface element and apply Stokes theorem on a closed curve surrounding the surface, we get:
+\begin{equation}
+\begin{aligned}
+\int_S \nabla \times \vv{H} \cdot \hat{n} \, \mathrm{d}A = \oint_C \vv{H} \cdot \mathrm{d} \vv{l} = \int_S \vv{j} \cdot \hat{n} \, \mathrm{d}A = J
+\end{aligned}
+\end{equation}
+\textbf{Important Note:} This only applies for Magnetostatics. It does not work for time-varying fields.
+\newpage
+\subsection{Constitutive Equations/Relations}
+\newpage
+\subsection{Boundary Conditions}
+\newpage
+\subsection{Magnetic Flux}
+\end{document}

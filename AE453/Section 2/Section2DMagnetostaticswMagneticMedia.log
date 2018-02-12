@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2018 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2018 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Section2CMagnetostatics.tex
-(./Section2CMagnetostatics.tex
+**Section2DMagnetostaticswMagneticMedia.tex
+(./Section2DMagnetostaticswMagneticMedia.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -1273,8 +1273,8 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 \c@reg=\count199
 \c@exer=\count266
 \c@note=\count267
- (./Section2CMagnetostatics.aux)
-\openout1 = `Section2CMagnetostatics.aux'.
+ (./Section2DMagnetostaticswMagneticMedia.aux)
+\openout1 = `Section2DMagnetostaticswMagneticMedia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -1374,7 +1374,8 @@ e
 \Hy@linkcounter=\count274
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count275
- (./Section2CMagnetostatics.toc
+
+(./Section2DMagnetostaticswMagneticMedia.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1396,425 +1397,127 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 2.
 File: uesvect.fd 
 ))
 \tf@toc=\write6
-\openout6 = `Section2CMagnetostatics.toc'.
+\openout6 = `Section2DMagnetostaticswMagneticMedia.toc'.
 
- [25
+ [38
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
 
 
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--163
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--183
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--227
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--243
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 247--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--261
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
-
-./Section2CMagnetostatics.tex:278: LaTeX Error: There's no line here to end.
+./Section2DMagnetostaticswMagneticMedia.tex:81: LaTeX Error: There's no line he
+re to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 \newline
-              
+l.81 \newline
+             
 ? r
 OK, entering \nonstopmode...
 
-./Section2CMagnetostatics.tex:279: LaTeX Error: There's no line here to end.
+./Section2DMagnetostaticswMagneticMedia.tex:84: LaTeX Error: There's no line he
+re to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279 \newline
+l.84  \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--283
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-
-./Section2CMagnetostatics.tex:321: LaTeX Error: There's no line here to end.
+./Section2DMagnetostaticswMagneticMedia.tex:94: LaTeX Error: There's no line he
+re to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321 \newline
+l.94  \newline
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--327
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
 
  []
 
 
-./Section2CMagnetostatics.tex:335: LaTeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+
+./Section2DMagnetostaticswMagneticMedia.tex:154: LaTeX Error: There's no line h
+ere to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.335 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 354--356
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 368--372
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--380
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--388
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 404--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 438--445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 438--445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--461
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--469
-
- []
-
-
-./Section2CMagnetostatics.tex:477: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.477  \newline
+l.154  \newline
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Section2CMagnetostatics.tex:486: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.486 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Section2CMagnetostatics.tex:487: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.487 \newline
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--499
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
@@ -1824,175 +1527,48 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 511--519
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--519
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--519
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--535
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--543
-
- []
-
-
-./Section2CMagnetostatics.tex:549: Package amsmath Error: \begin{aligned} allow
-ed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.549 \begin{aligned}
-                     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./Section2CMagnetostatics.tex:549: Missing $ inserted.
+[41]
+./Section2DMagnetostaticswMagneticMedia.tex:186: Missing $ inserted.
 <inserted text> 
                 $
-l.549 \begin{aligned}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Section2CMagnetostatics.tex:551: Missing $ inserted.
-<inserted text> 
-                $
-l.551 \end{aligned}
-                   
+l.186  $\nabla \times \vv{E} = 0 &
+                                   $\nabla \times \vv{B} = \mu_o \vv{j}$ \\ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-./Section2CMagnetostatics.tex:552: LaTeX Error: Bad math environment delimiter.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.552 \end{equation*}
-                      \\ \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+./Section2DMagnetostaticswMagneticMedia.tex:190: Undefined control sequence.
+l.190  $\nabla \cdot \vv{E} = (\rho_f + \rhp
+                                            _p)/\epsilon_o$ & $\nabla \cdot ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./Section2CMagnetostatics.tex:555: Package amsmath Error: \begin{aligned} allow
-ed only in math mode.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.555 \begin{aligned}
-                     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[42]
 
-./Section2CMagnetostatics.tex:555: Missing $ inserted.
-<inserted text> 
-                $
-l.555 \begin{aligned}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-./Section2CMagnetostatics.tex:557: Missing $ inserted.
-<inserted text> 
-                $
-l.557 \end{aligned}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+[43]
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-./Section2CMagnetostatics.tex:558: LaTeX Error: Bad math environment delimiter.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.558 \end{equation*}
-                      \\ \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Section2CMagnetostatics.tex:560: Package amsmath Error: \begin{aligned} allow
-ed only in math mode.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560 \begin{aligned}
-                     
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./Section2CMagnetostatics.tex:560: Missing $ inserted.
-<inserted text> 
-                $
-l.560 \begin{aligned}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Section2CMagnetostatics.tex:562: Missing $ inserted.
-<inserted text> 
-                $
-l.562 \end{aligned}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./Section2CMagnetostatics.tex:563: LaTeX Error: Bad math environment delimiter.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.563 \end{equation*}
-                      \\ \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
+[44] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2000,34 +1576,34 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37] (./Section2CMagnetostatics.aux) ) 
+[45] (./Section2DMagnetostaticswMagneticMedia.aux) ) 
 Here is how much of TeX's memory you used:
- 28108 strings out of 493014
- 573329 string characters out of 6133351
- 652702 words of memory out of 5000000
- 31188 multiletter control sequences out of 15000+600000
+ 28112 strings out of 493014
+ 573541 string characters out of 6133351
+ 646730 words of memory out of 5000000
+ 31192 multiletter control sequences out of 15000+600000
  11161 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,29n,101p,10501b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/
-vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/vect8.
-pfb>
-Output written on Section2CMagnetostatics.pdf (13 pages, 164339 bytes).
+ 63i,22n,101p,10515b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/esvect/vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/esvect/vect8.pfb>
+Output written on Section2DMagnetostaticswMagneticMedia.pdf (8 pages, 137347 by
+tes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
