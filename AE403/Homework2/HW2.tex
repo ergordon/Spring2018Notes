@@ -62,7 +62,7 @@ The plots required for part A and part B are shown in the following pages.  The 
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
-0 & 0 & 1 \\ 0 & 1 & 0 \\ -1 & 0 & 0
+1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
@@ -70,16 +70,16 @@ The plots required for part A and part B are shown in the following pages.  The 
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
-0 \\ \frac{\pi}{2} \\ 0
+0 \\ 0 \\ 0
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
 \item \textbf{Initial Quaternion}
 \begin{equation*}
 \begin{aligned}
-Q = (q_o , q) = \Bigg( \frac{1}{\sqrt{2}}, 
+Q = (q_o , q) = \Bigg( 0, 
 \begin{bmatrix}
-0 \\ \frac{1}{\sqrt{2}} \\ 0
+0 \\ 0 \\ 1
 \end{bmatrix} \Bigg)
 \end{aligned}
 \end{equation*}
@@ -93,9 +93,9 @@ tRate = 30;
 t = linspace(0,tMax,tMax*tRate);
 
 %DEFINE THE INITIAL CONDITIONS
-xH0 = [0;pi/2;0];
-R0 = [0 0 1; 0 1 0; -1 0 0];
-xQ0 = [1/sqrt(2);0;1/sqrt(2);0];
+xH0 = [0;0;0];
+R0 = eye(3);
+xQ0 = [0; 0; 0; 1];
 
 % INTEGRATE THE ANGULAR RATE EQUATIONS
 [t,xR] = ode45(@fR,t,RtoX(R0));
@@ -124,9 +124,9 @@ From this, it appears that:
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
--0.9135 &  -0.1261  &  0.3869 \\
-   -0.2036  & -0.6817 &  -0.7027 \\
-    0.3524 &  -0.7206 &   0.5971 \\
+-0.3524  &  0.7206 &  -0.5971 \\
+   -0.2036 &  -0.6817  & -0.7027 \\
+   -0.9135  & -0.1261  &  0.3869 \\
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
@@ -134,16 +134,20 @@ From this, it appears that:
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
-  7.1425 \\ 0.3985 \\ -3.2714 \\
+1.0657 \\
+   -0.6396 \\
+    4.2568 \\
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
 \item \textbf{Quaternion at 6 Seconds}
 \begin{equation*}
 \begin{aligned}
-Q = (q_o , q) = \Bigg( -0.0216 , 
+Q = (q_o , q) = \Bigg( -0.7783 , 
 \begin{bmatrix}
-0.2069 \\ -0.3985 \\ 0.8934
+0.2667 \\
+   -0.4854 \\
+   -0.2973 \\
 \end{bmatrix} \Bigg) 
 \end{aligned}
 \end{equation*}
@@ -191,9 +195,9 @@ This provides the solution:
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
--0.9135 &  -0.1261  &  0.3869 \\
+-0.3524  &  0.7206 &  -0.5971 \\
    -0.2036 &  -0.6817  & -0.7027 \\
-    0.3524 &  -0.7206  &  0.5971 \\
+   -0.9135  & -0.1261  &  0.3869 \\
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
@@ -201,9 +205,9 @@ This provides the solution:
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
--0.9139  & -0.1193  &  0.3881 \\
-   -0.2069 &  -0.6855 &  -0.6980 \\
-    0.3493  & -0.7182  &  0.6018 \\
+-0.3530  &  0.7205  & -0.5968 \\
+   -0.2047  & -0.6819 &  -0.7022 \\
+   -0.9129  & -0.1257 &   0.3883 \\
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
@@ -211,15 +215,15 @@ This provides the solution:
 \begin{equation*}
 \begin{aligned}
 \begin{bmatrix}
--0.9138  & -0.1263   & 0.3870 \\
-   -0.2036  & -0.6818 &  -0.7031 \\
-    0.3525  & -0.7211 &   0.5971 \\
+0.3529  & -0.7216  &  0.5971 \\
+    0.2038   & 0.6819  &  0.7037 \\
+   -0.9142 &  -0.1265  &  0.3874 \\
 \end{bmatrix}
 \end{aligned}
 \end{equation*}
 \end{itemize}
 \newpage
-The rotation matrices derived from each coordinate system resulted in relatively the same matrix. That said, there is some error due to numerical rounding. This confirms our earlier analysis and work since, regardless of approach, we arrived at the same matrix. 
+The rotation matrices derived from each coordinate system resulted in relatively the same matrix. That said, there is some error due to numerical rounding. This confirms our earlier analysis and work since, regardless of approach, we arrived at the same matrix.  One notable difference from our other set of initial conditions is how the quaternion still match in magnitude but sometimes differs in the sign produced.
 \newline
 \newline
 Every approach has its pros and cons as follows:
@@ -236,9 +240,9 @@ Every approach has its pros and cons as follows:
  & Computationally efficient & \\
 & Intuitive (opinion) & \\
  \hline
- Quaternion & Computationally inexpensive & N/A \\
- & Only 4 elements to work with & \\
- & No singularity &\\
+ Quaternion & Computationally inexpensive & As seen in problem 7d, changing\\
+ & Only 4 elements to work with & reference frames is computationally\\
+ & No singularity & heavy\\
  & Intuitive (opinion) & \\ [1ex] 
  \hline
 \end{tabular}

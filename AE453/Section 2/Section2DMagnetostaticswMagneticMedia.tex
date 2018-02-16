@@ -203,8 +203,136 @@ We can also derive the intergral equation for magnetic intensity. From Equation 
 \textbf{Important Note:} This only applies for Magnetostatics. It does not work for time-varying fields.
 \newpage
 \subsection{Constitutive Equations/Relations}
+Define magnetization as a response to external $\vv{H}$:
+\newline
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\newline
+If material is linear and isotropic, the magnetic susceptibility
+is constant.
+\newline
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\newline
+In a way entirely analogous to the electric susceptibility leading to $\vv{D} = \chi \, \vv{E}$
+(2.39).
+\begin{itemize}
+\item All dielectrics oppose applied $\vv{E}$ due to dipole orientation with $\vv{E}$
+\item Magnetic materials can either add to or subtract from the external $\vv{H}$
+\begin{itemize}
+\item Positive $\chi_m$ = \textbf{paramagnetic} materials, add to $\vv{H}$.
+Rare gases, like neon, also titanium, oxygen.
+\item Negative $\chi_m$ = \textbf{diamagnetic} material, subtracts
+from $\vv{H}$. Bismuth floats over permanent magnet
+\item For both paramagnetic and diamagnetic materials, ,
+on the order of $10^{-5} - 10^{-6}$, very small, $|\chi_m| < < r1$
+\end{itemize}
+\end{itemize}
+\begin{center}
+ \begin{tabular}{||c c | c c||} 
+ \hline
+ Material & Susceptibility & Material & Susceptibility \\[0.5ex] 
+ \hline\hline
+ \textbf{Diamagnetic:} & & \textbf{Paramagnetic:} & \\ 
+ Bismuth & $-1.7 \times 10^{-4}$ & Oxygen (O$_2$) & $1.7 \times 10^{-6}$\\
+ Gold & $-3.4 \times 10^{-5}$ & Sodium & $8.5 \times 10^{-6}$ \\
+ Silver & $-2.4 \times 10^{-5}$ & Aluminum & $2.2 \times 10^{-5}$ \\
+ Copper & $-9.7 \times 10^{-6}$ & Tungsten & $7.0 \times 10^{-5}$ \\
+ Water & $-9.0 \times 10^{-6}$ & Platinum & $2.7 \times 10^{-4}$ \\
+ Carbon Dioxide & $-1.1 \times 10^{-8}$ & Liquid Oxygen & $3.9 \times 10^{-3}$ \\
+ && (-200$^{\circ}$ C) & \\
+ Hydrogen (H$_2$) & $-2.1 \times 10^{-9}$ & Gadolinium & $4.8 \times 10^{-1}$ \\[1ex] 
+ \hline
+\end{tabular}
+\end{center}
+\textbf{Ferromagnetic} materials are different. They're super-paramagnetic
+(really, really add to the external $\vv{H}$), and are
+highly nonlinear. Ex: Iron (Fe) and Hiperco (Cobalt-Iron, Co-Fe) where we need the experimental B-H curve to accurately model.
+\newline
+\newline
+In ferromagnets, each magnetic dipole likes to point in the same
+direction as its neighbors. But this common alignment occurs over
+a "domain", a small region (microscopic but containing billions of
+dipoles). With no H-field, domains are oriented randomly, no net
+effect, no permanent net magnetization. But when H-field applied,
+domains line up, resulting in strong magnetization. For permanent
+magnets (also ferromagnets) the domains remain aligned.
+\newline
+\newline
+Hiperco 50 (50-50 Co-Fe), also 30, 15 varieties (Co$\%$)
+\newline
+\newline
+\includegraphics{1.png}
+\newline
+\newline
+Low Carbon Steel
+\newline
+\newline
+\includegraphics{2.png}
+\newline
+\newline
+Curie Temp - temperature at which material loses its ferromagnetic
+properties (becomes paramagnetic).
+\begin{itemize}
+\item Fe - 770$^{\circ}$ C
+\item Co - 1130$^{\circ}$ C
+\end{itemize}
+Samarium Cobalt (SmCo) high-temp permanent magnets,
+commonly found in EP systems, 300-500$^{\circ}$ C, 700$^{\circ}$ C Curie Temp
+\newline
+\newline
+RELATIVE PERMEABILITY
+\newline
+\newline
+We know that (2.79)
+\newline
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\newline
+Substituting in the magnetic susceptibility (2.82), so that now:
+\newline
+\newline
+We define \textbf{Permeability} (a material property) as
+\newline
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\newline
+And (as we did with permittivity) we can define relative
+permeability as:
+\newline
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\newline
+
 \newpage
 \subsection{Boundary Conditions}
+
+Similar to Electrostatic B.C.'s, can show that for a surface current
+density,
+\newline
+\newline
+And
 \newpage
 \subsection{Magnetic Flux}
+Magnetic flux is the flux through a given surface. Units [Webers]
+are the same as [T-m2] .
+\newline
+\newline
+Note that flux through a closed surface is zero by Gauss's theorem
+and the magnetic monopole law.
 \end{document}

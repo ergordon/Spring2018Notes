@@ -6,9 +6,12 @@ tRate = 30;
 t = linspace(0,tMax,tMax*tRate);
 
 %DEFINE THE INITIAL CONDITIONS
-xH0 = [0;pi/2;0];
-R0 = [0 0 1; 0 1 0; -1 0 0];
-xQ0 = [1/sqrt(2);0;1/sqrt(2);0];
+%xH0 = [0;pi/2;0];
+%R0 = [0 0 1; 0 1 0; -1 0 0];
+%xQ0 = [1/sqrt(2);0;1/sqrt(2);0];
+xH0 = [0;0;0];
+R0 = eye(3);
+xQ0 = [0; 0; 0; 1];
 %Could use Identity matrix
 QtoR(xQ0(1),xQ0(2:end))
 HtoR(xH0)
