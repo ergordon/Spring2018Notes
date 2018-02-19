@@ -205,23 +205,22 @@ We can also derive the intergral equation for magnetic intensity. From Equation 
 \subsection{Constitutive Equations/Relations}
 Define magnetization as a response to external $\vv{H}$:
 \newline
-\begin{equation*}
+\begin{equation}
 \begin{aligned}
-a
+\vv{M} = \chi_m (\vv{H}) \, \vv{H}
 \end{aligned}
-\end{equation*}
+\end{equation}
 \newline
-If material is linear and isotropic, the magnetic susceptibility
+If material is linear and isotropic, the magnetic susceptibility $\chi_m$
 is constant.
 \newline
 \begin{equation*}
 \begin{aligned}
-a
+\vv{M} = \chi_m \, \vv{H}
 \end{aligned}
 \end{equation*}
 \newline
-In a way entirely analogous to the electric susceptibility leading to $\vv{D} = \chi \, \vv{E}$
-(2.39).
+This is analogous to the electric susceptibility leading to $\vv{D} = \chi \, \vv{E}$ (Equation 39).
 \begin{itemize}
 \item All dielectrics oppose applied $\vv{E}$ due to dipole orientation with $\vv{E}$
 \item Magnetic materials can either add to or subtract from the external $\vv{H}$
@@ -264,75 +263,97 @@ effect, no permanent net magnetization. But when H-field applied,
 domains line up, resulting in strong magnetization. For permanent
 magnets (also ferromagnets) the domains remain aligned.
 \newline
+\textbf{Hiperco 50 (50-50 Co-Fe), also 30, 15 varieties (Co$\%$)}
+\begin{center}
+\includegraphics[scale=0.7]{1.png}
+\end{center}
+\textbf{Low Carbon Steel}
+\begin{center}
+\includegraphics[scale=0.7]{2.png}
+\end{center}
 \newline
-Hiperco 50 (50-50 Co-Fe), also 30, 15 varieties (Co$\%$)
-\newline
-\newline
-\includegraphics{1.png}
-\newline
-\newline
-Low Carbon Steel
-\newline
-\newline
-\includegraphics{2.png}
-\newline
-\newline
-Curie Temp - temperature at which material loses its ferromagnetic
-properties (becomes paramagnetic).
+\textbf{Curie Temperature} refers to the temperature at which material loses its ferromagnetic properties and becomes paramagnetic.
 \begin{itemize}
 \item Fe - 770$^{\circ}$ C
 \item Co - 1130$^{\circ}$ C
 \end{itemize}
-Samarium Cobalt (SmCo) high-temp permanent magnets,
-commonly found in EP systems, 300-500$^{\circ}$ C, 700$^{\circ}$ C Curie Temp
+Samarium Cobalt (SmCo) is an example of high-temperature permanent magnets. SmCo is commonly found in electric propulsion systems since it operates at 300-500$^{\circ}$ C and has a Curie Temperature of 700$^{\circ}$ C.
 \newline
 \newline
-RELATIVE PERMEABILITY
+\textbf{Relative Permeability}
 \newline
 \newline
-We know that (2.79)
+We know from Equation 79 that,
 \newline
 \begin{equation*}
 \begin{aligned}
-a
+\vv{B} = \mu_o \, (\vv{H}+\vv{M})
 \end{aligned}
 \end{equation*}
 \newline
-Substituting in the magnetic susceptibility (2.82), so that now:
+Substituting in the magnetic susceptibility (Equation 82), such that:
 \newline
+\begin{equation}
+\begin{aligned}
+\vv{B} = \mu_o \, (\vv{H}+\vv{M}) =\mu_o \, (\vv{H}+ \chi_m \, \vv{H}) = \mu_o \, (1 + \chi_m)\vv{H}
+\end{aligned}
+\end{equation}
 \newline
 We define \textbf{Permeability} (a material property) as
 \newline
-\begin{equation*}
+\begin{equation}
 \begin{aligned}
-a
+\mu = \mu_o \, (1 + \chi_m)
 \end{aligned}
-\end{equation*}
+\end{equation}
 \newline
-And (as we did with permittivity) we can define relative
-permeability as:
+And (as we did with permittivity) we can define relative permeability as:
 \newline
-\begin{equation*}
+\begin{equation}
 \begin{aligned}
-a
+K_m = \frac{\mu}{\mu_o} = 1 + \chi_m
 \end{aligned}
-\end{equation*}
+\end{equation}
 \newline
 
 \newpage
 \subsection{Boundary Conditions}
 
-Similar to Electrostatic B.C.'s, can show that for a surface current
-density,
+Similar to our Electrostatic Boundary Conditions, we can show that for a surface current density, $\vv{j}_s$ (Equation 71)
 \newline
+\begin{equation}
+\begin{aligned}
+(B_{\perp})_{2} = (B_{\perp})_{1}
+\end{aligned}
+\end{equation}
 \newline
-And
+And from Equation 80
+\begin{equation}
+\begin{aligned}
+(H_{||})_2 - (H_{||})_1 = \vv{j}_s \cdot \hat{n}
+\end{aligned}
+\end{equation}
+\begin{center}
+\vspace{100mm}
+\textbf{Figure 21}
+\end{center}
 \newpage
 \subsection{Magnetic Flux}
-Magnetic flux is the flux through a given surface. Units [Webers]
-are the same as [T-m2] .
+Magnetic flux is the flux through a given surface.
 \newline
+\begin{equation}
+\begin{aligned}
+\Phi _m = \int_S \vv{B} \cdot \hat{n} \, \mathrm{d}A \qquad \qquad  \big[\text{Webers}\big] = \big[T \cdot m^2\big]
+\end{aligned}
+\end{equation}
 \newline
 Note that flux through a closed surface is zero by Gauss's theorem
 and the magnetic monopole law.
+\newline
+\begin{equation}
+\begin{aligned}
+\int_S \vv{B} \cdot \hat{n} \, \mathrm{d}A =  \int_{\volume} \nabla \cdot \vv{B} \, \mathrm{d}\volume =0
+\end{aligned}
+\end{equation}
+\newline
 \end{document}

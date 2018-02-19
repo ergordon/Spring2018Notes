@@ -2,7 +2,7 @@ function hw2p3
  t_0 = 0.0;
  t_f = 8.0;
  y_0 = [0.2, 0.0, 0.0].';
- h = 0.1;
+ h = 0.01;
  t = [t_0 : h : t_f];
  y_fe = forward_euler(t, y_0, @yprime,h);
  y_be = backward_euler(t, y_0, @yprime,h);
@@ -13,15 +13,12 @@ function hw2p3
  - 0.0682051 * sin(3.0 * t);
  figure
  plot(t, y_a, 'r', t, y_fe, 'g', t, y_be, 'b', 'LineWidth', 2)
- set(gca, 'FontSize', 16)
+ set(gca, 'FontSize', 18)
  title(sprintf('Solutions using h = %4.2f ', h))
  xlabel('t')
  ylabel('y(t)')
  legend('Analytical', 'Forward Euler', 'Backward Euler')
- set(gcf,'paperorientation','landscape');
-set(gcf,'paperunits','normalized');
-set(gcf,'paperposition',[0 0 1 1]);
-print(gcf,'-dpdf','h01.pdf');
+ print(gcf, '-depsc2', 'hw5p1-solns')
 end
 function y = forward_euler(t, y_0, yp,h)
  %% Integrate the ODE given by yp using the forward Euler method.
@@ -36,16 +33,16 @@ function y = backward_euler(t, y_0, yp,h)
  %% Fill in required function
  tol = 1.0e-6;
  y = zeros(length(y_0), length(t)); % Create empty matrix to store all Y's
- y(:, 1) = y_0;                     % Initial Condition
+ y(:, 1) = y_0; % Initial Condition
  for k = 1 : length(t) - 1
-     y_k = y(:, k);                    % y_k   
-     y_kp1_im1 = zeros(size(y_k));     %y_{k+1}^{i-1}
-     y_kp1_i = y(:, k) + h * yp(t(k), y(:, k));   %y_{k+1}^{i}
-     while norm(y_kp1_i - y_kp1_im1) > tol            % Test for Convergence
-         y_kp1_im1 = y_kp1_i;                         %Update y_{k+1}^{i-1}
-         y_kp1_i = y_k + h * yp(t(k + 1), y_kp1_im1); %Update y_{k+1}^{i}
+     y_k = y(:, k);
+     y_kp1_im1 = zeros(size(y_k));
+     y_kp1_i = y(:, k) + h * yp(t(k), y(:, k));
+     while norm(y_kp1_i - y_kp1_im1) > tol % Subiteration
+         y_kp1_im1 = y_kp1_i;
+         y_kp1_i = y_k + h * yp(t(k + 1), y_kp1_im1);
      end
-     y(:, k + 1) = y_kp1_i; 
+     y(:, k + 1) = y_kp1_i;
      end
 end
 function yp = yprime(t, y)

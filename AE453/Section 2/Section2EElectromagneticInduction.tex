@@ -1,0 +1,284 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{4}
+\setcounter{page}{48}
+\setcounter{equation}{89}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 2: Electromagnetics}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 2: Electromagnetics}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+In this section, we will review the basics of charge, electricity, magnetism, and Maxwell equations.
+\vspace{5mm}
+\section{Electromagnetic Induction}
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+\subsection{Faraday's Induction Law}
+From electrostatics, we have the identical statements (Equation 14)
+\newline
+\begin{equation*}
+\begin{aligned}
+\nabla \times \vv{E} = 0
+\end{aligned}
+\end{equation*}
+\newline
+Or in integral form
+\newline
+\begin{equation*}
+\begin{aligned}
+\oint \vv{E} \cdot \mathrm{d}\vv{l} = 0
+\end{aligned}
+\end{equation*}
+\newline
+When we have time-varying B-fields, though, we find experimentally that
+\newline
+\begin{equation}
+\begin{aligned}
+\oint \vv{E} \cdot \mathrm{d}\vv{l} = \varepsilon_{mf}
+\end{aligned}
+\end{equation}
+\newline
+This EMF, "electromotive force", is the potential difference that gives rise to a current and is due to a time-varying magnetic flux.
+
+Consider a conductor element $\mathrm{d}\vv{l}$ moving at velocity $\vv{v}$ in a
+B-field, oriented OUT of the page. Electrons in $\mathrm{d}\vv{l}$ feel the
+Lorentz force which we first seen in Equation 64
+\newline
+\begin{equation}
+\begin{aligned}
+\vv{F}_m = -q_e \, \vv{v} \times \vv{B}
+\end{aligned}
+\end{equation}
+\newline
+Thus $\vv{v} \times \vv{B}$ acts just like an applied electric field E. If the
+circuit were closed, then the current would flow as if a battery were
+supplying a voltage:
+\newline
+\begin{equation}
+\begin{aligned}
+\varepsilon_{mf} = \oint_c (\vv{v} \times \vv{B}) \cdot \mathrm{d}\vv{l}
+\end{aligned}
+\end{equation}
+\newline
+Use vector identity to rearrange terms
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = - \oint_c \vv{B} \cdot (\vv{v} \times \mathrm{d}\vv{l}) = - \frac{\partial }{\partial t} \int_S \vv{B} \cdot \hat{n} \, \mathrm{d}A
+\end{aligned}
+\end{equation*}
+\newline
+And note $(\vv{v} \times \mathrm{d}\vv{l}) = \hat{n} \, \frac{\mathrm{d}A}{\mathrm{d}t}$ that is the rate of change of the projected area enclosed by the circuit. Thus, using the definition
+of magnetic flux (Equation 88):
+\newline
+\begin{shaded}
+\textbf{Faraday's Induction Law}
+\begin{equation}
+\begin{aligned}
+\varepsilon_{mf} = - \frac{\partial }{\partial t} \int_S \vv{B} \cdot \hat{n} \, \mathrm{d}A = - \frac{\partial \Phi}{\partial t}
+\end{aligned}
+\end{equation}
+\end{shaded}
+\newline
+\newpage
+\begin{framed}
+\textbf{Example:} Let's pull a rectangular loop of width l out of a uniform
+magnetic field $\vv{B}$ with a velocity $\vv{v}$.
+\begin{center}
+\vspace{40mm}
+\textbf{Figure 22}
+\end{center}
+For this simple case, the EMF
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = \oint_c (\vv{v} \times \vv{B}) \cdot \mathrm{d}\vv{l}
+\end{aligned}
+\end{equation*}
+\newline
+Which becomes
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = v \, B \, l
+\end{aligned}
+\end{equation*}
+\newline
+Since the vertical component is the only non-zero part. Given a loop resistance, R, the loop current is: (V = IR)
+\newline
+\begin{equation*}
+\begin{aligned}
+J = \frac{v \, B \, l}{R}
+\end{aligned}
+\end{equation*}
+\newline
+(we will assume J is small such that the self-field is negligible).
+\newline
+Another way to consider this is as a rate of change of magnetic flux:
+\newline
+\begin{equation*}
+\begin{aligned}
+ \frac{\partial \Phi}{\partial t} = - B \frac{\mathrm{d}A}{\mathrm{d}t} = -Bvl
+\end{aligned}
+\end{equation*}
+\newline
+So again, $\varepsilon_{mf} = v \, B \, l$
+In this case, the restoring force: $\vv{F} = q \vv{v} \times \vv{B} = J \vv{l} \times \vv{B}$
+Has a magnitude
+\newline
+\begin{equation*}
+\begin{aligned}
+\vv{F} = J\,v\,B = \frac{B^2vl^2}{R} \qquad \text{Force to Pull Loop}
+\end{aligned}
+\end{equation*}
+\newline
+Thus the power required to pull the loop out is
+\newline
+\begin{equation*}
+\begin{aligned}
+P = F \cdot v = \frac{B^2v^2l^2}{R}
+\end{aligned}
+\end{equation*}
+\newline
+EP application: Tether Propulsion
+\end{framed}
+\newpage
+\subsection{Faraday's Law}
+Consider a time-varying $\vv{B}$
+\begin{center}
+\vspace{40mm}
+\textbf{Figure 23}
+\end{center}
+The induced EMF in a closed loop (Equation 90)
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = \oint \vv{E} \cdot \mathrm{d}\vv{l}
+\end{aligned}
+\end{equation*}
+\newline
+is, via Stoke's theorem (Equation 73)
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = \oint \vv{E} \cdot \mathrm{d}\vv{l} = \int_S \nabla \times \vv{E} \cdot \hat{n} \,  \mathrm{d} A
+\end{aligned}
+\end{equation*}
+\newline
+Applying Faraday's induction law (Equation 93):
+\newline
+\begin{equation*}
+\begin{aligned}
+\varepsilon_{mf} = - \frac{\partial}{\partial t} \int_S \vv{B} \cdot \hat{n}  \, \mathrm{d}A = -\int_S  \frac{\partial \vv{B}}{\partial t} \cdot \hat{n} \,  \mathrm{d}A
+\end{aligned}
+\end{equation*}
+\newline
+We see that:
+\newline
+\begin{equation*}
+\begin{aligned}
+- \frac{\partial}{\partial t} \int_S \vv{B} \cdot \hat{n} \,  \mathrm{d}A = \int_S \nabla \times \vv{E} \cdot \hat{n} \,  \mathrm{d} A
+\end{aligned}
+\end{equation*}
+\newline
+Equal terms within the integral for arbitrary integration surfaces means that:
+\begin{shaded}
+\textbf{Generalized Form of Faraday's Law}
+\begin{equation}
+\begin{aligned}
+\nabla \times \vv{E} = -\frac{\partial \vv{B}}{\partial t}
+\end{aligned}
+\end{equation}
+\end{shaded}
+\newpage
+\subsection{Lenz's Law}
+\textbf{Lenz's Law:} The direction of the induced current is such that its magnetic field opposes the change in flux.
+\begin{itemize}
+\item If $\frac{\mathrm{d}B}{\mathrm{d}t}$ is negative (i.e., B decreasing with time)
+\item The resulting positive Emf induces a positive current
+\item $\nabla \times \vv{B} = \mu_o \vv{j}$ generates a positive B, opposing the change in flux
+\begin{equation*}
+\begin{aligned}
+\dot{B} = \frac{\partial B}{\partial t}
+\end{aligned}
+\end{equation*}
+\end{itemize}
+We use this in Bdot probes for magnetic field measurement.
+\begin{center}
+\vspace{40mm}
+\textbf{Figure 24}
+\end{center}
+\begin{framed}
+\textbf{B-Dot Probe Theory}
+A B-dot probe is used to measure the a time varying magnetic field produced by an electromagnetic waves propagating through a plasma. The term ?B-dot? comes from the mathematical notation $\dot{B} = \frac{\partial B}{\partial t}$ . These waves can be measured in situ by inserting the probe in a glass tube in the plasma chamber since glass is not electrically conductive.
+
+Faraday?s law can be used to show that a time varying magnetic field can produce a voltage in a loop of wire. We can see this directly from the theory: The induced voltage is directly related to the flux through the loop:
+\begin{equation*}
+\begin{aligned}
+V = - \frac{\mathrm{d} \Phi}{\mathrm{d}t} \qquad \qquad \text{(A)}
+\end{aligned}
+\end{equation*}
+Where the flux is defined as $\Phi = a\, N \, B$. Here $a$ is the area of the loop and $N$ is the number of loops in the wire. In our case, there is only one loop in the probe, thus $N = 1$. Substituting the equation for the flux into Equation A, the result is an equation that directly relates the voltage to the change in magnetic field in the plasma.
+\begin{equation*}
+\begin{aligned}
+V = - \frac{\mathrm{d} \, (a B)}{\mathrm{d}t} \qquad \qquad \text{(B)}
+\end{aligned}
+\end{equation*}
+If the area of the loop is constant, then $a$ can be taken out of the time derivative from Equation B. Thus the time varying magnetic field is proportional to the amplitude of the induced voltage.
+\begin{equation*}
+\begin{aligned}
+V = - a \,\frac{\mathrm{d} B}{\mathrm{d}t} \qquad \qquad \text{(C)}
+\end{aligned}
+\end{equation*}
+\end{framed}
+\end{document}

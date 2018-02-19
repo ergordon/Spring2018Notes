@@ -9,7 +9,6 @@
 \usepackage{multicol}
 \usepackage{fancyhdr}
 \usepackage{mathrsfs}
-\usepackage{pdfpages}
 \usepackage{wrapfig}
 \usepackage{setspace}
 \usepackage{esvect}
@@ -36,29 +35,38 @@
 \newtheorem{defn}{Definition}
 \newtheorem{reg}{Rule}
 \newtheorem{exer}{Exercise}
-% Two more packages that make it easy to show MATLAB code
-\usepackage[T1]{fontenc}
-\usepackage[framed,numbered]{matlab-prettifier}
-\lstset{
-	style = Matlab-editor,
-	basicstyle=\mlttfamily\small,
-}
 \newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
 \begin{document}
-\setcounter{section}{0}
+\setcounter{section}{1}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 3: Electrical Conductivity}
+\rfoot{Page \thepage}
 \thispagestyle{empty}
 
-\begin{center}
-{\LARGE \bf Homework \# Problem \#}\\
-{\large AE\#\#\# - Spring 2018 \\ Emilio R. Gordon}
-\end{center}
-\vspace{20mm}
-Begin Problem\begin{figure}[h!]
-\begin{lstlisting}
-% Matlab code here
-\end{lstlisting}
-\caption{Caption for Code}
-\end{figure}
 
-%\includepdf{figure1.pdf}  % To Include PDFs
+\begin{center}
+{\LARGE \bf Section 3: Electrical Conductivity}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Effect of Collisions}
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+\subsection{No B-Field}
+\newpage
+\subsection{Steady B-Field}
+\newpage
 \end{document}
