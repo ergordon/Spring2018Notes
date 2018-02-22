@@ -65,7 +65,7 @@ Not all particles move with the same velocity. Also, the
 velocity of a particle doesn't remain the same over time.
 We need a statistical way to describe this; this the velocity
 distribution function.
-
+%VDP a statistical way to describe the velocity of the particles in a system. 
 \begin{center}
 \vspace{25mm}
 \end{center}
@@ -77,49 +77,103 @@ distribution function.
 \subsection{Mass Distribution Function}
 To illustrate this idea of distribution function, consider
 mass density.
-
+%A distribution across physicall space. A change in the fensiryt of the fas in physical space. We will mae the analogy of distribution in physical space and distribution in velocity space.
+\begin{center}
+\vspace{50mm}
+%Figure from vincenti and cougar
+\textbf{Figure 4}
+\end{center}
 Consider a gas of N particles with mass m in a volume V.
 
 The density is:
-
-If the gas is nonuniform, the density in a differnetial
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+If the gas is nonuniform, the density in a differnetial %not the same everywhere
 volume
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
 At a position vector
-
-is
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+is %then the density at that location is:
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+%we still have the assumption that it still contains a large number of particles
 Note that this assumes that is large enough to
 contain a large number of particles. Since the particle
 mass doesn't change, 
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
 Which we can write as:
-
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+%the mass densit can be different depending on where you are at in physical space.
 The function gives the number of particles per
 unit volume as a function of position; a.k.a. a "position
 distribution function"
 
 The number of particles in the differential volume
 is
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
 So the mass within that differential volume is
-
+%position distribution function is an absolte, it gives you number at a specific loacation. Typically we work on it in a normalized form making it more of a probability density funcition
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
 We can define a "normalized distribution function" as
-
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}%the percent of particals at position xi
 So that the total number of particles in is
-
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
 This normalized distribution function can be interpreted
 as a \textbf{probability density function}, that is, the probability
-that a given randomly-chosen particle will be in .
+that a given randomly-chosen particle will be in . %probability that a particles will be at that location
 
 Integrating over the entire volume,
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+%if we integrate over all volume, the probability of particle 
 So the probability that a particle within V is within V is
 100\%.
 
 We can generalize this idea to state:
 
 A distribution function gives the concentration of some quantity per unit "volume" as a function of position in some kind of "space". 
+% Here it was physical space, the number of particles in a given spacial volume within physical space. We can make the analogy now into a velocity distribution function. The number of particles that are within a volume and velocity space. How are the particles distributed across velocity space.
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%                           SECTION 2                                     %%%%%%%%%%%%%%%
@@ -130,64 +184,147 @@ Now consider particle with velocity
 We can define a differential volume in this velocity space
 
 Define local point density such that the number of
-particles within velocity range:
-
-is This is the "velocity distribution
+particles within velocity range: %the number of particles in the velocity grange
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+we would write that as . This is the "velocity distribution
 function". Like the position distribution function
 you have to multiply by a volume to get a real quantity
-(the number of particles).
+(the number of particles). %tells us how particles are distributed across velocity space, much like the position distributiuon function, we have to multiply by the volume to get the overall number of particls
 
 Define a normalized velocity distribution function
-
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+%the fraction of particles that will be in the dvc elemet
 This is the probability that a particle will be within the
-specific velocity range. The number of particles within 
-
-is
-
+specific velocity range. The number of particles within is
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
 In terms of number density
 
 where the integral over all possible velocities is:
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+%if you look over all of belocity sace, you will find N particles since that is the amount you have in the system. In other words, if we integrate over all of velocity space, the fraction of particles we will find is 1, 100%.
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
 The velocity distribution of particles is important for
 determining average quantities. For instance, if we have
 some quantity Q that depends on velocity
 
 The mean or expectation value of Q is then:
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+%integrating over the distribution function. If Q is a velocity, then it is called taking the moment of the velocity distribution function.
+%for exaample if you wre to do it of <C> would be the first moment. Useul for finding the average collision rate, weher Q is the collision cross section which is tied with the particle velcoty
+%We want to find the average of some propertiy that we are interested in finding, velocity, energy, over the entier system.
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%                           SECTION 3                                     %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Maxwellian Velocity Distribution Function}
+%distribution functions have many different forms but this is special. Maxwellian velocity is for the case of equillibirum. Not often the case for EP systems since plasmas are rearely in equillibrium.
 A gas at equilibrium has a special velocity distribution
 function. Called the Maxwellian velocity distribution.
+
+Basic idea is that:
 \begin{itemize}
-\item Basic idea is that:
-Stationary velocity distribution
-\item Collisions deplete and add to population at same rate
+\item Stationary velocity distribution
+\item Collisions deplete and add to population at same rate % acollision that creates a certain outcome, cancels out with another collision. 
 \item Thus, no net change.
 \end{itemize}
 Collision dynamics with simple billiard-ball model leads
 to:
-
+%mass is conserved in collsion. Subscript means its maxwellian
+\begin{shaded}
 This is Maxwellian VDF.
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+where
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+\end{shaded}
 
 We can break this into components along each axis
+
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+
 The probability that a particle will be within the velocity
 space
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+%which is ust the pdf of the x compoment, y and z
 
 The Maxwellian VDF looks like this:
-
+%PLOT: smaller curve is the vdf, the negative x axis sint shown but its symmetric. particles can have negative velocity (this is why we have a symmetric negative componenet. The largest probability is at C1 =0, particles moving perpendicular to the X- axis with ci x1 = 0.  
 Largest probability is at this corresponds to
 particles moving perpendicular to the with
-
+%The larger curve is the pseed distributation
 We can transform the Maxwellian VDF into a
-Maxwellian SPEED distribution function.
-
+Maxwellian SPEED distribution function.%the speed distribution is not symmetric can cannot be on the negative x axis. speed cannot be negative
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
 Note that the most probable SPEED is not zero.
-
-Also, the mean speed is not the same as the mostprobable-speed.
-
+%this figure calls out some important points, Peak is the most prbably. cbar is the average speed, cbar^2 is the root mean square mean.
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+Also, the mean speed is not the same as the mostprobable-speed. % always the peak.... 
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}%13% higher
 Finally, the mean squared speed is
-
+\begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}% so now we want the avrage speed squared so we integrae over function and find that this is^
 Which works out to give the root-mean-square speed.
+\begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}%22% higher
+%What this is saying is particles have a mean sqrt speed of this only if our gas is in equillibrium. 
+
+
+%other distributions...in ep, specfically ion, you have thermal electrons insiced the discharge chamber. What would thermal ions look like (thermal = equillibirum). What kind of distribution would they have....maxwellion.....They would have those curves. In addition ot thermal ions, you have cathode that emitting high energy electrons resulting a somewhat bump on tail distribution due to the high energy particles. The electrons inside this discharge chamber are not in equillibrium and cannot be thourouglt described by the maxwellian distribution.
 \end{document}

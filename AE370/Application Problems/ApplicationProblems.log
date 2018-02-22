@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 FEB 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2018 10:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1589,6 +1589,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--348
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--412
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
+
+ []
+
+
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1596,13 +1623,13 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] (./ApplicationProblems.aux) ) 
+[12] (./ApplicationProblems.aux) ) 
 Here is how much of TeX's memory you used:
- 28097 strings out of 493014
- 573143 string characters out of 6133351
+ 28101 strings out of 493014
+ 573181 string characters out of 6133351
  643675 words of memory out of 5000000
- 31181 multiletter control sequences out of 15000+600000
- 9951 words of font info for 41 fonts, out of 8000000 for 9000
+ 31183 multiletter control sequences out of 15000+600000
+ 10572 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,20n,101p,10497b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/typ
@@ -1618,10 +1645,10 @@ fonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on ApplicationProblems.pdf (10 pages, 148600 bytes).
+Output written on ApplicationProblems.pdf (12 pages, 153700 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

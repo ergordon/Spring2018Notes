@@ -395,4 +395,63 @@ Where $q=2$ and $p=2$ since we are using the Central Difference Scheme and error
 a_o = \frac{F(qh) - q^2\,F(h)}{1 - q^2} = \frac{3321.574 - 4 \,(3297.801)}{1-4} = 3289.877
 \end{aligned}
 \end{equation*}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%         APPLICATION PROBLEM 7       %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\LARGE \bf Application Problem 7:}\\ \\
+\textbf{Transform the mass/spring/dashpot equation}
+\begin{equation*}
+\begin{aligned}
+\bf{m\,x'' = m\,g - k\,x - c\,x'}
+\end{aligned}
+\end{equation*}
+\textbf{into a system of $1^{st}$ -order ODE.} \newline
+\noindent\rule{16.5cm}{0.4pt}
+\newline
+\begin{equation*}
+\begin{aligned}
+m \frac{\mathrm{d}^2x }{\mathrm{d} t^2} = mg - kx - c\frac{\mathrm{d} x}{\mathrm{d} t}
+\end{aligned}
+\end{equation*}
+
+Divide by m in order to isolate the second order term.
+
+\begin{equation*}
+\begin{aligned}
+\frac{\mathrm{d}^2x }{\mathrm{d} t^2} = g - \frac{k}{m}\,x - \frac{c}{m}\frac{\mathrm{d} x}{\mathrm{d} t}
+\end{aligned}
+\end{equation*}
+
+Lets say $y=\frac{\mathrm{d} x}{\mathrm{d} t}$ Therefore...
+
+\begin{equation*}
+\begin{aligned}
+\frac{\mathrm{d} y }{\mathrm{d} t} = g - \frac{k}{m}\,x - \frac{c}{m}\,y
+\end{aligned}
+\end{equation*}
+
+Where
+
+\begin{equation*}
+\begin{aligned}
+y=\frac{\mathrm{d} x}{\mathrm{d} t}
+\end{aligned}
+\end{equation*}
+
+We have transformed the second order ODE into two coupled first order ODE.
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%         APPLICATION PROBLEM 8       %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\LARGE \bf Application Problem 8:}\\ \\
+\textbf{Use Euler Scheme to solve}
+\begin{equation*}
+\begin{aligned}
+\bf{y' = y \qquad \textbf{on} \qquad 0\leq t \leq 4} \qquad \textbf{with} \qquad y(0) = 1
+\end{aligned}
+\end{equation*}
+\textbf{Use h=1 and compute the relative error at t=4} \newline
+\noindent\rule{16.5cm}{0.4pt}
 \end{document}

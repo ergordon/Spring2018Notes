@@ -15,6 +15,14 @@
 \usepackage{calc}
 \usepackage{multicol}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
+% Two more packages that make it easy to show MATLAB code
+\usepackage[T1]{fontenc}
+\usepackage[framed]{matlab-prettifier}
+\lstset{
+	style = Matlab-editor,
+	basicstyle=\mlttfamily\small,
+}
+
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \usepackage{cancel}
 \usepackage{graphicx}
@@ -180,6 +188,165 @@ p &= 1 \qquad \text{For Forward Difference Scheme since error is linear.} \\
 p &= 2 \qquad \text{For Central Difference Scheme since error is squared.} \\
 \end{split}
 \end{equation*}
+\end{framed}
+\newpage
+\begin{framed}
+\textbf{Rate of Convergence}
+
+Let $e_k$ be the "error" associated with iteration k
+
+\qquad \qquad (on $||x_k - x^*||,||f(x_k)||, size k^{th}$ bracketing interval,...)
+\begin{equation*}
+\begin{aligned}
+\text{Rate of Convergence } = r \qquad \text{if} \qquad \lim_{k \rightarrow \infty} \frac{||e_{k+1}||}{||e_k||^2} = C
+\end{aligned}
+\end{equation*}
+If
+\begin{equation*}
+\begin{split}
+r &= 1 \qquad \text{we have \bf{Linear Convergence}.} \\
+r &> 1 \qquad \text{we have \bf{Superlinear Convergence}.} \\
+r &=2  \qquad \text{we have \bf{Quadratic Convergence}.} \\
+\end{split}
+\end{equation*}
+\end{framed}
+\newpage
+\begin{framed}
+\textbf{Bisection Method}
+
+Basic Idea: Bracket the root until the interval size is small enough.
+\begin{lstlisting}
+function x = bisection(f, x_low, x_high, x_tol)
+% Isolate a root of f(x) using bisection.
+while x_high-x_low > x_tol
+    c = (x_low+x_high)/2; % Find mid-point between interval brackets
+    if fn(x_low)*fn(c) > 0 % If midpoint above 0, set lower bracket to midpoint, repeat
+        x_low = c;
+    else
+        x_high = c; % If midpoint below 0, set upper bracket to midpoint, repeat.
+    end
+end
+x = c;
+end
+\end{lstlisting}
+\begin{equation*}
+\begin{aligned}
+\text{Rate of Convergence } = r \qquad \text{if} \qquad \lim_{k \rightarrow \infty} \frac{||e_{k+1}||}{||e_k||^r} = C
+\end{aligned}
+\end{equation*}
+
+\begin{equation*}
+\begin{aligned}
+\text{Number of Iterations} = n =\log_2 \bigg(\frac{b-a}{tolerance}\bigg)
+\end{aligned}
+\end{equation*}
+\end{framed}
+
+
+\begin{framed}
+\textbf{Fixed-Point Iteration Method}
+\end{framed}
+\newpage
+\begin{framed}
+\textbf{Newton-Raphson Method$_{\text{ Linear Equations}}$}
+\begin{itemize}
+\item Start from an initial guess of the root $x_1$
+\item For each iteration step, $k = 1,2,3,...$
+\begin{itemize}
+\item check for convergence : $||f(x_k)|| < Tolerance$
+\item if so, exit: you have found the approximate root
+\item if not, compute the correction increment : $\Delta x_k = - \frac{f(x_k)}{f'(x_k)}$
+\item then update the solution: $x_{k+1} = x_k + \Delta x_k$
+\end{itemize}
+\end{itemize}
+
+\begin{lstlisting}
+x=x_init
+while abs(fn(x)) > tolerance
+	dx = -fn(x)/fn_prime(x);
+	x = x + dx
+end
+\end{lstlisting}
 
 \end{framed}
+
+\begin{framed}
+\textbf{Secant Method}
+
+Secant method allowes for a successive $f(x_k)$ to approach the derivative such that:
+\newline
+\begin{equation*}
+\begin{aligned}
+x_{k+1} = x_k - f(x_k) \, \frac{x_k - x_{k-1}}{f{x_k}-f(x_{k-1})}
+\end{aligned}
+\end{equation*}
+\vspace{1mm}
+\begin{lstlisting}
+% Isolate a root of f(x) using the secant method.
+x = x_0; % Initial x
+while abs(fn(x))>tolerance
+    x_kp1 = x_1 - fn(x_1)*((x_1 - x)/(fn(x_1)-fn(x))); % x_{k+1}
+    x = x_1; 
+    x_1 = x_kp1;
+end
+\end{lstlisting}
+\end{framed}
+\newpage
+
+\begin{framed}
+\textbf{Newton-Raphson Method $_{\text{Nonlinear Equations}}$}
+\begin{itemize}
+\item Start from an initial guess of the root $x_1$
+\item For each iteration step, $k = 1,2,3,...$
+\begin{itemize}
+\item check for convergence : $||f(x_k)|| < Tolerance$
+\item if so, exit: you have found the approximate root
+\item if not, compute the correction increment : $\nabla f(x_k)\cdot \Delta x_k = -f(x_k)$
+\item then update the solution: $x_{k+1} = x_k + \Delta x_k$
+\end{itemize}
+\end{itemize}
+See Homework 2 Problem 2 for example.
+\end{framed}
+
+\begin{framed}
+\textbf{ODE Stability}
+\end{framed}
+
+\begin{framed}
+\textbf{Forward Euler Scheme}
+
+Let $h$ denote the time step size. Using Taylor series expansion $y(t+h)$ becomes:
+\begin{equation*}
+\begin{aligned}
+y(t+h) \quad = \quad y(t) + h \, \frac{\mathrm{d}y(t)}{\mathrm{d} t} \quad = \quad y(t) + h \, f(t,y(t))+O(h^2)
+\end{aligned}
+\end{equation*}
+The iterate scheme thus is:
+\begin{equation*}
+\begin{aligned}
+1) \qquad & \text{Start from } t_0 \text{ and } y(t_0)=y_0 \\
+2) \qquad & y(h) = y_1 = y_0 + h \, f(t_0,y_0) \\
+3) \qquad & y(2h) = y_2 = y_1 + h \, f(t_1,y_1) \\
+...\qquad & \\
+4) \qquad & y((n+1)h) = y_{n+1}= y_n + h \, f(t_n,y_n) \\
+\end{aligned}
+\end{equation*}
+\end{framed}
+\newpage
+\begin{framed}
+Use Forward Euler for initial guess
+\begin{equation*}
+\begin{aligned}
+y_{k+1}^{(0)} = y_k +  h \, f(t_{k},y_{k})
+\end{aligned}
+\end{equation*}
+Then iterate using the fixed-point scheme until convergence
+\begin{equation*}
+\begin{aligned}
+y_{k+1}^{(i)} = y_k + h \, f(t_{k+1},y_{k+1}^{(i-1)})
+\end{aligned}
+\end{equation*}
+Once convergence is achieved, move to $t_{k+2}$.
+\end{framed}
+
 \end{document}
