@@ -1,0 +1,266 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage{newtxmath}
+\usepackage{euscript}
+\DeclareMathAlphabet{\mathpzc}{T1}{pzc}{m}{it}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{0}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 4:  Kinetic Theory}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 4:  Kinetic Theory}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Pressure, Temperature, and Internal
+Energy}
+This section draws from Chapter 1 in the Vincenti and Kruger's Introduction Physical Gas Dynamics
+
+In Kinetic Theory we model a gas as a collection of
+particles/molecules. 
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+\subsection{Pressure}
+In this section we will model a gas as a collection of particles in a cubical box with sides of length $l$. We will make the following assumptions:
+\begin{enumerate}
+\item Particles have no internal structure
+\item Equilibrium
+\item Mean free path ($\lambda > > l$) (no intermolecular collisions)
+\end{enumerate}
+The assumption of equilibrium makes the other two assumptions
+reasonable - at equilibrium, the number of particles in a certain
+state must not change. Gas then acts as if the other two assumptions
+are true.
+\begin{center}
+\vspace{70mm}
+\textbf{Figure 1}
+\end{center}
+A particle in the box moves with a velocity:
+\begin{equation}
+\begin{aligned}
+\vv{c} = c_1 \, \hat{x}_1 + c_2 \, \hat{x}_2 +  c_3 \, \hat{x}_3
+\end{aligned}
+\end{equation}
+Such that the speed C is given by
+\begin{equation}
+\begin{aligned}
+c^2 = c_1^2 + c_2^2 +  c_3^2
+\end{aligned}
+\end{equation}
+\newpage
+Our analysis begins with pressure so we will be looking at the particles momentum. Consider...
+\begin{enumerate}
+\item A particle of mass, m, moving in the $\hat{x}$-direction. The particle will have a
+momentum, $m \, c_1 \, \hat{x}_1$.
+\item If it bounces elastically from the wall at $x_1=l$, the momentum
+change is, $2\,m\,c_1\,\hat{x}_1$.
+\item The time between collisions is $\frac{2 \, l}{c_1}$.
+\item As a result the force (change in total momentum per unit time) on this
+wall from 1 particle is:
+
+\begin{equation*}
+\begin{aligned}
+\vv{F}_l = \frac{\text{Momentum}}{\text{Time}} = \frac{2 \, m \, c_1 \hat{x}_1}{\frac{2 \, l}{c_1}} = \frac{m c_1^2}{l}\, \hat{x}_1
+\end{aligned}
+\end{equation*}
+
+\item Pressure is the normal component of the force per unit area, so
+the pressure on this wall from 1 particle is:
+
+\begin{equation*}
+\begin{aligned}
+P_l = \frac{\frac{m c_1^2}{l}}{l^2} = \frac{m c_1^2}{l^3}=\frac{m c_1^2}{\volume}
+\end{aligned}
+\end{equation*}
+
+Note that $l^3$ is the volume, $\volume$, of the box
+\item Corresponding equations give the pressure on the other 2 sets
+of walls. Pressure on each wall is equal (by equilibrium) so the mean pressure is:
+
+\begin{equation*}
+\begin{aligned}
+P = \frac{m \, (c_1^2 + c_2^2 +  c_3^2)}{3 \, \volume} = \frac{m \, c^2}{ 3 \, \volume}
+\end{aligned}
+\end{equation*}
+
+\item For many particles, the pressure becomes:
+
+\begin{equation}
+\begin{aligned}
+P = \frac{\sum_i \,m_i \, c_i^2}{ 3 \, \volume} \qquad \qquad \Bigg[\frac{N}{m^2} \cdot \frac{m}{m} = \frac{J}{m^3}\Bigg]
+\end{aligned}
+\end{equation}
+
+Note how the term $,m_i \, c_i^2$ relates back to kinetic energy.
+\end{enumerate}
+\newpage
+\subsection{Translational Energy}
+The energy of translation for the ensemble of gas particles is
+
+\begin{equation}
+\begin{aligned}
+E_{\text{translational}} = \frac{1}{2} \sum_i \, m_i \, c_i^2
+\end{aligned}
+\end{equation}
+
+So from Equation 3
+\begin{equation}
+\begin{aligned}
+P \, \volume = \frac{2}{3} \, E_{\text{translational}}
+\end{aligned}
+\end{equation}
+
+Compare this with the empirically-derived equation of state (the
+"perfect gas law") from classical thermo:
+\begin{framed}
+\begin{equation}
+\begin{aligned}
+P \, \volume = \EuScript{N}\,\hat{R} \,T
+\end{aligned}
+\end{equation}
+Where
+\begin{equation*}
+\begin{split}
+\EuScript{N} &= \text{Number of moles}\\ 
+\hat{R} &= \text{Gas constant per mole}\\ 
+T &= \text{Temperature}\\
+\end{split}
+\end{equation*}
+\end{framed}
+Therefore the energy of translation for the particles in the volume, $\volume$,is:
+\begin{equation}
+\begin{aligned}
+E_{\text{translational}} = \frac{3}{2}\EuScript{N}\,\hat{R} \,T = \frac{1}{2} \sum_i \, m_i \, c_i^2
+\end{aligned}
+\end{equation}
+
+This can be written in terms of average kinetic energy per particle:
+\begin{framed}
+\begin{equation*}
+\begin{aligned}
+\widetilde{e}_{\text{translational}} = \frac{E_{\text{translational}}}{N}
+\end{aligned}
+\end{equation*}
+Where
+\begin{equation*}
+\begin{split}
+N &= \text{Number of Particles Within $\volume$.}
+\end{split}
+\end{equation*}
+\end{framed}
+\newpage
+Now, with Equation 7, this becomes:
+\begin{framed}
+\begin{equation}
+\begin{aligned}
+\widetilde{e}_{\text{translational}} = \frac{3}{2} \, \frac{\EuScript{N}}{N} \, \hat{R}  \, T = \frac{3}{2} \, {\hat{R}}{\hat{N}} \, T
+\end{aligned}
+\end{equation}
+Where
+\begin{equation*}
+\begin{split}
+\hat{N} = \frac{N}{\EuScript{N}} &= 6.022140857 \times 10^{23} \qquad \Bigg[\frac{\text{Particles}}{\text{Mole}}\Bigg]\\
+& = \, \text{Avogadro's Number} 
+\end{split}
+\end{equation*}
+\end{framed}
+Another way to express Equation 8 is:
+\begin{framed}
+\begin{equation}
+\begin{aligned}
+\widetilde{e}_{\text{translational}} = \frac{3}{2} \, k \, T
+\end{aligned}
+\end{equation}
+Where
+\begin{equation*}
+\begin{split}
+k &= 1.3807 \times 10^{-23} \qquad \Bigg[\frac{J}{K}\Bigg]\\
+& = \, \text{Boltzmann Constant} 
+\end{split}
+\end{equation*}
+\end{framed}
+Now we can rewrite the pressure in terms of the translational
+kinetic energy of the particles, using Equation 3, Equation 7 and Equation 9.
+\begin{equation}
+\begin{aligned}
+P = \frac{2}{3} \, \frac{\EuScript{N} \, \hat{N} \, \widetilde{e}_{tr}}{\volume} = \frac{2}{3} \, \frac{\EuScript{N} \, \hat{N}}{\volume} \, \bigg(\frac{3}{2} \, k \, T\bigg) = \frac{\EuScript{N} \, \hat{N} \, k \, T}{\volume}
+\end{aligned}
+\end{equation}
+If we multiply both sides by the total mass within the volume, M,
+and rearrange:
+\begin{framed}
+\begin{equation}
+\begin{aligned}
+P = \frac{\EuScript{N} \, \hat{N} \, k \, T}{\volume} \, \bigg(\frac{M}{M}\bigg) = \frac{M}{\volume} \, \bigg(\frac{\EuScript{N} \, \hat{N} \, k}{M}\bigg) \, T
+\end{aligned}
+\end{equation}
+Where
+\begin{equation*}
+\begin{split}
+\rho = \frac{M}{\volume} &\qquad \text{Mass Density} \\ \\
+\frac{\hat{R}}{M} = R & \qquad  \text{Gas Constant Per Unit Mass} 
+\end{split}
+\end{equation*}
+\end{framed}
+Leading us to...
+\begin{equation}
+\begin{aligned}
+P = \rho \, R \, T
+\end{aligned}
+\end{equation}
+
+\newpage
+\end{document}

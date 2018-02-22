@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2018 02:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2018 01:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Section3BEffectofCollisions.tex
-(./Section3BEffectofCollisions.tex
+**Section4APTIE.tex
+(./Section4APTIE.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -728,6 +728,112 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen189
 \FrameSep=\dimen190
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2016/03/27 v1.466
+
+`newtxmath' v1.466, 2016/03/27 Math macros based on txfonts (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count134
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count135
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/b/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 144.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/m/it on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmr/m/it on input line 145.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmr/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/b/it on input line 149.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 150.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 151.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 198.
+\symlettersA=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 213.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 215.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/m/n --> OMS/ntxsy/b/n on input line 222.
+\symAMSm=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 242.
+\symsymbolsC=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 263.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+76.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 276
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 277.
+\symlargesymbolsTXA=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 291.
+LaTeX Info: Redefining \not on input line 1749.
+LaTeX Info: Redefining \textsquare on input line 1770.
+LaTeX Info: Redefining \openbox on input line 1772.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/euscript.sty
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
@@ -735,7 +841,7 @@ Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks36
+\pgfutil@everybye=\toks38
 \pgfutil@tempdima=\dimen191
 \pgfutil@tempdimb=\dimen192
 
@@ -755,12 +861,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks41
 ))
 \pgf@x=\dimen193
 \pgf@y=\dimen194
@@ -772,13 +878,13 @@ ode.tex
 \pgf@yc=\dimen256
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count134
-\c@pgf@countb=\count135
-\c@pgf@countc=\count136
-\c@pgf@countd=\count137
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
+\c@pgf@counta=\count136
+\c@pgf@countb=\count137
+\c@pgf@countc=\count138
+\c@pgf@countd=\count139
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -796,8 +902,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count138
-\pgfsyssoftpath@bigbuffer@items=\count139
+\pgfsyssoftpath@smallbuffer@items=\count140
+\pgfsyssoftpath@bigbuffer@items=\count141
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -810,11 +916,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen257
-\pgfmath@count=\count140
+\pgfmath@count=\count142
 \pgfmath@box=\box59
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -835,7 +941,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count141
+\c@pgfmathroundto@lastzeros=\count143
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -873,7 +979,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count142
+\pgf@picture@serial@count=\count144
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -908,7 +1014,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count143
+\pgf@sys@shading@range@num=\count145
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -951,8 +1057,8 @@ Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks46
-\verbatim@line=\toks47
+\every@verbatim=\toks48
+\verbatim@line=\toks49
 \verbatim@in@stream=\read2
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
@@ -963,15 +1069,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count144
+\etb@tempcnta=\count146
 )
 \tcb@titlebox=\box65
 \tcb@upperbox=\box66
 \tcb@lowerbox=\box67
 \tcb@phantombox=\box68
-\c@tcbbreakpart=\count145
-\c@tcblayer=\count146
-\tcolorbox@number=\count147
+\c@tcbbreakpart=\count147
+\c@tcblayer=\count148
+\tcolorbox@number=\count149
 \tcb@temp=\box69
 \tcb@temp=\box70
 \tcb@temp=\box71
@@ -981,9 +1087,9 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '3.91'
-\c@tcbrastercolumn=\count148
-\c@tcbrasterrow=\count149
-\c@tcbraster=\count150
+\c@tcbrastercolumn=\count150
+\c@tcbrasterrow=\count151
+\c@tcbraster=\count152
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -998,8 +1104,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen284
 \pgffor@skip=\dimen285
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1008,7 +1114,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count151
+\pgf@plot@mark@count=\count153
 \pgfplotmarksize=\dimen286
 )
 \tikz@lastx=\dimen287
@@ -1021,19 +1127,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count152
-\tikznumberofchildren=\count153
-\tikznumberofcurrentchild=\count154
-\tikz@fig@count=\count155
+\tikztreelevel=\count154
+\tikznumberofchildren=\count155
+\tikznumberofcurrentchild=\count156
+\tikz@fig@count=\count157
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count156
-\pgfmatrixcurrentcolumn=\count157
-\pgf@matrix@numberofcolumns=\count158
+\pgfmatrixcurrentrow=\count158
+\pgfmatrixcurrentcolumn=\count159
+\pgf@matrix@numberofcolumns=\count160
 )
-\tikz@expandcount=\count159
+\tikz@expandcount=\count161
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1058,7 +1164,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '3.91'
 \tcbfitdim=\dimen293
 \tcb@lowerfitdim=\dimen294
 \tcb@upperfitdim=\dimen295
-\tcb@cur@hbadness=\count160
+\tcb@cur@hbadness=\count162
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -1075,24 +1181,24 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count161
-\l_tmpa_int=\count162
-\l_tmpb_int=\count163
-\g_tmpa_int=\count164
-\g_tmpb_int=\count165
+\c_max_int=\count163
+\l_tmpa_int=\count164
+\l_tmpb_int=\count165
+\g_tmpa_int=\count166
+\g_tmpb_int=\count167
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count166
+\g__prg_map_int=\count168
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count167
-\l__iow_target_count_int=\count168
-\l__iow_current_line_int=\count169
-\l__iow_current_word_int=\count170
-\l__iow_current_indentation_int=\count171
+\l_iow_line_count_int=\count169
+\l__iow_target_count_int=\count170
+\l__iow_current_line_int=\count171
+\l__iow_current_word_int=\count172
+\l__iow_current_indentation_int=\count173
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen296
 \c_max_dim=\dimen297
@@ -1113,18 +1219,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count172
-\l_keys_choice_int=\count173
+\g__keyval_level_int=\count174
+\l_keys_choice_int=\count175
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count174
-\c__fp_middle_shift_int=\count175
-\c__fp_trailing_shift_int=\count176
-\c__fp_big_leading_shift_int=\count177
-\c__fp_big_middle_shift_int=\count178
-\c__fp_big_trailing_shift_int=\count179
-\c__fp_Bigg_leading_shift_int=\count180
-\c__fp_Bigg_middle_shift_int=\count181
-\c__fp_Bigg_trailing_shift_int=\count182
+\c__fp_leading_shift_int=\count176
+\c__fp_middle_shift_int=\count177
+\c__fp_trailing_shift_int=\count178
+\c__fp_big_leading_shift_int=\count179
+\c__fp_big_middle_shift_int=\count180
+\c__fp_big_trailing_shift_int=\count181
+\c__fp_Bigg_leading_shift_int=\count182
+\c__fp_Bigg_middle_shift_int=\count183
+\c__fp_Bigg_trailing_shift_int=\count184
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box81
 \l_tmpa_box=\box82
@@ -1174,15 +1280,15 @@ L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count183
+\l__driver_color_stack_int=\count185
 \l__driver_tmp_box=\box96
 ))
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count184
-\l__xparse_m_args_int=\count185
-\l__xparse_mandatory_args_int=\count186
-\l__xparse_processor_int=\count187
-\l__xparse_v_nesting_int=\count188
+\l__xparse_current_arg_int=\count186
+\l__xparse_m_args_int=\count187
+\l__xparse_mandatory_args_int=\count188
+\l__xparse_processor_int=\count189
+\l__xparse_v_nesting_int=\count190
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1202,23 +1308,23 @@ Library (tcolorbox): 'tcblistingsutf8.code.tex' version '3.91'
 Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count189
+\lst@mode=\count191
 \lst@gtempboxa=\box97
-\lst@token=\toks50
-\lst@length=\count190
+\lst@token=\toks52
+\lst@length=\count192
 \lst@currlwidth=\dimen327
-\lst@column=\count191
-\lst@pos=\count192
+\lst@column=\count193
+\lst@pos=\count194
 \lst@lostspace=\dimen328
 \lst@width=\dimen329
-\lst@newlines=\count193
-\lst@lineno=\count194
+\lst@newlines=\count195
+\lst@lineno=\count196
 \lst@maxwidth=\dimen330
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count195
-\lst@skipnumbers=\count196
+\c@lstnumber=\count197
+\lst@skipnumbers=\count198
 \lst@framebox=\box98
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
@@ -1228,11 +1334,6 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1252,7 +1353,7 @@ Library (tcolorbox): 'tcblistings.code.tex' version '3.91'
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
 x
 Library (tcolorbox): 'tcblistingscore.code.tex' version '3.91'
-\c@tcblisting=\count197
+\c@tcblisting=\count199
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '3.91'
@@ -1269,43 +1370,63 @@ File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 .code.tex
 File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 ))))
-\c@defn=\count198
-\c@reg=\count199
-\c@exer=\count266
-\c@note=\count267
- (./Section3BEffectofCollisions.aux)
-\openout1 = `Section3BEffectofCollisions.aux'.
+\c@defn=\count266
+\c@reg=\count267
+\c@exer=\count268
+\c@note=\count269
+ (./Section4APTIE.aux)
+\openout1 = `Section4APTIE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 44.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 44
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 44
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 44.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count268
+\scratchcounter=\count270
 \scratchdimen=\dimen331
 \scratchbox=\box99
-\nofMPsegments=\count269
-\nofMParguments=\count270
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count271
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count273
 \MPscratchDim=\dimen332
-\MPnumerator=\count272
-\makeMPintoPDFobject=\count273
-\everyMPtoPDFconversion=\toks52
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks54
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 41.
+(lastpage)             ! on input line 44.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1371,10 +1492,10 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\Hy@linkcounter=\count274
+\Hy@linkcounter=\count276
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count275
- (./Section3BEffectofCollisions.toc
+\c@lstlisting=\count277
+ (./Section4APTIE.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1394,11 +1515,26 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
+)
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ))
 \tf@toc=\write6
-\openout6 = `Section3BEffectofCollisions.toc'.
+\openout6 = `Section4APTIE.toc'.
 
- [16
+ [0
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
@@ -1407,111 +1543,67 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[1]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20] <pictures/6a.png, id=70, 342.27875pt x 490.83376pt>
-File: pictures/6a.png Graphic file (type png)
- <use pictures/6a.png>
-Package pdftex.def Info: pictures/6a.png used on input line 248.
-(pdftex.def)             Requested size: 222.47853pt x 319.03815pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21 <./pictures/6a.png>] <pictures/6b.png, id=77, 691.58376pt x 244.915pt>
-File: pictures/6b.png Graphic file (type png)
-
-<use pictures/6b.png>
-Package pdftex.def Info: pictures/6b.png used on input line 266.
-(pdftex.def)             Requested size: 449.52411pt x 159.19284pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22 <./pictures/6b.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 282.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+[2]
+LaTeX Font Info:    Try loading font information for U+eus on input line 171.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 282.
-
-<pictures/6c.png, id=83, 380.42125pt x 449.68pt>
-File: pictures/6c.png Graphic file (type png)
- <use pictures/6c.png>
-Package pdftex.def Info: pictures/6c.png used on input line 287.
-(pdftex.def)             Requested size: 247.27087pt x 292.28853pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./pictures/6c.png>]
+[3]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] 
+[4] 
 AED: lastpage setting LastPage
-(./Section3BEffectofCollisions.aux) ) 
+(./Section4APTIE.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.64499pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 28135 strings out of 493014
- 573775 string characters out of 6133351
- 644709 words of memory out of 5000000
- 31209 multiletter control sequences out of 15000+600000
- 12658 words of font info for 52 fonts, out of 8000000 for 9000
+ 29159 strings out of 493014
+ 586155 string characters out of 6133351
+ 651775 words of memory out of 5000000
+ 32165 multiletter control sequences out of 15000+600000
+ 38681 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,28n,101p,10505b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/v
-ect10.pfb>
-Output written on Section3BEffectofCollisions.pdf (9 pages, 216748 bytes).
+ 63i,25n,101p,10491b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/newtx/txex-bar.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
+Output written on Section4APTIE.pdf (5 pages, 110224 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 124 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

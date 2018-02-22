@@ -1,0 +1,156 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{1}
+\setcounter{page}{0}
+\setcounter{equation}{12}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 4:  Kinetic Theory}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 4:  Kinetic Theory}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Mean Free Path}
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+\subsection{Mean Free Path}
+Assume a particle with diameter, $d$.
+
+Collisions occur when the center of a another particle falls within a
+volume of diameter, $2d$, swept out by the initial particle.
+\begin{center}
+\vspace{50mm}
+\textbf{Figure 2}
+\end{center}
+For an average speed:
+\begin{equation}
+\begin{aligned}
+\bar{c} = \frac{\sum \, c_i}{N}
+\end{aligned}
+\end{equation}
+The volume swept out per unit time is: $\pi \, d^2 \, \bar{c}$
+
+Given a number density, $n$, $\frac{\#}{m^3}$
+
+The number of collisions will be:
+\begin{equation}
+\begin{aligned}
+\theta = n \, \pi \, d^2 \, \bar{c}
+\end{aligned}
+\end{equation}
+If only one particle is moving, we can derive... 
+\begin{shaded}
+\textbf{Mean Free Path}
+\begin{equation}
+\begin{aligned}
+\lambda_1 = \frac{\bar{c}}{\theta} = \frac{1}{n \, \pi \, d^2}
+\end{aligned}
+\end{equation}
+The average distance between collisions for a particle
+\end{shaded}
+If all the particles are moving at the same speed, the relative
+velocity becomes $\bf{\frac{\bar{c}}{\sqrt{2}}}$ such that the mean free path becomes:
+\begin{equation}
+\begin{aligned}
+\lambda = \frac{\bar{c}}{\sqrt{2} \, \theta} = \frac{1}{\sqrt{2} \,n \, \pi \, d^2}
+\end{aligned}
+\end{equation}
+\newpage
+\begin{framed}
+\textbf{Example} 
+
+Consider air at STP with number density $n_o = 2.69\times10^{25} \quad m^{-3}$ which is the number of particles per cubic meter.
+
+The average space between particles: 
+\begin{equation*}
+\begin{aligned}
+\delta = n_o^{-\frac{1}{3}} &= 3.34 \times 10^{-9} \quad [m] \\
+& = 3.34 \quad [nm]
+\end{aligned}
+\end{equation*}
+%so if we could take all the particles within this volume and fix them, tell them to stop moving, and look at the average distance between them, we get an average space between those particles of...
+
+
+While the molecular diameter is: %
+\begin{equation*}
+\begin{aligned}
+d &\approx 0.37 \quad [nm] \\
+& = 3.7 \quad [\dot{A}]
+\end{aligned}
+\end{equation*}
+
+As a result, the Mean Free Path is: % substitudin 
+\begin{equation*}
+\begin{aligned}
+\lambda = \frac{1}{\sqrt{2} \,n \, \pi \, d^2} = 61.1 \quad [nm]
+\end{aligned}
+\end{equation*}
+Giving us the general relation that
+
+% d is much small than 
+\begin{equation*}
+\begin{aligned}
+d < < \delta < < \lambda \\ \\
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+\text{Molecular Diameter} << \text{Average Space Between Particles} << \text{Mean Free Path}
+\end{aligned}
+\end{equation*}
+
+\end{framed}
+
+\end{document}

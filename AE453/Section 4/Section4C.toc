@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {3}Velocity Distribution Function}{0}
+\contentsline {subsection}{\numberline {3.1}Mass Distribution Function}{1}
+\contentsline {subsection}{\numberline {3.2}Velocity Distribution Function}{2}
+\contentsline {subsection}{\numberline {3.3}Maxwellian Velocity Distribution Function}{3}

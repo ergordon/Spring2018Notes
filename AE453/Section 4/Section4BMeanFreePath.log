@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2018 02:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 FEB 2018 01:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Section3BEffectofCollisions.tex
-(./Section3BEffectofCollisions.tex
+**Section4BMeanFreePath.tex
+(./Section4BMeanFreePath.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -1273,8 +1273,8 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 \c@reg=\count199
 \c@exer=\count266
 \c@note=\count267
- (./Section3BEffectofCollisions.aux)
-\openout1 = `Section3BEffectofCollisions.aux'.
+ (./Section4BMeanFreePath.aux)
+\openout1 = `Section4BMeanFreePath.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
@@ -1374,7 +1374,7 @@ e
 \Hy@linkcounter=\count274
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count275
- (./Section3BEffectofCollisions.toc
+ (./Section4BMeanFreePath.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1396,9 +1396,9 @@ LaTeX Font Info:    Try loading font information for U+esvect on input line 2.
 File: uesvect.fd 
 ))
 \tf@toc=\write6
-\openout6 = `Section3BEffectofCollisions.toc'.
+\openout6 = `Section4BMeanFreePath.toc'.
 
- [16
+ [0
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
@@ -1407,111 +1407,40 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20] <pictures/6a.png, id=70, 342.27875pt x 490.83376pt>
-File: pictures/6a.png Graphic file (type png)
- <use pictures/6a.png>
-Package pdftex.def Info: pictures/6a.png used on input line 248.
-(pdftex.def)             Requested size: 222.47853pt x 319.03815pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21 <./pictures/6a.png>] <pictures/6b.png, id=77, 691.58376pt x 244.915pt>
-File: pictures/6b.png Graphic file (type png)
-
-<use pictures/6b.png>
-Package pdftex.def Info: pictures/6b.png used on input line 266.
-(pdftex.def)             Requested size: 449.52411pt x 159.19284pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22 <./pictures/6b.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 282.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 282.
-
-<pictures/6c.png, id=83, 380.42125pt x 449.68pt>
-File: pictures/6c.png Graphic file (type png)
- <use pictures/6c.png>
-Package pdftex.def Info: pictures/6c.png used on input line 287.
-(pdftex.def)             Requested size: 247.27087pt x 292.28853pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23 <./pictures/6c.png>]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24] 
+[1] 
 AED: lastpage setting LastPage
-(./Section3BEffectofCollisions.aux) ) 
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] (./Section4BMeanFreePath.aux) ) 
 Here is how much of TeX's memory you used:
- 28135 strings out of 493014
- 573775 string characters out of 6133351
- 644709 words of memory out of 5000000
- 31209 multiletter control sequences out of 15000+600000
- 12658 words of font info for 52 fonts, out of 8000000 for 9000
+ 28092 strings out of 493014
+ 573009 string characters out of 6133351
+ 638695 words of memory out of 5000000
+ 31173 multiletter control sequences out of 15000+600000
+ 11782 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,28n,101p,10505b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esvect/v
-ect10.pfb>
-Output written on Section3BEffectofCollisions.pdf (9 pages, 216748 bytes).
+ 63i,11n,101p,10499b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb>
+Output written on Section4BMeanFreePath.pdf (3 pages, 120937 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

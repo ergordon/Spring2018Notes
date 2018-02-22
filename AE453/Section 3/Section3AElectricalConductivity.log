@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 FEB 2018 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 FEB 2018 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1374,33 +1374,61 @@ e
 \Hy@linkcounter=\count274
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count275
- (./Section3AElectricalConductivity.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+esvect on input line 2.
+LaTeX Font Info:    Try loading font information for U+esvect on input line 70.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
-))
-\tf@toc=\write6
-\openout6 = `Section3AElectricalConductivity.toc'.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
  [0
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+./Section3AElectricalConductivity.tex:101: LaTeX Error: There's no line here to
+ end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \newline
+              
+? r
+OK, entering \nonstopmode...
+(./Section3AElectricalConductivity.toc)
+\tf@toc=\write6
+\openout6 = `Section3AElectricalConductivity.toc'.
+
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1408,6 +1436,25 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1415,6 +1462,179 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
+
+ []
+
+./Section3AElectricalConductivity.tex:165: Missing $ inserted.
+<inserted text> 
+                $
+l.165 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Section3AElectricalConductivity.tex:165: Missing } inserted.
+<inserted text> 
+                }
+l.165 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Section3AElectricalConductivity.tex:165: Missing } inserted.
+<inserted text> 
+                }
+l.165 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Section3AElectricalConductivity.tex:165: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.165 
+      
+I'm guessing that you meant to end an alignment here.
+
+./Section3AElectricalConductivity.tex:165: Missing { inserted.
+<inserted text> 
+                {
+l.165 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./Section3AElectricalConductivity.tex:165: Missing $ inserted.
+<inserted text> 
+                $
+l.165 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Section3AElectricalConductivity.tex:166: Misplaced \crcr.
+\endaligned ->\crcr 
+                    \egroup \restorecolumn@ \egroup 
+l.166 \end{aligned}
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./Section3AElectricalConductivity.tex:166: Extra }, or forgotten \endgroup.
+\endaligned ...cr \egroup \restorecolumn@ \egroup 
+                                                  
+l.166 \end{aligned}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Section3AElectricalConductivity.tex:168: LaTeX Error: There's no line here to
+ end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \end{shaded}\newline
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+./Section3AElectricalConductivity.tex:179: Undefined control sequence.
+<recently read> \alpga 
+                       
+l.179 ...= \text{Phase Angle, choose $\alpga = 0$}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Section3AElectricalConductivity.tex:179: Undefined control sequence.
+<recently read> \alpga 
+                       
+l.179 ...= \text{Phase Angle, choose $\alpga = 0$}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Section3AElectricalConductivity.tex:179: Undefined control sequence.
+<recently read> \alpga 
+                       
+l.179 ...= \text{Phase Angle, choose $\alpga = 0$}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Section3AElectricalConductivity.tex:179: Undefined control sequence.
+<recently read> \alpga 
+                       
+l.179 ...= \text{Phase Angle, choose $\alpga = 0$}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1422,6 +1642,15 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1429,32 +1658,310 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+<pictures/1.png, id=76, 404.51125pt x 309.155pt>
+File: pictures/1.png Graphic file (type png)
+ <use pictures/1.png>
+Package pdftex.def Info: pictures/1.png used on input line 331.
+(pdftex.def)             Requested size: 404.51025pt x 309.15424pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./pictures/1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+<pictures/2.png, id=82, 658.46pt x 347.2975pt>
+File: pictures/2.png Graphic file (type png)
+ <use pictures/2.png>
+Package pdftex.def Info: pictures/2.png used on input line 363.
+(pdftex.def)             Requested size: 460.91887pt x 243.10658pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./pictures/2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 367--370
+
+ []
+
+<pictures/3.png, id=87, 637.38126pt x 332.24126pt>
+File: pictures/3.png Graphic file (type png)
+ <use pictures/3.png>
+Package pdftex.def Info: pictures/3.png used on input line 379.
+(pdftex.def)             Requested size: 446.16383pt x 232.56728pt.
+
+./Section3AElectricalConductivity.tex:383: Extra }, or forgotten $.
+l.383 ...$, that is, $\vv{v}_o = v_{\text{drift}}}
+                                                   = (\vv{E} \times \vv{B})/...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./pictures/3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+<pictures/4.png, id=93, 412.54124pt x 307.1475pt>
+File: pictures/4.png Graphic file (type png)
+ <use pictures/4.png>
+Package pdftex.def Info: pictures/4.png used on input line 395.
+(pdftex.def)             Requested size: 412.54024pt x 307.14674pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./pictures/4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--424
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14] <pictures/5.png, id=112, 385.44pt x 216.81pt>
+File: pictures/5.png Graphic file (type png)
+ <use pictures/5.png>
+Package pdftex.def Info: pictures/5.png used on input line 524.
+(pdftex.def)             Requested size: 462.52568pt x 260.17068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--529
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./pictures/5.png>] 
 AED: lastpage setting LastPage
 (./Section3AElectricalConductivity.aux) ) 
 Here is how much of TeX's memory you used:
- 28088 strings out of 493014
- 573081 string characters out of 6133351
- 636716 words of memory out of 5000000
- 31171 multiletter control sequences out of 15000+600000
- 11161 words of font info for 45 fonts, out of 8000000 for 9000
+ 28156 strings out of 493014
+ 574070 string characters out of 6133351
+ 651718 words of memory out of 5000000
+ 31223 multiletter control sequences out of 15000+600000
+ 12985 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,101p,10509b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,21n,101p,10509b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Section3AElectricalConductivity.pdf (6 pages, 56727 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/esvect/vect10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/esv
+ect/vect8.pfb>
+Output written on Section3AElectricalConductivity.pdf (16 pages, 321502 bytes).
+
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 162 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

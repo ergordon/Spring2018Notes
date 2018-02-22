@@ -1,0 +1,193 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{2}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 4:  Kinetic Theory}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 4:  Kinetic Theory}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Velocity Distribution Function}
+
+Not all particles move with the same velocity. Also, the
+velocity of a particle doesn't remain the same over time.
+We need a statistical way to describe this; this the velocity
+distribution function.
+
+\begin{center}
+\vspace{25mm}
+\end{center}
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%                           SECTION 1                                     %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mass Distribution Function}
+To illustrate this idea of distribution function, consider
+mass density.
+
+Consider a gas of N particles with mass m in a volume V.
+
+The density is:
+
+If the gas is nonuniform, the density in a differnetial
+volume
+
+At a position vector
+
+is
+
+Note that this assumes that is large enough to
+contain a large number of particles. Since the particle
+mass doesn't change, 
+
+Which we can write as:
+
+The function gives the number of particles per
+unit volume as a function of position; a.k.a. a "position
+distribution function"
+
+The number of particles in the differential volume
+is
+
+So the mass within that differential volume is
+
+We can define a "normalized distribution function" as
+
+So that the total number of particles in is
+
+This normalized distribution function can be interpreted
+as a \textbf{probability density function}, that is, the probability
+that a given randomly-chosen particle will be in .
+
+Integrating over the entire volume,
+
+So the probability that a particle within V is within V is
+100\%.
+
+We can generalize this idea to state:
+
+A distribution function gives the concentration of some quantity per unit "volume" as a function of position in some kind of "space". 
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%                           SECTION 2                                     %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Velocity Distribution Function}
+Now consider particle with velocity
+
+We can define a differential volume in this velocity space
+
+Define local point density such that the number of
+particles within velocity range:
+
+is This is the "velocity distribution
+function". Like the position distribution function
+you have to multiply by a volume to get a real quantity
+(the number of particles).
+
+Define a normalized velocity distribution function
+
+This is the probability that a particle will be within the
+specific velocity range. The number of particles within 
+
+is
+
+In terms of number density
+
+where the integral over all possible velocities is:
+
+The velocity distribution of particles is important for
+determining average quantities. For instance, if we have
+some quantity Q that depends on velocity
+
+The mean or expectation value of Q is then:
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%                           SECTION 3                                     %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Maxwellian Velocity Distribution Function}
+A gas at equilibrium has a special velocity distribution
+function. Called the Maxwellian velocity distribution.
+\begin{itemize}
+\item Basic idea is that:
+Stationary velocity distribution
+\item Collisions deplete and add to population at same rate
+\item Thus, no net change.
+\end{itemize}
+Collision dynamics with simple billiard-ball model leads
+to:
+
+This is Maxwellian VDF.
+
+We can break this into components along each axis
+The probability that a particle will be within the velocity
+space
+
+The Maxwellian VDF looks like this:
+
+Largest probability is at this corresponds to
+particles moving perpendicular to the with
+
+We can transform the Maxwellian VDF into a
+Maxwellian SPEED distribution function.
+
+Note that the most probable SPEED is not zero.
+
+Also, the mean speed is not the same as the mostprobable-speed.
+
+Finally, the mean squared speed is
+
+Which works out to give the root-mean-square speed.
+\end{document}
