@@ -40,7 +40,7 @@
 \newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
 \begin{document}
 \setcounter{section}{1}
-\setcounter{page}{0}
+\setcounter{page}{5}
 \setcounter{equation}{12}
 %\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
 \definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
@@ -150,11 +150,40 @@ d < < \delta < < \lambda \\ \\
 \text{Molecular Diameter} << \text{Average Space Between Particles} << \text{Mean Free Path}
 \end{aligned}
 \end{equation*}
-
 \end{framed}
-%When would we have to use these? We typically would know when t use them bia the knudsen number... so if the knudsen number is larger, th distance between the collsion of particles is much larger than the size of your particles. So now you need kinetic theroy and likely have a non-equillibrium gas. governing eqns would be Boltzmann equation.
+\newpage
+\begin{center}
+ 
+ \vspace{5mm}
+   
+\end{center}
+\textbf{Question: } When would we have to use these variables? 
 
-% If knudsen number < 1 there are lots of collisions happening. By the time foes from ones side to the next, lots of collisions to cover that distance so macroscopic fluid equations useful. (equillibrium gas) ie Navier stokes, eulers eqns.
+\textbf{Answer: } We typically would know when to use them via the Knudsen Number.
+
+\begin{shaded}
+\textbf{Knudsen Number}
+\begin{equation*}
+\begin{aligned}
+K_n = \frac{\lambda}{L}
+\end{aligned}
+\end{equation*}
+Where $L$ is the characteristic size of the system.
+\end{shaded}
+
+\begin{equation*}
+K_n > > 1
+\end{equation*}
+\begin{itemize}
+\item If the Knudsen Number is large, the distance between the collision of particles is much larger than the size of the particles. As a result kinetic theory should be used and our system is likely to have a non-equilibrium gas. As a result, the governing equations would be Boltzmann equation.
+\end{itemize}
+
+\begin{equation*}
+K_n < < 1
+\end{equation*}
+\begin{itemize}
+\item If the Knudsen Number is small, the distance is smaller and so there are lots of collisions happening. By the time a particle goes from one side to the next it experiences lots of collisions while covering that distance so macroscopic fluid equations useful. As a result, the gas is in equilibrium and so the governing equations would be Navier Stokes or Euler's Equations.
+\end{itemize}
 
 %this how you tell if you look at the system in microscopic or assume it to be a fluid (macroscopics scale).
 
