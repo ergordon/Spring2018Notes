@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**5A.tex
-(./5A.tex
+**5B.tex
+(./5B.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -1374,8 +1374,8 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 \c@reg=\count267
 \c@exer=\count268
 \c@note=\count269
- (./5A.aux)
-\openout1 = `5A.aux'.
+ (./5B.aux)
+\openout1 = `5B.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 44.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 44
@@ -1495,7 +1495,7 @@ e
 \Hy@linkcounter=\count276
 ABD: EveryShipout initializing macros
 \c@lstlisting=\count277
- (./5A.toc
+ (./5B.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1532,18 +1532,82 @@ LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 2.
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 ))
 \tf@toc=\write6
-\openout6 = `5A.toc'.
+\openout6 = `5B.toc'.
 
- [3
+ [8
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+<pictures/2.png, id=49, 881.54344pt x 697.10437pt>
+File: pictures/2.png Graphic file (type png)
+ <use pictures/2.png>
+Package pdftex.def Info: pictures/2.png used on input line 73.
+(pdftex.def)             Requested size: 396.69089pt x 313.69406pt.
+
+<pictures/3.png, id=50, 396.7322pt x 728.7225pt>
+File: pictures/3.png Graphic file (type png)
+ <use pictures/3.png>
+Package pdftex.def Info: pictures/3.png used on input line 76.
+(pdftex.def)             Requested size: 178.52783pt x 327.92209pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./pictures/2.png>] <pictures/4.png, id=54, 686.565pt x 1025.33063pt>
+File: pictures/4.png Graphic file (type png)
+
+<use pictures/4.png>
+Package pdftex.def Info: pictures/4.png used on input line 79.
+(pdftex.def)             Requested size: 308.95139pt x 461.39452pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10 <./pictures/3.png>] <pictures/5.png, id=58, 649.67719pt x 497.60907pt>
+File: pictures/5.png Graphic file (type png)
+
+<use pictures/5.png>
+Package pdftex.def Info: pictures/5.png used on input line 82.
+(pdftex.def)             Requested size: 292.35204pt x 223.92201pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11 <./pictures/4.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 <./pictures/5.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 95.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
+
+<pictures/6.png, id=65, 581.17125pt x 359.09157pt>
+File: pictures/6.png Graphic file (type png)
+ <use pictures/6.png>
+Package pdftex.def Info: pictures/6.png used on input line 101.
+(pdftex.def)             Requested size: 261.52464pt x 161.5897pt.
+
+<pictures/7.png, id=66, 678.28406pt x 586.44093pt>
+File: pictures/7.png Graphic file (type png)
+ <use pictures/7.png>
+Package pdftex.def Info: pictures/7.png used on input line 113.
+(pdftex.def)             Requested size: 305.225pt x 263.89597pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1551,18 +1615,31 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[13 <./pictures/6.png>] <pictures/8.png, id=71, 562.35094pt x 345.54094pt>
+File: pictures/8.png Graphic file (type png)
+
+<use pictures/8.png>
+Package pdftex.def Info: pictures/8.png used on input line 119.
+(pdftex.def)             Requested size: 253.05557pt x 155.49197pt.
+ <pictures/9.png, id=72, 752.8125pt x 634.62094pt>
+File: pictures/9.png Graphic file (type png)
+
+<use pictures/9.png>
+Package pdftex.def Info: pictures/9.png used on input line 127.
+(pdftex.def)             Requested size: 338.76248pt x 285.57678pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] <pictures/1.png, id=66, 719.68875pt x 576.1525pt>
-File: pictures/1.png Graphic file (type png)
- <use pictures/1.png>
-Package pdftex.def Info: pictures/1.png used on input line 167.
-(pdftex.def)             Requested size: 323.85695pt x 259.26622pt.
+[14 <./pictures/7.png> <./pictures/8.png>]
+<pictures/10.png, id=77, 693.34032pt x 502.87875pt>
+File: pictures/10.png Graphic file (type png)
+ <use pictures/10.png>
+Package pdftex.def Info: pictures/10.png used on input line 141.
+(pdftex.def)             Requested size: 312.00026pt x 226.29333pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1570,7 +1647,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./pictures/1.png>] 
+[15 <./pictures/9.png> <./pictures/10.png>] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1578,37 +1655,25 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] (./5A.aux) ) 
+[16] (./5B.aux) ) 
 Here is how much of TeX's memory you used:
- 29121 strings out of 493014
- 585266 string characters out of 6133351
- 648754 words of memory out of 5000000
- 32121 multiletter control sequences out of 15000+600000
- 27930 words of font info for 90 fonts, out of 8000000 for 9000
+ 29129 strings out of 493014
+ 585725 string characters out of 6133351
+ 645756 words of memory out of 5000000
+ 32153 multiletter control sequences out of 15000+600000
+ 16980 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,15n,101p,10480b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/2016/texmf-dist/fo
-nts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/txfonts/txex.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/tx
-syc.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 5A.pdf (5 pages, 142503 bytes).
+ 63i,11n,101p,10480b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on 5B.pdf (9 pages, 304711 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

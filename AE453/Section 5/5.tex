@@ -1,0 +1,134 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage{newtxmath}
+\usepackage{euscript}
+\DeclareMathAlphabet{\mathpzc}{T1}{pzc}{m}{it}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{-1}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 5:  Collisions}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 5:  Collisions}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Intro}
+We can classify collisions
+\begin{enumerate}
+\item By  partner
+\begin{itemize}
+\item Electron
+\item Ion
+\item Neutral
+\end{itemize}
+\item By type of energy exchange
+\begin{itemize}
+\item Elastic - total kinetic energy conserved, no charge transfer
+\item Inelastic - energy transfer to internal modes (rotation, vibration, excitation, ionization)
+\item Superelastic - energy transfer from internal mode to kinetic energy
+\item Radiative - charged particle undergoing acceleration in field of another particle (bremsstrahlung)
+\item Charge-reactive - charge transferred in collision.  If "resonant",  	elastic collision; otherwise inelastic (ex:  charge-exchange).
+\end{itemize}
+\end{enumerate}
+Results of collisions (energy change, angle change, etc.) vary considerably depending on the species, velocities, internal energy states - lots of experimental work has been (and is still ongoing) done to characterize collisions.
+\newpage
+Collisions are complicated by the quantum-mechanical nature of interaction.
+
+\begin{shaded}
+\textbf{deBroglie Wavelength}
+\begin{equation}
+\begin{aligned}
+\lambda = \frac{h}{m_e \, v}
+\end{aligned}
+\end{equation}
+Where
+\begin{equation*}
+\begin{aligned}
+h &= \text{Planck Constant} \\
+&= 6.62607004 \times10^{-34} \quad \bigg[\frac{m^2 kg}{s}\bigg]\\
+&= 4.1357 \times 10^{-15} \quad [\text{eV's}]
+\end{aligned}
+\end{equation*}
+
+The deBroglie wavelength of an electron traveling in free space with speed v.
+\end{shaded}
+\begin{framed} 
+\textbf{Ramsaur Effect:} 
+\begin{center}
+\vspace{20mm}
+\textbf{Figure 1}
+\end{center}
+If we use $r_o$ to denote the effective radius of the outer-shell electrons (generally on the order of an angstrom $1 \dot{A} \approx 10^{-10} m$), we will run into resonances when    $\lambda \sim r_o$              	(at electron energies around 1 keV)
+
+When an electron moves through a gas, its interactions with the gas atoms cause scattering to occur. These interactions are classified as inelastic if they cause excitation or ionization of the atom to occur and elastic if they do not.
+
+The probability of scattering in such a system is defined as the number of electrons scattered, per unit electron current, per unit path length, per unit pressure at 0$^{\circ}$C, per unit solid angle. The number of collisions equals the total number of electrons scattered elastically and inelastically in all angles, and the probability of collision is the total number of collisions, per unit electron current, per unit path length, per unit pressure at 0$^{\circ}$C.
+
+Because noble gas atoms have a relatively high first ionization energy and the electrons do not carry enough energy to cause excited electronic states, ionization and excitation of the atom are unlikely, and the probability of elastic scattering over all angles is approximately equal to the probability of collision. Simply put, the scattering cross section of electrons on noble gas atoms exhibits a very small value at electron energies near 1 eV. This is the Ramsauer-Townsend effect and provides an example of a phenomenon which requires a quantum mechanical description of the interaction of particles.
+\end{framed}
+ \newpage
+As an example, the Ramsauer effect causes huge reductions in cross-section when the waves of the collision partners interact.
+ 
+The \textbf{Collision "Cross-Section"} for particle collisions is often determined experimentally as follows:
+\begin{enumerate}
+\item Start with a bombarding particle source such as an ion gun, electron gun, or oven (for neutral particles).
+\item Excite these particles optically
+\item Through external sensors (either probe or optical), study the scattered particles
+\end{enumerate}
+From a particle collision: the number of particles; the energy of the particles or internal state of the particles are all parameters that we can study.
+\begin{center}
+\vfill
+\textbf{Figure 2}
+\end{center}
+
+\end{document}

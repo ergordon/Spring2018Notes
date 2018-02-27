@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1452,7 +1452,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 File: pictures/3.png Graphic file (type png)
  <use pictures/3.png>
 Package pdftex.def Info: pictures/3.png used on input line 304.
-(pdftex.def)             Requested size: 284.53119pt x 284.52658pt.
+(pdftex.def)             Requested size: 354.57741pt x 327.02428pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1472,7 +1472,7 @@ File: pictures/4.png Graphic file (type png)
 
 <use pictures/4.png>
 Package pdftex.def Info: pictures/4.png used on input line 365.
-(pdftex.def)             Requested size: 144.53964pt x 82.74893pt.
+(pdftex.def)             Requested size: 202.35461pt x 115.848pt.
  
 AED: lastpage setting LastPage
 
@@ -1504,7 +1504,7 @@ s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/public/esvect/vect10.pfb>
-Output written on Section4C.pdf (8 pages, 197969 bytes).
+Output written on Section4C.pdf (8 pages, 197954 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
