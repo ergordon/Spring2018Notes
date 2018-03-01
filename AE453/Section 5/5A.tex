@@ -241,8 +241,8 @@ V_i = 1.5 \, \frac{km}{s}
 Meaning that...
 \begin{equation*}
 \begin{aligned}
-\nu &= n \, <Q_{jk} \, V_{jk}> \\
-&= n \, \overline{Q_{jk} \, V_{jk}}
+\nu &= n \, <Q_{jk} \, v_{jk}> \\
+&= n \, \overline{Q_{jk} \, v_{jk}}
 \end{aligned}
 \end{equation*}
 
@@ -252,24 +252,26 @@ Such that
 \overline{Q \, V} = \int_{0}^{\infty} \, Q \, v \, f(v) \, \mathrm{d}v
 \end{aligned}
 \end{equation*}
+%Mean collision rate but only for test particles with veclocity greater than field particles
+Note: This mean collision rate is only applicable for test particles with velocities much much greater than field particles.
 \end{framed}
-
-Finally, can define a:
+\newpage
+\begin{center}
+\vspace{5mm}
+\end{center}
+Finally, we can define a:
 \begin{shaded}
 \textbf{Mean Collision Rate for a Swarm of Particles}
 \begin{equation}
 \begin{aligned}
-\nu_{jk}^{(\beta)} = n_k \, Q_{jk}^{(\beta)} \, \overline{v_{jk}}
+n_j \, \nu_{jk} = \int \int n_j (\vv{v}_j)\, n_k (\vv{v}_k) \, Q_{jk} \, (|\vv{v}_j-\vv{v}_k|)\,|\vv{v}_j-\vv{v}_k| \, \mathrm{d}\vv{v}_j \, \mathrm{d}\vv{v}_k
 \end{aligned}
 \end{equation}
 Where
-%\begin{equation*}
-%\begin{aligned}
-%\end{aligned}
-%\end{equation*}
 \begin{itemize}
-\item We can approximate      	and         	as Maxwellians,
-\item shows the dependence of Q on relative velocity.
+\item We can approximate    $n_j (\vv{v}_j)$  	and      $n_k (\vv{v}_k)$   	as Maxwellian Distribution Functions 
+\item $Q_{jk} \, (|\vv{v}_j-\vv{v}_k|)$ shows the dependence of $Q$ on relative velocity, $|\vv{v}_j-\vv{v}_k|$.
 \end{itemize}
+Opposed to the mean collision rate prior to Equation 16, this applies for test particles and field particles with approximately the same velocity. It considers a way for accounting for the fact that $j$ and $k$ particles have some sort of distribution associated with them.
 \end{shaded}
 \end{document}

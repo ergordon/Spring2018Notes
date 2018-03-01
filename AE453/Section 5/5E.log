@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 FEB 2018 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 FEB 2018 09:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1534,7 +1534,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 \tf@toc=\write6
 \openout6 = `5E.toc'.
 
- [8
+ [26
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
@@ -1549,7 +1549,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 File: pictures/12.png Graphic file (type png)
  <use pictures/12.png>
 Package pdftex.def Info: pictures/12.png used on input line 79.
-(pdftex.def)             Requested size: 456.35182pt x 368.34865pt.
+(pdftex.def)             Requested size: 423.75313pt x 342.03632pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1557,7 +1557,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./pictures/12.png>] 
+[27 <./pictures/12.png>] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1565,25 +1565,28 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] (./5E.aux) ) 
+[28] (./5E.aux) ) 
 Here is how much of TeX's memory you used:
- 29089 strings out of 493014
- 585085 string characters out of 6133351
+ 29094 strings out of 493014
+ 585112 string characters out of 6133351
  644756 words of memory out of 5000000
  32121 multiletter control sequences out of 15000+600000
- 16980 words of font info for 58 fonts, out of 8000000 for 9000
+ 19273 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,11n,101p,10480b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb>
-Output written on 5E.pdf (3 pages, 72767 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 5E.pdf (3 pages, 87809 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

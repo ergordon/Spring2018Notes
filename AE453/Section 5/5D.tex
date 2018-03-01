@@ -43,8 +43,8 @@
 \newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
 \begin{document}
 \setcounter{section}{3} %Section before the section you want. I want section 1 I put 0
-\setcounter{page}{8} %page number you want to be the first page
-\setcounter{equation}{16} %equation before the equation you want I want equation 2 I put 1
+\setcounter{page}{24} %page number you want to be the first page
+\setcounter{equation}{24} %equation before the equation you want I want equation 2 I put 1
 %\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
 \definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
 \definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
@@ -69,16 +69,31 @@ Spring 2018
 \tableofcontents
 \newpage
 \subsection{Elastic}
+Electron-Electron collisions in electric propulsion plasmas are kinda important but we never really analyze. These types of collisions lead to thermalization (equilibrium). 
 \begin{itemize}
 \item Same physics as electron-ion Coulomb collisions, but with repelling forces.  Same cross-section shape.  \item Masses are equal so energy transfer is much more efficient.
-\item This is the most important process for thermalization within a species
+\item This is the most important process for thermalization within a species 
 \end{itemize}
-\subsection{Inelastic}
 
-Would require lots of energy for two like charges to get that close together.
+When we say thermalization, we mean reaching equilibrium, a thermalized state. The mechanism by which they thermalize is via collisions.
+
+In typical electric propulsion plasma, $\nu_e$ the electron electron collision frequency is much larger than the ion ion collision frequency.
+
+ \begin{equation*}
+ \begin{aligned}
+ \nu_{e-e} > > \nu_{i-i}
+ \end{aligned}
+ \end{equation*}
+ 
+This is because electrons weigh a lot less and move a lot faster. In general, electrons will be thermalized and will have lots more collisions while the ions may not ever reach a thermalized state since they are heavier and slower.
+\subsection{Inelastic}
+Would require lots of energy for two like charges to get that close together. Particles would have to get really close to get to second-ionization state.
 
 \subsection{Radiation}
-
-Masses are equal so no net acceleration, and thus no Bremsstrahlung
+Masses are equal so no net acceleration, and thus no Bremsstrahlung 
+\vfill
+\begin{center}
+\textbf{Overall, elastic electron-electron collisions are most dominate in electric propulsion systems.}
+\end{center}
 
 \end{document}

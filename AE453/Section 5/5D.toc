@@ -1,4 +1,4 @@
-\contentsline {section}{\numberline {4}Electron-Electron and Ion-Ion Collisions}{8}
-\contentsline {subsection}{\numberline {4.1}Elastic}{9}
-\contentsline {subsection}{\numberline {4.2}Inelastic}{9}
-\contentsline {subsection}{\numberline {4.3}Radiation}{9}
+\contentsline {section}{\numberline {4}Electron-Electron and Ion-Ion Collisions}{24}
+\contentsline {subsection}{\numberline {4.1}Elastic}{25}
+\contentsline {subsection}{\numberline {4.2}Inelastic}{25}
+\contentsline {subsection}{\numberline {4.3}Radiation}{25}

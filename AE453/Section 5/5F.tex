@@ -43,8 +43,8 @@
 \newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
 \begin{document}
 \setcounter{section}{5} %Section before the section you want. I want section 1 I put 0
-\setcounter{page}{8} %page number you want to be the first page
-\setcounter{equation}{16} %equation before the equation you want I want equation 2 I put 1
+\setcounter{page}{29} %page number you want to be the first page
+\setcounter{equation}{24} %equation before the equation you want I want equation 2 I put 1
 %\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
 \definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
 \definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
@@ -62,31 +62,65 @@
 {\large AE435}\\
 Spring 2018
 \end{center}
-
+The interaction between a charge and an induced dipole scales as $r^{-4}$,  so the cross-section is slightly wider than for atom-atom collisions.  But similar to atom-atom collisions.
 \vspace{5mm}
 \section{Ion-Atom Collisions}
 \vspace{25mm}
 \tableofcontents
 \newpage
-The interaction between a charge and an induced dipole scales as r-4,  so the cross-section is slightly wider than for atom-atom collisions.  But similar to atom-atom collisions.
+
+\subsection{Elastic}
+Elastic Ion-Atom collisions are not often in flight but a problem in ground based systems testing ie vacuum chamber creating elevated background pressure. The background pressure is 5-6 times higher than what we would experience in space. As a result, we have a lot higher electron particle density. In a chamber, the electrons being exposed, there are neutral atoms present and the ions will collide with those. 
+
+
+\subsection{Charge Exchange}
+This is the most important process for electric propulsion plasmas. The case where you have an energetic ion (with high kinetic energy (a plume ion) $\tilde{A}$). This ion will have a collision with a neutral and they will swap charge. So we end up with a high KE neutral and a slow ion. This is a problem because we now have a positively charge particle just hanging around by the craft. It will respond to any kind of small e-field present (ie solar panels) and it will slam into them and collide and sputter. Or if we have an ion thruster, it will be attracted to the grid, collide and erode. These pest are easily accelerated into other parts of the craft. Not desirable at all.
  
-But the most important process for EP plasmas is
-CHARGE REACTIVE
-Charge-exchange
- 
+ \textbf{Charge Exchange}
+ \begin{equation*}
+ \begin{aligned}
+ \tilde{A}^+ + A \rightarrow A^+ + \tilde{A}
+ \end{aligned}
+ \end{equation*}
  
 The cross-section size depends on how the ionization potentials match;  generally,
- 
- 
- 
+   \begin{equation*}
+ \begin{aligned}
+ Q_{cex} > Q^{(P)}
+ \end{aligned}
+ \end{equation*}
+ Charge exchange cross-sections are typically larger than the momentum exchange cross-section. 
+
+
 Note that charge-exchange has profound implications for EP:
 \begin{itemize}
 \item Hollow cathodes: heavy particle interactions drive temperatures and emission currents
-\item Ion thrusters:  screen grid lifetime diminished by intergrid CEX
-\item Hall thrusters:  plumes, especially S/C interaction (erosion and redeposition)
+\item Ion thrusters:  screen grid lifetime diminished by intergrid CEX. Overtime the grid will erode, holes will get bigger, performance goes down.
+\item Hall thrusters:  plumes, especially spacecraft interaction (erosion and redeposition)
 \end{itemize}
+There is not much we can do about this problem. Neutral atoms are caused by propellants ability to ionize. You wont always have 100\% ionization with propellant which is referred "Propellant Utilization Efficiency".
+\newpage
+{\Large\subsection{{\Large{Cross-sections for the different type of Xenon collisions}}}}
+\subsubsection{Atom-Atom Elastic}
+ \begin{equation*}
+ \begin{aligned}
+ {\Large Q_{\text{EL}}(\text{Xe,Xe}) = \frac{2.2 \times 10^{-18}}{g^{2\,\omega}} \qquad [m^2]}
+ \end{aligned}
+ \end{equation*}
  
-
+ Where $g$ is the relative velocity $[\frac{m}{s}]$, and $\omega = 0.12$
+ \subsubsection{Atom-Ion Elastic}
+  \begin{equation*}
+ \begin{aligned}
+ {\Large Q_{\text{EL}}(\text{Xe,Xe$^+$}) = \frac{6.42 \times 10^{-16}}{g} \qquad [m^2]}
+ \end{aligned}
+ \end{equation*}
+ \subsubsection{Atom-Ion Charge Exchange}
+  \begin{equation*}
+ \begin{aligned}
+ {\Large Q_{\text{EL}}(\text{Xe,Xe$^+$}) = [-23.30 \log_{10}(g) + 142.21] \cdot 0.8423\times 10^{-20} \qquad [m^2]}
+ \end{aligned}
+ \end{equation*}
 
 
 \end{document}

@@ -7,14 +7,14 @@ clc;
 % YOUR CODE HERE TO DEFINE THE INITIAL CONDITIONS AND THE MOMENT OF INERTIA
 % MATRIX AND THE TIME REQUIRED FOR SPIN-UP
 %
+w0x = -4
 J1 = 4600; % kgm^3
 J2 = 4400; % kgm^3
 J3 = 750;  % kgm^3
 R0 = eye(3);
-w0 = [1e-1; 0; 0];
+w0 = [1*10^w0x; 0; 0];
 J = [J1 0 0; 0 J2 0; 0 0 J3];
-%J = eye(3);
-tMax = 7.5;
+tMax = 20;
 %
 % %%
 
@@ -35,8 +35,12 @@ pAxis = [0 0; 0 0; 0 1];
 pAngVel = [zeros(3,1) w0/norm(w0)];
 pAngMom = [zeros(3,1) J*w0/norm(J*w0)];
 
+finalTime = t(end)
+finalRot = reshape(x(end,1:9),3,3)
+finalW = reshape(x(end,10:12),3,1)
+
 % SETUP THE PLOT
-figure(2);
+figure(1);
 clf;
 axis(1.25*[-1 1 -1 1 -1 1]);
 axis equal;
@@ -65,6 +69,7 @@ firsttime = 1;
 i = 1;
 dt = max(t)/(length(t)-1);
 tic;
+AngularMomentum = [1;0;0];
 while (i<length(t))
     if (toc > dt)
         tic;
@@ -81,7 +86,9 @@ while (i<length(t))
         set(hAngVel,'xdata',pAngVel0(1,:),'ydata',pAngVel0(2,:),'zdata',pAngVel0(3,:));
         set(hAngMom,'xdata',pAngMom0(1,:),'ydata',pAngMom0(2,:),'zdata',pAngMom0(3,:));
         set(hTitle,'string',sprintf('t = %4.2f',t(i)));
-        
+        ppmom = [pAngMom0(1,2); pAngMom0(2,2) ;pAngMom0(3,2)];
+        norm(ppmom)
+        AngularMomentum = [AngularMomentum ppmom];
         if (firsttime)
             firsttime=0;
             pause(0.5);
@@ -89,11 +96,75 @@ while (i<length(t))
         drawnow;
     end
 end
+RR1 = x(:,1);
+RR2 = x(:,2);
+RR3 = x(:,3);
+RR4 = x(:,4);
+RR5 = x(:,5);
+RR6 = x(:,6);
+RR7 = x(:,7);
+RR8 = x(:,8);
+RR9 = x(:,9);
+ww1 = w(:,1);
+ww2 = w(:,2);
+ww3 = w(:,3);
+AM1 = AngularMomentum(1,:);
+AM2 = AngularMomentum(2,:);
+AM3 = AngularMomentum(3,:);
+%% Plotting Code for Part B
+%%{
+figure(2);
+subplot(2,1,1);
+plot(t,[RR1,RR2,RR3,RR4,RR5,RR6,RR7,RR8,RR9])
+title('R V. Time', 'FontSize', 18)
+ylabel('Rotation Matrix')
+xlabel('Time')
+legend('R_1','R_2','R_3','R_4','R_5','R_6','R_7','R_8','R_9','Location','bestoutside')
 
+subplot(2,1,2);
+plot(t,[ww1,ww2,ww3])
+title('Angular Velocity V. Time', 'FontSize', 18)
+ylabel('Angular Velocity')
+xlabel('Time')
+legend('\omega_1','\omega_2','\omega_3','Location','bestoutside')
 
+set(gcf,'paperorientation','portrait');
+set(gcf,'paperunits','normalized');
+set(gcf,'paperposition',[0 0 1 1]);
+print(gcf,'-dpdf',sprintf('plots.pdf',w0x));
+%}
+%% Plotting Code for Part C
+%{
+figure(2);
+subplot(3,1,1);
+plot(t,[RR1,RR2,RR3,RR4,RR5,RR6,RR7,RR8,RR9])
+title('R V. Time', 'FontSize', 18)
+ylabel('Rotation Matrix')
+xlabel('Time')
+legend('R_1','R_2','R_3','R_4','R_5','R_6','R_7','R_8','R_9','Location','bestoutside')
+
+subplot(3,1,2);
+plot(t,[ww1,ww2,ww3])
+title('Angular Velocity V. Time', 'FontSize', 18)
+ylabel('Angular Velocity')
+xlabel('Time')
+legend('\omega_1','\omega_2','\omega_3','Location','bestoutside')
+
+subplot(3,1,3);
+plot(t,[AM1',AM2',AM3'])
+title('Angular Momentum V. Time', 'FontSize', 18)
+ylabel('Angular Momentum')
+xlabel('Time')
+legend('h_1','h_2','h_3','Location','bestoutside')
+
+set(gcf,'paperorientation','portrait');
+set(gcf,'paperunits','normalized');
+set(gcf,'paperposition',[0 0 1 1]);
+print(gcf,'-dpdf',sprintf('w0=1e%d.pdf',w0x));
+%}
 function xdot = f(t,x,J)
-R = XtoR(x(1:9,1))
-w = x(10:end,1)
+R = XtoR(x(1:9,1));
+w = x(10:end,1);
 zTorque = 100;
 % %%
 %
@@ -106,10 +177,15 @@ what = [0 -w3 w2; w3 0 -w1; -w2 w1 0];
 
 Rdot = R*what;
 
-wd1 = ((J(2,2)-J(3,3))/(J(1,1)))*w3*w2;
-wd2 = ((J(3,3)-J(1,1))/(J(2,2)))*w3*w1;
-wd3 = (zTorque + (J(1,1)-J(2,2))*w1*w2)/J(3,3);
-
+if t<7.578
+    wd1 = ((J(2,2)-J(3,3))/(J(1,1)))*w3*w2;
+    wd2 = ((J(3,3)-J(1,1))/(J(2,2)))*w3*w1;
+    wd3 = (zTorque + (J(1,1)-J(2,2))*w1*w2)/J(3,3);
+else
+    wd1 = ((J(2,2)-J(3,3))/(J(1,1)))*w3*w2;
+    wd2 = ((J(3,3)-J(1,1))/(J(2,2)))*w3*w1;
+    wd3 = ((J(1,1)-J(2,2))*w1*w2)/J(3,3);
+end
 %Rdot = zeros(3);
 wdot = [wd1;wd2;wd3];
 %
