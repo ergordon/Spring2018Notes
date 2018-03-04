@@ -64,32 +64,42 @@ Spring 2018
 \vspace{5mm}
 \section{Intro}
 We can specify the state of a plasma via the species continuity equation:
+%equillibirum ionization which will lead to SAHA equation. 
 \begin{shaded}
 \textbf{State of Plasma}
- \begin{equation*}
+ \begin{equation}
  \begin{aligned}
- a
+ \frac{\partial n_i}{\partial t} + \nabla \cdot (n_i \, \vv{v_i}) = \sum_j \omega_{ij}
  \end{aligned}
- \end{equation*}
+ \end{equation}
 Where
  \begin{equation*}
  \begin{aligned}
- a & \text{ is the rate of change of species i in the volume} \\ 
- a & \text{ is the convection rate for species i into the volume} \\ 
- a & \text{ is the net generation of species i  in the volume due to process j} \\ 
+  \frac{\partial n_i}{\partial t} & \text{ is the rate of change of species i in the volume} \\ \\
+ n_i \, \vv{v_i} & \text{ is the convection rate for species i in or out of the volume} \\ \\
+ \omega_{ij} & \text{ is the net generation of species i  in the volume due to process j}
  \end{aligned}
  \end{equation*}
+ 
+ Previously, we had seen continuity as current but now we are considering species continuity. Note: the continuity is not equal to zero because we have species creation and destruction within the volume.
  \end{shaded}
  For instance, we could use
+ \vspace{-5mm}
  \begin{itemize}
-\item Electron-impact ionization
-\item Radiative recombination
+\item \textbf{Electron-impact ionization:} 
+ \vspace{-1mm}
+ \begin{itemize}
+ \item The rate at which species are being created via ionization {\Large$\omega_{i1}=k_1n_en_i$}
+ \end{itemize}
+\item \textbf{Radiative recombination:} 
+ \vspace{-1mm}
+ \begin{itemize}
+ \item The rate at which species are being removed via recombination. {\Large$\omega_{i2}=k_2n_i$}
+ \end{itemize}
 \end{itemize}
-And so on through all the processes of the last chapter, Chapter V.
+And so on through all the processes seen in Chapter 5.
  
-We could, in principle solve N equations for N species if we knew all the reaction rate constants             	.   For very simple, low-density plasmas, we use the corona model to do just that.   For higher-density plasmas we have to use a collisional-radiative model, which is more general but requires lots of number-crunching and assumptions.
+We could, in principle solve N equations for N species if we knew all the reaction rate constants     $k_j$        	.   For very simple, low-density plasmas, we use the \underline{corona model} to do just that.   For higher-density plasmas we have to use a \underline{collisional-radiative model}, which is more general but requires lots of number-crunching and assumptions.
  
-For really high density, the gas reaches equilibrium, and ionization modeling becomes much simpler.
-
-
+For really high density, the gas reaches equilibrium, and ionization modeling becomes much simpler and we use an \underline{equilibrium model}. This model of equilibrium ionization will lead us to deriving the SAHA equation. 
 \end{document}

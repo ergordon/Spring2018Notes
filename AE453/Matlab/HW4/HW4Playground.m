@@ -83,6 +83,11 @@ function HW4Playground
         txt1 = uicontrol('Style','text',...
         'Position',[100 2 100 20],...
         'String',['Temperature=' num2str(temp)]);
+    
+    set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','ElectronPlayground.pdf');
     end
 
     function [x,y1,y2] = pf(temp)

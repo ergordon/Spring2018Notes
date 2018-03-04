@@ -46,7 +46,7 @@ line(xL, [0 0],'color','k','linewidth',2) %x-axis
 line([0 0], yL,'color','k','linewidth',2) %y-axis
 title('Maxwellian Distribution Functions for Xenon Ion', 'FontSize', 18);
 ylabel('Probability', 'FontSize', 13)
-xlabel('c_1/(2kT/m)^{1/2} or C/(2kT/m)^{1/2}', 'FontSize', 13)
+xlabel('c_1/(2kT1/m)^{1/2} or C/(2kT1/m)^{1/2}', 'FontSize', 13)
 grid on
 grid minor
 legend('Maxwellian Speed Distribution T_i = 0.5 eV',...
@@ -54,8 +54,48 @@ legend('Maxwellian Speed Distribution T_i = 0.5 eV',...
     'Maxwellian Velocity Distribution T_i = 0.5 eV',...
     'Maxwellian Velocity Distribution T_i = 5 eV',...
     'Location','northwest')
-
 set(gcf,'paperorientation','landscape');
 set(gcf,'paperunits','normalized');
 set(gcf,'paperposition',[0 0 1 1]);
 print(gcf,'-dpdf','XeBoth.pdf');
+hold off
+
+subplot(2,1,1)
+hold on
+plot(c/c_mp1,chiM(1,:)*c_mp1,'-b','LineWidth',2) %normalize with cmp.
+plot(c/c_mp1,fM(1,:)*c_mp1,'--b','LineWidth',2)
+xL = xlim;
+yL = ylim;
+line(xL, [0 0],'color','k','linewidth',2) %x-axis 
+line([0 0], yL,'color','k','linewidth',2) %y-axis
+title('Xenon: T1 = 0.5 eV', 'FontSize', 18);
+ylabel('Probability', 'FontSize', 13)
+xlabel('c_1/(2kT1/m)^{1/2} or C/(2kT1/m)^{1/2}', 'FontSize', 13)
+grid on
+grid minor
+legend('Maxwellian Speed Distribution T_i = 0.5 eV',...
+    'Maxwellian Velocity Distribution T_i = 0.5 eV',...
+    'Location','northwest')
+hold off
+subplot(2,1,2)
+hold on
+plot(c/c_mp2,fM(2,:)*c_mp2,'--r','LineWidth',2)
+plot(c/c_mp2,chiM(2,:)*c_mp2,'-r','LineWidth',2) %normalize with cmp.
+xL = xlim;
+yL = ylim;
+line(xL, [0 0],'color','k','linewidth',2) %x-axis 
+line([0 0], yL,'color','k','linewidth',2) %y-axis
+title('Xenon: T2 = 5 eV', 'FontSize', 18);
+ylabel('Probability', 'FontSize', 13)
+xlabel('c_1/(2kT2/m)^{1/2} or C/(2kT2/m)^{1/2}', 'FontSize', 13)
+grid on
+grid minor
+legend('Maxwellian Speed Distribution T_i = 5 eV',...
+    'Maxwellian Velocity Distribution T_i = 5 eV',...
+    'Location','northwest')
+hold off
+
+set(gcf,'paperorientation','portrait');
+set(gcf,'paperunits','normalized');
+set(gcf,'paperposition',[0 0 1 1]);
+print(gcf,'-dpdf','XeBothSubed.pdf');

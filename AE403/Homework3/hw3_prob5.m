@@ -14,7 +14,7 @@ J3 = 750;  % kgm^3
 R0 = eye(3);
 w0 = [1*10^w0x; 0; 0];
 J = [J1 0 0; 0 J2 0; 0 0 J3];
-tMax = 20;
+tMax = 7.5*2*pi;
 %
 % %%
 
@@ -112,7 +112,7 @@ AM1 = AngularMomentum(1,:);
 AM2 = AngularMomentum(2,:);
 AM3 = AngularMomentum(3,:);
 %% Plotting Code for Part B
-%%{
+%{
 figure(2);
 subplot(2,1,1);
 plot(t,[RR1,RR2,RR3,RR4,RR5,RR6,RR7,RR8,RR9])
