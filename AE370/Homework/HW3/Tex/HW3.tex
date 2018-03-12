@@ -66,19 +66,43 @@ Solve the equations using the Jacobi method and the Gauss-seidel method. Stop wh
 
 \textbf{Solution:} 
 
-The Jacobi Method converges within a tolerance of 1e-05 after the 30 iteration with a final solution u=[0.2159 -0.6594 1.1352 0.5820]
+The Jacobi Method converges within a tolerance of 1e-14 after the 74 iteration with a final solution:
+\begin{equation*}
+\begin{aligned}
+u_{\text{Jacobi}}=
+\begin{bmatrix}
+0.215948489351164 \\ -0.659422981674096 \\ 1.135153541357108 \\ 0.582033184744923
+\end{bmatrix}
+\end{aligned}
+\end{equation*}
 
-The Gauss-Seidel Method converges within a tolerance of 1e-05 after the 14 iteration with a final solution u=[0.2159 -0.6594 1.1352 0.5820]
+The Gauss-Seidel Method converges within a tolerance of 1e-14 after the 32 iteration with a final solution: 
+\begin{equation*}
+\begin{aligned}
+u_{\text{Gauss-Seidel}}=
+\begin{bmatrix}
+0.215948489351164 \\ -0.659422981674096 \\ 1.135153541357108 \\ 0.582033184744924
+\end{bmatrix}
+\end{aligned}
+\end{equation*}
 
-The Matlab Function $A \textbackslash B = u$ has the final solution of u=[0.2160 -0.6594 1.1352 0.5820]
+The Matlab Function A$\textbackslash$B = u has the final solution of:
+\begin{equation*}
+\begin{aligned}
+u_{\text{MatlabExact}}=
+\begin{bmatrix}
+0.215948489351164 \\ -0.659422981674096 \\ 1.135153541357107 \\ 0.582033184744923
+\end{bmatrix}
+\end{aligned}
+\end{equation*}
 
-As we can see, both methods converged to the Matlab "exact" value. Note that the Gauss-Seidel method converges in almost half the number of iterations needed for the Jacobi method.
+As we can see, both methods converged to the Matlab "exact" value. Note that the Gauss-Seidel method converges in half the number of iterations needed for the Jacobi method. 
 
-The following code was utilized to arrive at these solutions. Following the code are two plots. The first is the relative error of the magnitude of u compared for each method to the exact solution. The second plot is the convergence of each method looking at their residue.
+The following code was utilized to arrive at these solutions. Matlab can produce up to 15 decimal places. As a result, tolerance was set to 1e-14 to reach an order of magnitude difference of one.
 \begin{figure}[H]
 \begin{lstlisting}
 function hw3
-    tol = 0.00001;                                  % Tolerance
+    tol = 1e-14;                                    % Tolerance
     A = [5 -15 -1 2; 3 20 4 0; 1 6 11 -3;4 11 3 12];% A Matrix defined by problem statement
     B = [11; -8; 7; 4];                             % B Matrix defined by problem statement
     exact = A\B;                                    % Exact Matlab Solution

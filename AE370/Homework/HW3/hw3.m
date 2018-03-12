@@ -1,5 +1,6 @@
 function hw3
-tol = 0.00001 %Tolerance for iterations stop
+format long
+tol = 1e-14 %Tolerance for iterations stop
 A = [5 -15 -1 2;...
      3 20 4 0;...
      1 6 11 -3;...
@@ -15,10 +16,9 @@ Jite = iterationsJ(end);
 endGS = uGS(:,end);
 GSite = iterationsGS(end);
 
-sprintf('The Jacobi Method converges within a tolerance of %1.0d after the %d iteration with a final solution u=[%0.4f %0.4f %0.4f %0.4f]',tol,Jite,endJ(1),endJ(2),endJ(3),endJ(4))
-sprintf('The Gauss-Seidel Method converges within a tolerance of %1.0d after the %d iteration with a final solution u=[%0.4f %0.4f %0.4f %0.4f]',tol,GSite,endGS(1),endGS(2),endGS(3),endGS(4))
-sprintf('The Matlab Function A\\B = u has the final solution of u=[%0.4f %0.4f %0.4f %0.4f]',round(exact(1),5),round(exact(2),5),round(exact(3),5),round(exact(4),5))
-
+sprintf('The Jacobi Method converges within a tolerance of %1.0d after the %d iteration with a final solution u=[%0.15f %0.15f %0.15f %0.15f]',tol,Jite,endJ(1),endJ(2),endJ(3),endJ(4))
+sprintf('The Gauss-Seidel Method converges within a tolerance of %1.0d after the %d iteration with a final solution u=[%0.15f %0.15f %0.15f %0.15f]',tol,GSite,endGS(1),endGS(2),endGS(3),endGS(4))
+sprintf('The Matlab Function A\\B = u has the final solution of u=[%0.15f %0.15f %0.15f %0.15f]',exact(1),exact(2),exact(3),exact(4))
 
 end
 

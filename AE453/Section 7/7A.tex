@@ -1,0 +1,749 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage{newtxmath}
+\usepackage{euscript}
+\DeclareMathAlphabet{\mathpzc}{T1}{pzc}{m}{it}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{0}
+\setcounter{page}{2}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 7:  Electrothermal Propulsion}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Section 7:  Electrothermal Propulsion}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Fundamentals}
+\vspace{25mm}
+\tableofcontents
+\newpage
+\subsection{Simple Analysis}
+Propellant flexibility leads us to expect high $I_{SP}$.  Consider 1D adiabatic nozzle flow from the heating chamber to the nozzle exit.  Thus...
+\begin{center}
+\vspace{50mm}
+\textbf{Figure 1:}
+\end{center}
+\begin{shaded}
+\textbf{Stagnation Enthalpy Balance:}
+
+ \begin{equation}
+ \begin{aligned}
+ h_{oc} = h_{oe}
+ \end{aligned}
+ \end{equation}
+ 
+  \begin{equation}
+ \begin{aligned}
+ \frac{1}{2} \, u_e^2+h_e = \frac{1}{2} \, u_c^2 + h_c
+ \end{aligned}
+ \end{equation}
+ 
+Where
+\begin{equation*}
+\begin{aligned}
+u_e &= \text{The Exit Velocity} \qquad& \text{[m/s]} \\
+u_c &= \text{The Chamber Velocity}  \qquad& \text{[m/s]} \\
+h_e &= \text{The Exit Enthalpy}  \qquad& \text{[J/kg]} \\
+h_c &= \text{The Chamber Enthalpy} \qquad& \text{[J/kg]} 
+\end{aligned}
+\end{equation*}
+ \end{shaded}
+If we assume constant specific heats, and negligible inlet speed ($u_c \approx 0$), the exit velocity is:
+ 
+ \begin{shaded}
+ \textbf{Exit Velocity}
+  \begin{equation*}
+ \begin{aligned}
+ u_e = \sqrt{2 \, c_p \, (T_c - T_e)}
+ \end{aligned}
+ \end{equation*}
+ Where
+  \begin{equation}
+ \begin{aligned}
+ h_e = c_p \, T_e
+ \end{aligned}
+ \end{equation}
+  \begin{equation}
+ \begin{aligned}
+  h_c = c_p \, T_c
+ \end{aligned}
+ \end{equation}
+ \end{shaded}
+ \newpage
+Further, assuming complete expansion ($T_e < < T_c$):
+ 
+   \begin{equation}
+ \begin{aligned}
+u_e \cong \sqrt{2 \, c_p \, T_c}
+ \end{aligned}
+ \end{equation}
+ 
+And using
+ \begin{framed}
+   \begin{equation}
+ \begin{aligned}
+ c_p = \frac{\gamma \, \Re}{(\gamma - 1) MW}
+ \end{aligned}
+ \end{equation}
+Where
+\begin{equation*}
+\begin{aligned}
+\Re &=8314 \, \frac{J}{Kmol-K}\\
+MW &= \text{Molecular Weight} \\
+\end{aligned}
+\end{equation*} 
+ \end{framed}
+ 
+The exit velocity is then:
+ 
+   \begin{equation}
+ \begin{aligned}
+u_e \cong \sqrt{\frac{\gamma \, \Re \, 2}{(\gamma -1)\,MW} \, T_c}
+ \end{aligned}
+ \end{equation}
+ 
+ \begin{framed}
+The specific heat $c_p$ is critical: it defines the achievable stagnation enthalpy.  For H2,
+\begin{equation*}
+\begin{aligned}
+T_{oc} &= 3000 \, [K] \, \text{The limit for refractory metals.} \\
+C_p &= 2 \times 10^4 \, [J/kg-K] \, \text{at 1atm and 3000K} & \\ 
+u_e &= 11 \, [km/s] & \\ 
+I_{SP} &= 1100 \, [sec] &\\
+\end{aligned}
+\end{equation*} 
+ \end{framed}
+ 
+Assuming an efficiency         $\eta = 60 \%$            	the thrust-to-power ratio of this combination is:
+   \begin{equation*}
+ \begin{aligned}
+ \frac{T}{P} = \frac{2 \, \eta}{g_o \, I_{SP}} = 0.11 \, \Bigg[\frac{N}{kWe}\Bigg]
+ \end{aligned}
+ \end{equation*}
+ 
+So, ET can readily provide
+\begin{itemize}
+\vspace{-5mm}
+\item 3-4x The $I_{SP}$ of bipropellant system
+\item 5x The $I_{SP}$ of monopropellant system
+\end{itemize}
+Typical commsats have 4-5 kW available for propulsion, so this could provide $\sim$0.5 N of thrust.  
+ \newpage
+ 
+ 
+\subsection{Deviation from Ideal Behavior}
+The biggest loss factor in Electrothermal Propulsion is \textbf{Frozen Flow Losses}.  Recall our stagnation enthalpy balance:
+   \begin{equation}
+ \begin{aligned}
+ \frac{1}{2} \, u_e^2 = h_{oc} - h_e
+ \end{aligned}
+ \end{equation}
+Frozen flow losses results from non-negligible amounts of unrecoverable internal energy, $h_e$.
+ 
+As an example, consider a hydrazine arcjet.  We start with the exothermic decomposition of hydrazine:
+    \begin{equation*}
+ \begin{aligned}
+ 3\,N_2\,H_4 \longrightarrow 4 \,N\,H_3 + N_2
+ \end{aligned}
+ \end{equation*}
+ 
+There's an associated endothermic dissociation of ammonia:
+    \begin{equation*}
+ \begin{aligned}
+2\,N \, H_3 \longrightarrow N_2+3\,H_2
+ \end{aligned}
+ \end{equation*}
+ 
+In the discharge chamber, there's enough heat and time to drive both to the end products:
+    \begin{equation*}
+ \begin{aligned}
+3\,N_2 \, H_4 \longrightarrow 3 \, N_2+6\,H_2
+ \end{aligned}
+ \end{equation*}
+ Two Extremes: Equillibrium and Endothermic Reactions.
+ 
+If we exhaust this through a nozzle (so T and p drop with axial distance, x), we can get two extremes.  If the flow stays in equilibrium, the ammonia composition rises with axial distance in the nozzle as nitrogen and hydrogen recombine.
+\begin{center}
+\vfill
+\textbf{Figure 2: }Equilibrium Flow
+\end{center}
+\newpage
+But, if the expansion is quick enough that the endothermic reaction doesn't have time to reverse (i.e., release heat into the flow), we have frozen flow.  In this case, the energy tied up in dissociation is unavailable for acceleration of the gas.
+\begin{center}
+\vspace{70mm}
+\textbf{Figure 3: }No Recombination, No Ammonia, Frozen Flow
+\end{center}
+Note that dissociation is good in Nuclear Thermal Rockets (NTRs):
+\begin{itemize}
+\item Lower mean molecular weight of exhaust products
+\item Increases maximum $I_{SP}$
+\end{itemize}
+But bad in Electrothermal Propulsion thrusters.  Why?  Energy cost:  NTRs have lots of cheap power, but making up the lost investment means more solar array area for Electrothermal Propulsion (need more electrical power).  And thus more dry mass.
+ 
+
+\newpage
+\subsection{Efficiency Terms}
+Frozen flow is one of several losses that can be described by efficiency terms:
+\begin{shaded}
+\textbf{Frozen Flow Efficiency:}
+    \begin{equation}
+ \begin{aligned}
+ \eta_f = \frac{h_{oc} - h_e}{h_oc}
+ \end{aligned}
+ \end{equation}
+Where
+\begin{equation*}
+\begin{aligned}
+h_{oc} &= \text{Stagnation Enthalpy in the Chamber}\\
+h_e &= \text{Enthalpy at the Exit Plane} \\
+\end{aligned}
+\end{equation*} 
+\end{shaded}
+ Physically you can think of this as
+\begin{equation}
+ \begin{aligned}
+\eta_f = \frac{\text{Power in Fluid "Available" for Thrust}}{\text{Power in Fluid}}
+ \end{aligned}
+ \end{equation}
+ 
+Some power is also lost by heat-transfer inefficiencies (remember we assumed adiabatic in (7.1)), this is radiated or conducted heat loss from the system, and can be described by:
+ 
+\begin{shaded}
+\textbf{Heating Efficiency}
+    \begin{equation}
+ \begin{aligned}
+ \eta_{th} = \frac{\text{Power into Fluid}}{\text{Electrical Power}}
+ \end{aligned}
+ \end{equation}
+ \end{shaded}
+ 
+Non-ideal nozzle flow is another loss (viscosity, heat transfer in the nozzle, profile losses) costs power too, described by the:
+\begin{shaded}
+\textbf{Nozzle Efficiency}
+    \begin{equation}
+ \begin{aligned}
+\eta_{n} = \frac{\text{Thrust Power}}{\text{Available Power in Fluid}}
+ \end{aligned}
+ \end{equation}
+ \end{shaded}
+ 
+The overall thruster efficiency is the product of these component efficiencies:
+ 
+\begin{shaded}
+\textbf{Overall Thruster Efficiency}
+    \begin{equation}
+ \begin{aligned}
+ \eta = \eta_f \,  \eta_{th}\,  \eta_{n} = \frac{\text{Thrust Power}}{\text{Electrical Power}}
+ \end{aligned}
+ \end{equation}
+ \end{shaded}
+ 
+If we can't keep the overall efficiency high, Electrothermal Propulsion systems lose any competitive advantage over chemical rockets.  This is the major challenge in Electrothermal Propulsion thruster development.
+
+
+\newpage
+\subsection{Enthalpy of High Temperature Gas}
+In 1-D energy equation for nozzle flow:
+    \begin{equation*}
+ \begin{aligned}
+  \frac{1}{2} \, u_e^2 = \frac{1}{2} \, u_c^2 + (h_c - h_e)
+ \end{aligned}
+ \end{equation*}
+ 
+The driving term is the specific enthalpy:
+    \begin{equation}
+ \begin{aligned}
+ h \equiv e + \frac{P}{\rho}
+ \end{aligned}
+ \end{equation}
+ 
+The partial differential of the enthalpy with respect to temperature at constant pressure is the specific heat:
+    \begin{equation}
+ \begin{aligned}
+ c_p = \bigg(\frac{\partial h}{\partial T}\bigg)_P
+ \end{aligned}
+ \end{equation}
+ 
+ 
+The enthalpy of a gas mixture depends on its constituents, and on what internal energy modes they have available.  Consider one kg of a diatomic gas.  The original number of molecules is:
+ 
+    \begin{equation}
+ \begin{aligned}
+ N_o = \frac{1}{M_A}
+ \end{aligned}
+ \end{equation}
+where $M_A$ is the molecular mass.  (for example, one kg of nitrogen has
+ 
+    \begin{equation*}
+ \begin{aligned}
+ (N_o)_{N_2} = \frac{1}{2 \, (14) \, 1.66\times10^{-27} \, [kg]} = 2.150\times10^{25} \,[kg^{-1}]
+ \end{aligned}
+ \end{equation*}
+If you heat this to a temperature where dissociation and ionization are important, you get:
+\begin{itemize}
+\vspace{-3mm}
+\item Neutral molecules \qquad $\alpha_2 \, N_o$
+\item Neutral atoms \qquad $\alpha_1 \, N_o$
+\item Molecular single ions \qquad $\alpha_2^+ \, N_o$
+\item Atomic single ions \qquad $\alpha_1^+ \, N_o$
+\item Free electrons \qquad $\alpha_e \, N_o$
+ \end{itemize}
+ Where  $\alpha$'s are species fractions. Note, we ignore multiple ionization levels.
+ 
+By conservation of atomic particles, we get:
+    \begin{equation}
+ \begin{aligned}
+ \alpha_2 + \alpha_2 ^+ + \frac{1}{2} \, \alpha_1 + \frac{1}{2} \, \alpha_1^+  = 1
+ \end{aligned}
+ \end{equation}
+ 
+While conservation of electric charge gives:
+ 
+    \begin{equation}
+ \begin{aligned}
+ \alpha_e = \alpha_1^+ + \alpha_2^+
+ \end{aligned}
+ \end{equation}
+ 
+We want an equation for the Enthalpy of (7.14), so we will start with the p/? term, then do the internal energy , e, term.
+ 
+Now that we've defined the species fractions, we can use this in the perfect gas equation of state:
+ 
+    \begin{equation}
+ \begin{aligned}
+ \frac{P}{\rho} = ( \alpha_2 + \alpha_2 ^+ + \alpha_1 + \alpha_1^+ + \alpha_e)\, N_o \, k \, T
+ \end{aligned}
+ \end{equation}
+ 
+Rewriting conservation of atomic particles (7.17) as
+ 
+    \begin{equation*}
+ \begin{aligned}
+ \alpha_2 = 1 - \alpha_2 ^+ - \frac{1}{2} \, \alpha_1 - \frac{1}{2} \, \alpha_1^+
+ \end{aligned}
+ \end{equation*}
+ 
+(7.19) then becomes:
+
+   \begin{equation*}
+ \begin{aligned}
+ \frac{P}{\rho} = ( 1 + \frac{1}{2} \, \alpha_1 + \frac{1}{2} \, \alpha_1^+ + \alpha_e)\, N_o \, k \, T
+ \end{aligned}
+ \end{equation*} 
+ 
+If we substitute in conservation of charge (7.18), we get:
+ 
+    \begin{equation}
+ \begin{aligned}
+ \frac{P}{\rho} = ( 1 + \frac{1}{2} \, \alpha_1 + \alpha_2^+ + \frac{3}{2} \, \alpha_1^+)\, N_o \, k \, T \equiv \alpha_P \, N_o \, k \, T\, 
+ \end{aligned}
+ \end{equation}
+ 
+which we can write in terms of an \textbf{Indicated Factor:} $\bf{\alpha_P}$ .
+ 
+Now we move on to the internal energy, e, term in (7.14).
+
+We can consider the specific internal energy, e, for the individual species:
+\begin{enumerate}
+\item Neutral molecules
+ 
+    \begin{equation}
+ \begin{aligned}
+ e_2 = \alpha_2 \, N_o \, \Bigg(\frac{3}{2} \, k \, T + \beta_r \, k \, T + \beta_v \, k \, T + \sum_j \beta_j \, \varepsilon_j\Bigg)
+ \end{aligned}
+ \end{equation}
+Where
+   \begin{equation*}
+ \begin{aligned}
+\frac{3}{2} \, k \, T &= \text{Translational Energy for all Molecules}\\
+\beta_r \, k \, T &= \text{Rotational Energy for the Rotationally-Excited Fraction, } \beta_r\\
+ \beta_v \, k \, T &= \text{Vibrational Energy for the Vibrationally-Excited Fraction, } \beta_v\\
+\beta_j &= \text{Electronic Energy Fraction in the $j^{th}$ Excited State}\\
+\varepsilon_j &= \text{The Energy of that Electronic State above Ground State}\\
+  \end{aligned}
+ \end{equation*} 
+\item Neutral atoms
+    \begin{equation}
+ \begin{aligned}
+ e_1 = \alpha_1 \, N_o \, \Bigg(\frac{3}{2} \, k \, T + \sum_k \beta_k \, \varepsilon_k\Bigg)
+ \end{aligned}
+ \end{equation}
+ 
+\item Molecular ions
+    \begin{equation}
+ \begin{aligned}
+ e_2^+ = \alpha_2^+ \, N_o \, \Bigg(\frac{3}{2} \, k \, T + \beta_r^+ \, k \, T + \beta_v^+ \, k \, T + \sum_l \beta_l \, \varepsilon_l\Bigg)
+ \end{aligned}
+ \end{equation}
+ 
+\item Atomic ions
+    \begin{equation}
+ \begin{aligned}
+ e_1^+ = \alpha_1^+ \, N_o \, \Bigg(\frac{3}{2} \, k \, T + \sum_m \beta_m \, \varepsilon_m\Bigg)
+ \end{aligned}
+ \end{equation}
+ 
+\item Free electrons
+    \begin{equation}
+ \begin{aligned}
+ e_e = \alpha_e \, N_o \, \Bigg(\frac{3}{2} \, k \, T \Bigg)
+ \end{aligned}
+ \end{equation}
+ \end{enumerate}
+Also need to include the specific dissociation energy (the energy tied up in dissociation):
+    \begin{equation}
+ \begin{aligned}
+ e_d = N_o \, \frac{\alpha_1 + \alpha_1^+}{2} \, \varepsilon_d
+ \end{aligned}
+ \end{equation}
+Where
+\begin{equation*}
+ \begin{aligned}
+\varepsilon_d &= \text{Dissociation energy for a single molecule}\\
+  \end{aligned}
+ \end{equation*} 
+The 1/2 term exists because       $\varepsilon_d$  	is split between a pair of atom.
+
+Also need to include the specific ionization energy (the energy tied up in dissociation):
+    \begin{equation}
+ \begin{aligned}
+e_i = N_o \, (\alpha_2^+ \, \epsilon_i + \alpha_1^+ \, \epsilon_i' )
+ \end{aligned}
+ \end{equation}
+Where
+\begin{equation*}
+ \begin{aligned}
+\varepsilon_i &= \text{Molecular Ionization Potential}\\
+\varepsilon_i' &= \text{Atomic Ionization Potential}\\
+  \end{aligned}
+ \end{equation*} 
+
+
+ 
+Combine all these terms together for the total specific enthalpy of the mixture (7.20), (7.21), (7.22), (7.23), (7.24), (7.25), (7.26), (7.27):
+    \begin{equation}
+ \begin{aligned}
+h = e + \frac{P}{\rho} &= \alpha_2 \, N_o \, \Bigg[ (5/2 + \beta_r + \beta_v)\, k \, T + \sum_j \beta_j \, \varepsilon_j\Bigg]\\
+&+\alpha_1 \, N_o \, \Bigg[\, \frac{5}{2} \, k \, T + \sum_k \beta_k \, \varepsilon_k + \frac{\varepsilon_d}{2}\, \Bigg]\\
+&+\alpha_2^+ \, N_o \, \Bigg[ (5/2 + \beta_r^+ + \beta_v^+)\, k \, T + \sum_l \beta_l \, \varepsilon_l + \varepsilon_i\Bigg]\\
+&+\alpha_1^+ \, N_o \, \Bigg[\, \frac{5}{2} \, k \, T + \sum_m \beta_m \, \varepsilon_m + \frac{\varepsilon_d}{2} + \varepsilon_i' \,\Bigg]\\
+&+\alpha_e \, N_o \, \Bigg[\,\frac{5}{2} \, k \, T\,\Bigg]
+ \end{aligned}
+ \end{equation}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Let's now look at how the internal degrees of freedom (available energy modes for storing internal energy),
+ 
+are affected by temperature:
+Monatomic species:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Monatomic species have fewer degrees of freedom, so their specific heats change less over a range of temperatures up to electronic excitation around 104 K.
+ 
+Diatomic gas:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In a diatomic gas, rotation becomes fully-excited at very low temperature (cryogenic temps, a few K), and vibrational excitation in the high 100s of K. 
+ 
+The adiabatic index,
+ 
+ 
+is  then:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Finally, note that since                     and                  	the specific enthalpy is higher for lower molecular weight gases.
+ 
+The                             	fractions adjust to changes in the flow field at rates that are often slower than translational changes (which are fast):
+ 
+Rotation
+Adjust very rapidly
+Fully-excited even at cryo temperatures
+Vibration
+Adjusts at a rate that depends on the mode and molecule
+Some modes several order of magnitude slower than translation or rotation
+May be only partially excited at EP temperatures
+Can get significant vibrational nonequilibrium
+Electronic
+Adjusts at rates depending on density and temperature
+Optical thinness results in loss of radiative equilibrium
+Higher levels may be sparsely populated and thus negligible
+Dissociation
+Need collisions with                 	so slow to adjust
+Rates highly dependent on density
+Ionization
+Needs                 	so slow to adjust
+ 
+EXAMPLE:  assume H2 at equilibrium, 0.01 atm, and 3000 K.  Dissociation is 60%.
+So:
+ 
+ 
+ 
+Lots of vibrational excitation, little electronic excitation, so the combustion chamber enthalpy is:
+ 
+ 
+Assume that all degrees of freedom except dissociation reach equilibrium after complete expansion, so
+ 
+ 
+where       	is the fraction of the original dissociation remaining at the exit:
+ 
+ 
+ 
+Solving energy equation for exhaust speed gives:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dissociation increases cp (and thus enthalpy) but the increased enthalpy may not be recoverable (frozen flow loss).
+ 
+Jahn suggests three ways to avoid frozen-flow losses:
+Increase nozzle length (which runs into practical scaling limits, increased weight, and viscous losses)
+Operate at higher pressure (to increase the rate of recombination)  Jahn's figure 6-3 shows how the complete frozen flow efficiency varies with specific impulse for hydrogen  (the worst-case frozen flow efficiency, with no recombination at all).  Note that higher pressure does help to control frozen-flow losses.
+ 
+Choose a better propellant.   Jahn gives a range of candidates at the end of 6-2.
+
+
+\newpage
+\subsection{Equilibrium Composition}
+We can define equilibrium composition as the point where forward and backward reactions balance.  For example, the dissociation of hydrogen:
+ 
+ 
+in an arcjet is at equilibrium when
+ 
+ 
+ 
+For the generic reaction
+ 
+ 
+ 
+the rate  of change of the concentration (moles/m3) of species C is given by:
+ 
+At equilibrium,
+ 
+ 
+ 
+Very generally then, the reaction
+ 
+ 
+has an equilibrium constant
+ 
+ 
+ 
+ 
+where pi is the partial pressure of species i.  For a mixture of perfect gases,
+ 
+ 
+where
+Mole fraction of species i
+p is the total pressure
+ 
+Thus, the equilibrium constant
+ 
+ 
+ 
+can be expressed as
+ 
+ 
+We can define a dimensionless equilibrium constant for this generic reaction as:
+ 
+ 
+by defining a reference pressure po (typically 1 atm).
+Note:
+K is dimensionless
+Kp is NOT dimensionless
+For ideal gases, K is a function of Temp only.
+Values for K can be found tabulated in numerous combustion texts, e.g., appendix of "Fundamentals of Classical Thermodynamics" by vanWylen and Sonntag
+ 
+EXAMPLE:
+Hydrogen at 3000K and 20 atm.   The dissociation reaction
+ 
+ 
+can be described by the dimensionless equilibrium constant
+ 
+ 
+ 
+Now, look up tabulated value of K = K(T) at 3000 K (I used vanWylen and Sonntag):
+ 
+ 
+so
+ 
+ 
+From the definition of mole fraction,
+ 
+And so
+ 
+which is a quadratic equation.  The soln. has two roots, but only one of them is positive, so:
+ 
+ 
+So at 3000 K and 20atm pressure, hydrogen is about 3.5$\%$ dissociated.
+ 
+ 
+A more relevant example is the hydrazine thruster
+ 
+ 
+ 
+ 
+These have a long history
+Early N2H4 thrusters (Ranger and Mariner midcourse maneuvering engines) used a hypergolic slug to warm a non-spontaneous catalyst bed to temperatures at which N2H4 decomposed.
+The Shell 405 catalyst (alumina pellets coated with iridium) was developed in 1962, permitting spontaneous decomposition of hydrazine.
+ 
+As we saw before, we have two competing reactions.  The first is decomposition of hydrazine:
+ 
+ 
+If this exothermic reaction was one-way, there would be enough energy to raise the products to an equilibrium temperature of 1650 K.  But at this temperature ammonia dissociates:
+ 
+ 
+This reaction is endothermic, which drives the equilibrium temperature down.
+ 
+Equilibrium temperature assumes that both reactions have had time to complete!  But the
+Exothermic reaction is fast, ~<1ms
+Endothermic reaction is slow, ~10-100ms
+ 
+For a catalyst bed/reaction chamber volume Vch, we can reduce the residence time to control the dissociation fraction, x.
+ 
+ 
+The final reaction then becomes:
+ 
+ 
+and the enthalpy  balance for an adiabatic reaction is:
+ 
+ 
+which  can be solved for T, given enthalpies.  (l denotes liquid phase).
+Need the enthalpies, curve-fits to enthalpy data, using
+ 
+We can solve for T at various levels of dissociation:
+For comparison, the equilibrium composition at ~1000 K is
+ 
+ 
+ 
+ 
+So, if allowed to equilibrate, ammonia would nearly completely dissociate.
+ 
+Dissociation:
+Decreases chamber temperature Tc, but also
+Decreases the mean product mass (molecular weight)
+To see how these competing effects influence Isp, look at values for  (area ratio of ~50)
+Clearly, best performance for a purely-chemical hydrazine thruster results at minimal dissociation                        	. Design is typically a compromise:
+High performance at high Tc
+Long lifetime at low Tc
+Typical choice is x~0.4.
+ 
+We'll explore more when we get into resistojets shortly.
+
+
+\newpage
+\subsection{Nozzle Flow}
+ET thrusters use a converging-diverging nozzle to convert high-enthalpy  chamber gases to high-speed supersonic exhaust:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+If we describe two planes, x, and y, that are prependicular to the mean flow direction, we can use simple 1-D compressible flow equations to arrive at area ratio equation:
+ 
+ 
+ 
+where  we use Mach number:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+
+
+\end{document}

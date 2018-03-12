@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2018 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2018 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,26 +342,23 @@ Package color Info: Driver file: pdftex.def on input line 144.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
 (./OUFTI_ADCS.aux)
 \openout1 = `OUFTI_ADCS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -426,7 +423,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 32.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -435,9 +432,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./OUFTI_ADCS.out) (./OUFTI_ADCS.out)
 \@outlinefile=\write3
@@ -447,12 +444,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count135
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -464,191 +461,181 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-./OUFTI_ADCS.tex:58: Text line contains an invalid character.
-l.58 ...am. OUFTI-1 is a 1U cubesat and is the ^^\
+./OUFTI_ADCS.tex:42: Text line contains an invalid character.
+l.42 ...am. OUFTI-1 is a 1U cubesat and is the ^^\
                                                   first satellite equipped w...
 
 ? r
 OK, entering \nonstopmode...
-./OUFTI_ADCS.tex:60: Text line contains an invalid character.
-l.60 ...s not required to point in one specific^^\
+./OUFTI_ADCS.tex:44: Text line contains an invalid character.
+l.44 ...is not required to point in one specifi^^\
                                                   c direction and the Attitu...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--61
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--67
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--60
 
  []
 
 [2]
-./OUFTI_ADCS.tex:79: Text line contains an invalid character.
-l.79 ...ire high-precision orientation or speci^^\
-                                                  fic maneuvers during its f...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:81: Text line contains an invalid character.
-l.81 ...sive control types for satellites. The ^^\
-                                                  first is using a  gravity ...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:81: Text line contains an invalid character.
-l.81 ...e satellite along the earth magnetic fi^^\
+./OUFTI_ADCS.tex:63: Text line contains an invalid character.
+l.63 ...satellite along the Earth's magnetic fi^^\
                                                   eld using an onboard magne...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--84
+Underfull \hbox (badness 10000) in paragraph at lines 61--69
 
  []
 
 [3]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 84.
+(hyperref)                than one, level fixed on input line 69.
 
-./OUFTI_ADCS.tex:85: Text line contains an invalid character.
-l.85 ...tude stabilization approach required a ^^\
+./OUFTI_ADCS.tex:70: Text line contains an invalid character.
+l.70 ...tude stabilization approach required a ^^\
                                                   fine mathematical simulati...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
- [4]
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...ch occurs between the application of a ^^\
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+
+./OUFTI_ADCS.tex:84: Text line contains an invalid character.
+l.84 ...ch occurs between the application of a ^^\
                                                   field/force and its subseq...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...of a ^^\field/force and its subsequent ^^[
+./OUFTI_ADCS.tex:84: Text line contains an invalid character.
+l.84 ...of a ^^\field/force and its subsequent ^^[
                                                   effect. In the magnetic hy...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...ich appears between a varying magnetic ^^\
+./OUFTI_ADCS.tex:84: Text line contains an invalid character.
+l.84 ...ich appears between a varying magnetic ^^\
                                                   field "H-field" and the su...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...tic induction depends on the current H-^^\
+./OUFTI_ADCS.tex:84: Text line contains an invalid character.
+l.84 ...tic induction depends on the current H-^^\
                                                   field and the previous mag...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...perience the effects of earth magnetic ^^\
+./OUFTI_ADCS.tex:84: Text line contains an invalid character.
+l.84 ...perience the effects of earth magnetic ^^\
                                                   field which varies along i...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:97: Text line contains an invalid character.
-l.97 ...ars were be used. This maintained rod e^^^
+./OUFTI_ADCS.tex:88: Text line contains an invalid character.
+l.88 ...ars were be used. This maintained rod e^^^
                                                   fficiency while also incre...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
+Underfull \hbox (badness 10000) in paragraph at lines 84--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--98
+Underfull \hbox (badness 10000) in paragraph at lines 84--92
 
  []
 
-[5]
-./OUFTI_ADCS.tex:99: Text line contains an invalid character.
-l.99 ...t. This concern forces a design with su^^^
-                                                  fficient distances between...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:99: Text line contains an invalid character.
-l.99 ...reover, if a component of the magnet's ^^\
+[4]
+./OUFTI_ADCS.tex:93: Text line contains an invalid character.
+l.93 ...reover, if a component of the magnet's ^^\
                                                   field is directed along th...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:99: Text line contains an invalid character.
-l.99 ...e leads to a component of the vector fi^^\
-                                                  eld Hmagnet directed along...
+./OUFTI_ADCS.tex:93: Text line contains an invalid character.
+l.93 ...e leads to a component of the vector fi^^\
+                                                  eld H magnet directed alon...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:99: Text line contains an invalid character.
-l.99 ...ed along the rod, which may therefore a^^[
-                                                  ffect the damping effi^^^c...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:99: Text line contains an invalid character.
-l.99 ...ay therefore a^^[ffect the damping effi^^^
+./OUFTI_ADCS.tex:93: Text line contains an invalid character.
+l.93 ...h may therefore affect the damping effi^^^
                                                   ciency.
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--102
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
 
  []
 
-<./pictures/1.png, id=74, 593.21625pt x 426.59375pt>
+[5] <./pictures/1.png, id=78, 593.21625pt x 426.59375pt>
 File: ./pictures/1.png Graphic file (type png)
- <use ./pictures/1.png>
-Package pdftex.def Info: ./pictures/1.png used on input line 103.
+
+<use ./pictures/1.png>
+Package pdftex.def Info: ./pictures/1.png used on input line 97.
 (pdftex.def)             Requested size: 474.57364pt x 341.27545pt.
 
-Overfull \hbox (4.81862pt too wide) in paragraph at lines 103--104
+Overfull \hbox (4.81862pt too wide) in paragraph at lines 97--98
  [] 
  []
 
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Missing character: There is no è in font cmr12!
+Missing character: There is no é in font cmti12!
  [7 <./pictures/1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./OUFTI_ADCS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `OUFTI_ADCS.out' has not changed.
-(rerunfilecheck)             Checksum: D5E434EA97AE5039F3CF8422FA5BF4DB;633.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+(rerunfilecheck)             Checksum: 361335870BFA215D27E53968C4A9B535;641.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 8593 strings out of 493014
- 127551 string characters out of 6133351
- 254238 words of memory out of 5000000
- 12013 multiletter control sequences out of 15000+600000
- 12403 words of font info for 48 fonts, out of 8000000 for 9000
+ 8557 strings out of 493014
+ 126877 string characters out of 6133351
+ 222209 words of memory out of 5000000
+ 11972 multiletter control sequences out of 15000+600000
+ 12919 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,40p,903b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,38p,903b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -657,11 +644,13 @@ r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on OUFTI_ADCS.pdf (7 pages, 260919 bytes).
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on OUFTI_ADCS.pdf (8 pages, 284164 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -41,7 +41,8 @@ print(gcf,'-dpdf','p4.pdf');
 
     %SAHA Equation
     function alpha = SAHA(P,T)
-        m = 2.18e-25; %Mass of Xenon [kg]
+        %m = 2.18e-25; %Mass of Xenon [kg]
+        m = 4.48e-26;     % Mass of Electron [kg]
         k = 1.38e-23; % Boltzmann's constant [J/K]
         h = 6.62607e-34;%Planck's Constant [m^2 kg/s]
         epsilon_i = 12.13; %Ionization Energy wrt. Atomic Ground State [eV]

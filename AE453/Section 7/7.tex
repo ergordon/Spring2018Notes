@@ -1,0 +1,106 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage{newtxmath}
+\usepackage{euscript}
+\DeclareMathAlphabet{\mathpzc}{T1}{pzc}{m}{it}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{-1}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+%\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\definecolor{babyblue}{rgb}{0.69, 0.88, 0.9}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 7:  Electrothermal Propulsion}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+
+\begin{center}
+{\LARGE \bf Section 7:  Electrothermal Propulsion}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Intro}
+Recall that this is the first of the three major classes of EP systems:
+\begin{itemize}
+\vspace{-5mm}
+\item Electrothermal (Chapter VII)
+\item Electromagnetic (Chapter VIII)
+\item Electrostatic (Chapter IX)
+\end{itemize}
+
+ 
+Three major heating methods for ET:
+\begin{enumerate}
+\vspace{-5mm}
+\item Heat transfer from resistively-heated solid surfaces (resistojets)
+\item Direct heat input from electric arc (arcjets)
+\item High-frequency excitation (microwave, RF, helicon, and ECR thrusters)
+\end{enumerate}
+
+ 
+Resistojets have the longest operational heritage of any EP system; as Jahn notes, the first one flew in 1965. Even fancy high-end thruster experiments like the NASA/Johnson Ad Astra VASIMR are, despite the impressive scale and all the superconducting magnets, still ET thrusters.
+ 
+Applications of ET thrusters:
+\begin{itemize}
+\vspace{-5mm}
+\item North-south stationkeeping (NSSK).  GEO satellites orbit in the equatorial plane with period of 1 day.  But Earth's equatorial plane is tilted by 28 deg with respect to the Earth orbit around the Sun (ecliptic plane).  Sun's gravity pulls GEO satellites out of the equatorial plane, so ground stations would see a North-South drift ("Figure 8").  Optimal comm would require antennas to constantly slew North-South. 
+\item NSSK burns happen twice a day when the inclined orbit crosses the equatorial plane.  Over 260 ET thrusters intended for NSSK are currenlty flying
+\item Orbit-raising Low Isp means high thrust-to-power ratio, so good for impulsive applications.
+\end{itemize}
+
+ 
+State-of-the-art:
+\begin{itemize}
+\vspace{-5mm}
+\item Resistojets: N2H4 (hydrazine) is mature technology.
+\item Arcjets:  again, N2H4 is mature technology, with 1.8-2kW flying.  NH3 has been used in 80 kW flight demonstration experiment, while H2 and He arcjets have been explore in the lab.
+\end{itemize}
+
+ 
+Why hydrazine?  Popular monopropellant for chemical rockets, so lots of satellites already had space-qualified hydrazine plumbing.  Could just bolt on ET thruster in place of old monopropellant thruster, get improved performance.
+
+ 
+\end{document}
