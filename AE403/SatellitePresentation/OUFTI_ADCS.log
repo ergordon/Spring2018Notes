@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2018 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 MAR 2018 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,101 +278,144 @@ LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count113
+\calc@Bcount=\count114
+\calc@Adimen=\dimen126
+\calc@Bdimen=\dimen127
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count115
+\calc@Cskip=\skip52
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen128
+\AM@pageheight=\dimen129
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@global@opts=\toks27
+\AM@toc@title=\toks28
+\c@AM@survey=\count116
+\AM@templatesizebox=\box29
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen126
-\captionmargin@=\dimen127
-\captionwidth=\dimen128
-\caption@tempdima=\dimen129
-\caption@indent=\dimen130
-\caption@parindent=\dimen131
-\caption@hangindent=\dimen132
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@tempdima=\dimen133
+\caption@indent=\dimen134
+\caption@parindent=\dimen135
+\caption@hangindent=\dimen136
 )
-\c@KVtest=\count113
-\sf@farskip=\skip50
-\sf@captopadj=\dimen133
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
-\c@subfigure=\count114
-\c@subfigure@save=\count115
-\c@lofdepth=\count116
-\c@subtable=\count117
-\c@subtable@save=\count118
-\c@lotdepth=\count119
-\sf@top=\skip53
-\sf@bottom=\skip54
+\c@KVtest=\count117
+\sf@farskip=\skip53
+\sf@captopadj=\dimen137
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count118
+\c@subfigure@save=\count119
+\c@lofdepth=\count120
+\c@subtable=\count121
+\c@subtable@save=\count122
+\c@lotdepth=\count123
+\sf@top=\skip56
+\sf@bottom=\skip57
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count120
-\lst@gtempboxa=\box28
-\lst@token=\toks27
-\lst@length=\count121
-\lst@currlwidth=\dimen134
-\lst@column=\count122
-\lst@pos=\count123
-\lst@lostspace=\dimen135
-\lst@width=\dimen136
-\lst@newlines=\count124
-\lst@lineno=\count125
-\lst@maxwidth=\dimen137
+\lst@mode=\count124
+\lst@gtempboxa=\box30
+\lst@token=\toks29
+\lst@length=\count125
+\lst@currlwidth=\dimen138
+\lst@column=\count126
+\lst@pos=\count127
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count128
+\lst@lineno=\count129
+\lst@maxwidth=\dimen141
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count126
-\lst@skipnumbers=\count127
-\lst@framebox=\box29
+\c@lstnumber=\count130
+\lst@skipnumbers=\count131
+\lst@framebox=\box31
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 144.
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (./OUFTI_ADCS.aux)
 \openout1 = `OUFTI_ADCS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
-\scratchdimen=\dimen138
-\scratchbox=\box30
-\nofMPsegments=\count129
-\nofMParguments=\count130
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count131
-\MPscratchDim=\dimen139
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count132
+\scratchdimen=\dimen142
+\scratchbox=\box32
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen143
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -422,34 +465,43 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring ON on input line 32.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 33.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count134
+\c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./OUFTI_ADCS.out) (./OUFTI_ADCS.out)
 \@outlinefile=\write3
 \openout3 = `OUFTI_ADCS.out'.
 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count135
-LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+\c@lstlisting=\count139
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 35.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -461,181 +513,132 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-./OUFTI_ADCS.tex:42: Text line contains an invalid character.
-l.42 ...am. OUFTI-1 is a 1U cubesat and is the ^^\
+./OUFTI_ADCS.tex:43: Text line contains an invalid character.
+l.43 ...am. OUFTI-1 is a 1U cubesat and is the ^^\
                                                   first satellite equipped w...
 
 ? r
 OK, entering \nonstopmode...
-./OUFTI_ADCS.tex:44: Text line contains an invalid character.
-l.44 ...is not required to point in one specifi^^\
-                                                  c direction and the Attitu...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 56--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 56--64
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--60
-
- []
-
-[2]
-./OUFTI_ADCS.tex:63: Text line contains an invalid character.
-l.63 ...satellite along the Earth's magnetic fi^^\
+./OUFTI_ADCS.tex:67: Text line contains an invalid character.
+l.67 ...satellite along the Earth's magnetic fi^^\
                                                   eld using an onboard magne...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--69
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--69
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
 
  []
 
-[3]
+[2]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 69.
+(hyperref)                than one, level fixed on input line 73.
 
-./OUFTI_ADCS.tex:70: Text line contains an invalid character.
-l.70 ...tude stabilization approach required a ^^\
-                                                  fine mathematical simulati...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
-
-./OUFTI_ADCS.tex:84: Text line contains an invalid character.
-l.84 ...ch occurs between the application of a ^^\
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+ [3]
+./OUFTI_ADCS.tex:88: Text line contains an invalid character.
+l.88 ...ch occurs between the application of a ^^\
                                                   field/force and its subseq...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:84: Text line contains an invalid character.
-l.84 ...of a ^^\field/force and its subsequent ^^[
-                                                  effect. In the magnetic hy...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:84: Text line contains an invalid character.
-l.84 ...ich appears between a varying magnetic ^^\
-                                                  field "H-field" and the su...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:84: Text line contains an invalid character.
-l.84 ...tic induction depends on the current H-^^\
-                                                  field and the previous mag...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:84: Text line contains an invalid character.
-l.84 ...perience the effects of earth magnetic ^^\
-                                                  field which varies along i...
+./OUFTI_ADCS.tex:88: Text line contains an invalid character.
+l.88 ...of a ^^\field/force and its subsequent ^^[
+                                                  effect. In magnetic hyster...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 ./OUFTI_ADCS.tex:88: Text line contains an invalid character.
-l.88 ...ars were be used. This maintained rod e^^^
-                                                  fficiency while also incre...
+l.88 ... is the lag between a varying magnetic ^^\
+                                                  field, "H-field", and the ...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./OUFTI_ADCS.tex:88: Text line contains an invalid character.
+l.88 ...perience the effects of earth magnetic ^^\
+                                                  field which varies along i...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--92
+Underfull \hbox (badness 10000) in paragraph at lines 88--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--92
+Underfull \hbox (badness 10000) in paragraph at lines 88--96
 
  []
 
 [4]
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...reover, if a component of the magnet's ^^\
+./OUFTI_ADCS.tex:97: Text line contains an invalid character.
+l.97 ...dition, if a component of the magnet's ^^\
                                                   field is directed along th...
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...e leads to a component of the vector fi^^\
-                                                  eld H magnet directed alon...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-./OUFTI_ADCS.tex:93: Text line contains an invalid character.
-l.93 ...h may therefore affect the damping effi^^^
+./OUFTI_ADCS.tex:97: Text line contains an invalid character.
+l.97 ...rod, thereby affecting the damping effi^^^
                                                   ciency.
 A funny symbol that I can't read has just been input.
 Continue, and I'll forget that it ever happened.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 
  []
 
-[5] <./pictures/1.png, id=78, 593.21625pt x 426.59375pt>
+<./pictures/1.png, id=80, 593.21625pt x 426.59375pt>
 File: ./pictures/1.png Graphic file (type png)
-
-<use ./pictures/1.png>
-Package pdftex.def Info: ./pictures/1.png used on input line 97.
+ <use ./pictures/1.png>
+Package pdftex.def Info: ./pictures/1.png used on input line 101.
 (pdftex.def)             Requested size: 474.57364pt x 341.27545pt.
 
-Overfull \hbox (4.81862pt too wide) in paragraph at lines 97--98
+Overfull \hbox (4.81862pt too wide) in paragraph at lines 101--102
  [] 
  []
 
-[6]
+[5]
 Missing character: There is no è in font cmr12!
-Missing character: There is no é in font cmti12!
- [7 <./pictures/1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+ [6 <./pictures/1.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (./OUFTI_ADCS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `OUFTI_ADCS.out' has not changed.
-(rerunfilecheck)             Checksum: 361335870BFA215D27E53968C4A9B535;641.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+(rerunfilecheck)             Checksum: 7D7EA854D02E02EBE2496F562CEBA1FF;542.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 8557 strings out of 493014
- 126877 string characters out of 6133351
- 222209 words of memory out of 5000000
- 11972 multiletter control sequences out of 15000+600000
- 12919 words of font info for 50 fonts, out of 8000000 for 9000
+ 9675 strings out of 493014
+ 142754 string characters out of 6133351
+ 243993 words of memory out of 5000000
+ 13068 multiletter control sequences out of 15000+600000
+ 12612 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,6n,38p,903b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,39p,800b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -647,10 +650,10 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on OUFTI_ADCS.pdf (8 pages, 284164 bytes).
+Output written on OUFTI_ADCS.pdf (6 pages, 280972 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

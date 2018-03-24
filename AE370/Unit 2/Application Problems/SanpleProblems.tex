@@ -1,0 +1,239 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.5in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\usepackage{setspace}
+%\singlespacing
+%\onehalfspacing
+%\doublespacing
+\setstretch{1.5}
+\newtheorem{note}{Note}
+\begin{document}
+\setcounter{section}{0}
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{AE370: Sample Problems}
+{\large \bf Section 4.5 Character of Second Order PDE: Slide 37 Sample Problem}\\ \\
+For the vairous Aerospace related PDE's; What is $(B^2 - 4AC)$? What type of PDE is it?
+\newline
+\noindent\rule{16.5cm}{0.4pt}
+\begin{framed}
+\textbf{Determining PDE Directions}
+\begin{equation*}
+\begin{aligned}
+a \, \frac{\partial^2 T}{\partial x^2} + b \, \frac{\partial^2 T}{\partial x \, \partial y} + c \, \frac{\partial^2 T}{\partial y^2} + d \, \frac{\partial T}{\partial x} + e \, \frac{\partial T}{\partial y} + g \, T + h = 0
+\end{aligned}
+\end{equation*}
+Such that the slope $(dx/dy)$ is controlled by the sign of $(b^2 - 4ac)$. In other words, If...
+\begin{equation*}
+\begin{aligned}
+(b^2 - 4ac) < 0 &\rightarrow \text{the slope is imaginary (all directions)} \\
+&\rightarrow \textbf{Elliptic PDE} \\
+(b^2 - 4ac) = 0 &\rightarrow \text{There is only one slope (information uniformly in one direction)} \\
+&\rightarrow \textbf{Parabolic PDE} \\
+(b^2 - 4ac) > 0 &\rightarrow \text{There are two slopes (information in two paths)} \\
+&\rightarrow \textbf{Hyperbolic PDE} \\
+\end{aligned}
+\end{equation*}
+\end{framed}
+
+\textbf{The Inviscid Stream-Function Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+\frac{\partial^2 \psi }{\partial x^2} +\frac{\partial^2 \psi }{\partial y^2} = 0
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = 1\\
+B & = 0\\
+C & = 1\\
+\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) = -4
+\end{aligned}
+\end{equation*} & The PDE is Ellipitic \\ 
+\end{tabular}
+\end{center}
+
+\textbf{The Inviscid Linearized 2-D Compressible Flow Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+(M_o - 1) \, \frac{\partial^2 \phi }{\partial x^2} -\frac{\partial^2 \phi }{\partial y^2} = 0
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = 1\\
+B & = 0\\
+C & = 1\\
+\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) > 0
+\end{aligned}
+\end{equation*} & The PDE is Hyperbolic \\ 
+\end{tabular}
+\end{center}
+\newpage
+
+\textbf{The Beam Torsion Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+\frac{\partial^2 \psi }{\partial x^2} +\frac{\partial^2 \psi }{\partial y^2} = -2 \, \mu \, \Theta
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = (M_o - 1)\\
+B & = 0\\
+C & = 1\\
+H &= 2 \, \mu \, \Theta
+\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) -4
+\end{aligned}
+\end{equation*} & The PDE is Elliptic \\ 
+\end{tabular}
+\end{center}
+
+\textbf{The Beam Wave Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+\frac{\partial^2 u}{\partial t^2} = \frac{E}{\rho} \, \frac{\partial^2 u }{\partial x^2}
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = \frac{E}{\rho} \\
+B & = 0\\
+C & = -1\\
+\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) > 0
+\end{aligned}
+\end{equation*} & The PDE is Hyperbolic 
+\end{tabular}
+\end{center}
+
+\textbf{The Thermal 1-D Heat Diffusion Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+\frac{\partial^2 T}{\partial x^2} = \frac{\rho \, c}{k} \, \frac{\partial T }{\partial t}
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = 1 \\
+B & = 0\\
+C & = 0\\
+\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) = 0
+\end{aligned}
+\end{equation*} & The PDE is Parabolic 
+\end{tabular}
+\end{center}
+
+\textbf{The Laminar Boundary Layer Equation:}
+\begin{center}
+\begin{tabular}{ c | c c c }
+\begin{equation*}
+\begin{aligned}
+u \, \frac{\partial u}{\partial x} + v \, \frac{\partial u}{\partial y} = v \, \frac{\partial^2 u }{\partial y^2}
+\end{aligned}
+\end{equation*} &
+\begin{equation*}
+\begin{aligned}
+A & = 0 \\
+B & = 0\\
+C & = v\end{aligned}
+\end{equation*} & \begin{equation*}
+\begin{aligned}
+(B^2 - 4AC) = 0
+\end{aligned}
+\end{equation*} & The PDE is Parabolic 
+\end{tabular}
+\end{center}
+\newpage
+{\large \bf Sample Problem}\\ \\
+How do we discretize a partial function of two variables?
+ \begin{equation*}
+\begin{aligned}
+\frac{\partial f}{\partial x \partial y}\bigg|_{i,j}
+\end{aligned}
+\end{equation*}
+\noindent\rule{16.5cm}{0.4pt}
+
+Let's Expand this a bit
+ \begin{equation}
+\begin{aligned}
+\frac{\partial f}{\partial x \partial y}\bigg|_{i,j} = \frac{\partial f}{\partial x}\bigg(\frac{\partial f}{\partial y}\bigg)
+\end{aligned}
+\end{equation}
+What is the discretized form of $\frac{\partial f}{\partial y}$ ? Well...
+ \begin{equation}
+\begin{aligned}
+\frac{\partial f}{\partial y}\bigg|_{i,j} = \frac{f_{i,j+1}-f_{i,j-1}}{2 \, \Delta y}
+\end{aligned}
+\end{equation}
+Substituting this Equation 2 into Equation 1, we get....
+
+ \begin{equation*}
+\begin{aligned}
+\frac{\partial f}{\partial x}\bigg(\frac{\partial f}{\partial y}\bigg) &= \frac{\partial f}{\partial x}\Bigg(\frac{f_{i,j+1}- \,f_{i,j-1}}{2 \, \Delta y}\Bigg) \\ \\ 
+& = \frac{\frac{\partial f}{\partial y}\bigg|_{i+1,j} - \frac{\partial f}{\partial y}\bigg|_{i-1,j}}{2 \, \Delta y} \\ \\
+& ... \\ \\
+&= \frac{f_{i+1,j+1} -f_{i+1,j-1}  -f_{i-1,j+1}  + f_{i-1,j-1} }{4 \, \Delta x \, \Delta y}
+\end{aligned}
+\end{equation*}
+\end{document}
