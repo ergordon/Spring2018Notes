@@ -1,0 +1,388 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc} % Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage[final]{pdfpages}
+\usepackage{setspace}
+\usepackage{esvect}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{graphicx}
+\graphicspath{ {pictures/} }
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+%\usepackage{newtxmath}
+\usepackage{euscript}
+\DeclareMathAlphabet{\mathpzc}{T1}{pzc}{m}{it}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
+\newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
+\begin{document}
+\setcounter{section}{5}%Section we want -1
+\setcounter{page}{49} %Page we want
+\setcounter{equation}{63}%Equation we want -1
+\def\thepart{\arabic{part}}
+\setcounter{part}{8}
+\numberwithin{equation}{part}
+
+ \pagestyle{fancy}
+\fancyhf{}
+\rhead{Section 8:  Electromagnetic Propulsion - Pulsed Plasma Thruster (PPT)}
+\rfoot{Page \thepage}
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Section 8:  Electromagnetic Propulsion}\\
+{\large AE435}\\
+Spring 2018
+\end{center}
+\vspace{5mm}
+\section{Pulsed Plasma Thruster (PPT)}
+\vspace{25mm}
+\tableofcontents
+\newpage
+\subsection{Pulsed Plasma Thruster}
+In 1964 Russians decided to avoid problems with tanks, valves, regulators, by using a solid propellant.  The first propellant tried was Teflon, and although many others have been tried, Teflon ($C_2F_4$) remains the best choice.  It has a density almost twice that of Lexan  (2.2 g/cm3).  It does not have a liquid phase, and evaporates from solid to vapor.
+ 
+PPT was first flown in 1964 (Zond 2) and in 1968 (LES-6).  The classic schematic is:
+ 
+ \begin{center}
+ \vspace{70mm}
+ \textbf{Figure 9: PPT Diagram}
+ \end{center}
+ %You charge up your capacitor of PFN, you then have an ignitor that creates some seed electrons. We just pulsed that ignotor to create those electrons which will moved to the anode and they will ionize the theflon vapor. We then get an arc that forms across the surface of that teflon which, via jxB pushes the arc out of the chamber. Then you recharge and pulse it again. The surface of the teflon is erroding so the spring pushes the tecflon block till it is depleted. 
+ 
+Parallel plate design.   JxB acceleration.
+ 
+Stored energy is:
+  \begin{equation}
+\begin{aligned}
+\frac{1}{2} C V_o^2
+\end{aligned}
+\end{equation}
+For a pulse rate f,  then the average power is
+  \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+Typically f ~ 1-5 Hz.
+ 
+Each pulse creates thrust, and evaporates mass, m.
+
+  \begin{center}
+ \vspace{70mm}
+ \textbf{Figure 9: PPT Diagram}
+ \end{center}
+ 
+ 
+Impulse bit is:%We alsway use bit when talking about pulse devices. The total is over entire time, the impulse bit is the amount of impulse for one single pulse. 
+  \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+Specific impulse is then:
+  \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+Average thrust:
+   \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+The arc heats the Teflon to $\sim600-700K$, so it ablates.  This ablation continues to occur after the pulsed power is applied. 
+ And the ablation that occurs after the initial pulse is referred to as "late time ablation".
+ %This is a major source of inefficinenty, we ablate the mass of teflon and when we heat the surface of the teflon, now we have a hot propellant and some of that propellant mass will ablate which is a neutral and slowly drift out of the thruster at a later time. 
+   \begin{center}
+ \vspace{70mm}
+ \textbf{Figure 10: Late Time Ablation Illustration}
+ \end{center}
+ %ther is no current being forced through the vapor after the mass has be ablated. 
+ \newpage
+ \subsection{Efficiency}
+
+The efficiency is calculated from a simple circuit model:
+\begin{center}
+ \vspace{70mm}
+ \textbf{Figure 11: Efficiency Circuit Model}
+ \end{center}
+ 
+ %Z_o is the impednace of the drive circuit, R_L is the laod resistance (the joule heating that goes into the heating of the plasma, the switch resistance, the intricic pfn resistance), Z_L is the load impedance
+ 
+ 
+ 
+Assume a matched PFN: 
+
+   \begin{equation}
+\begin{aligned}
+R_L + Z_L = Z_o
+\end{aligned}
+\end{equation}
+
+Thus the voltage drop across the load is equal to that across $Z_o$, that is:
+ 
+Thus the current is:
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+Then the charge is
+
+   \begin{equation*}
+\begin{aligned}
+Q_o = C_o \, V_o
+\end{aligned}
+\end{equation*}
+
+And the length of the pulse is
+
+   \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+Since                      	where L, C are per section of the PFN, and
+ 
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+ %We assume each section has the same capacitance
+Then $t_p$
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+Recognize that for cases where Electromagnetic energy does work on a mass:
+ %Thrust in its electromagnetic form is 
+ 
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+ and the resulting power
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+ which means the imepednace is
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+ 
+ 
+ %So if we have a coaxial electrodses, then we will use
+Also, for coaxial electrodes, Maecker (8.22) with (8.53) is:
+ %Recognizing the electormagnetic thrust is 
+ 
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+   \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+ 
+Returning to efficiency, $R_L$ represents losses in capacitors, switches, electrodes, etc., so let the efficiency:
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ %Imepedance of the laod over entire impedance. R_L is the resistaive lost in the circuit itself, 
+ 
+ so
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+%8.75 is the electromagnetic impednace for coaxial electrodes. The electromagnetic impedance for parralale plate electodes is somewhere in our notes.
+ \begin{framed}
+For Example:
+%The resistance R_L is not easy to estimate and is sually done experimentally.
+
+%LEt u_e = 2x10^4 m/s and our coaxial PPT has the geometry of...then we will claculate the Z_L for this thruster to be Z_L =
+
+%If resistive losses amounted ot 5mOhms then we would have an efficiency, \eta of around 33%.
+
+% Unfortunaly those resistive losses tend to be much higher, around 15 mOhms. 
+
+%advantage of using parralel plate electrodes: recall that Z = 0.5*k*u_e where k=
+%We would get a little bit higher load impedence meaning we would get a higher efficieincy. 
+ \end{framed}
+  \newpage
+ \subsection{Two Stream Model}
+ %Going back to the idea of late time ablation. At the beginnign we have the fast plasma current sheet coming out and then the second phase of slow moving particles coming out.
+ The first complication is that Teflon ($C_2F_4$) is dissociated to $C+F+F$ and then is partially ionized ($C^+, F^+$).  Because of pressure, neutrals are accelerates to lower velocity than ions.  This leads to a two-stream model.
+ 
+The PPT is partially ionized.  Neutral and Ions.  We have a situation in PPT where the pulse results in "fast" ions and "slow" neutrals coexisting in the same channel.  "Two-Fluid" model.
+ 
+Consider the situation shown here:
+ 
+ \begin{center}
+ \vspace{50mm}
+ \textbf{Figure 12: Two Fluid Model}
+ \end{center}
+ 
+Total ablated mass is the sum of the fast and slow species.
+ 
+    \begin{equation}
+\begin{aligned}
+M = M_f + M_s
+\end{aligned}
+\end{equation}
+ 
+Impulse bit is then:
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+Thus Isp and efficiency are:
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+    \begin{equation}
+\begin{aligned}
+a%Just the jet power over total input inergy.
+\end{aligned}
+\end{equation}
+
+Experimentally we can measure Ibit, m & Eo.  But cannot know $mf_$, $u_f$, $m_s$, $u_s$.  We can also calculate the Electromagnetic portion of Ibit:
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ %This total impulse bit is due to two matin things, 1) the electrothemral acceleration of the particles 2) The electromagnetic flow of the thrust, the acceleration of the charged species. This is the total electromagentic energy deposited in. 
+ %We know geometry, we can measure J so we can evaluate the second integral  
+If we say
+%This term is equal to the impulse deliveered by the fast species, we can solve for the slow species. 
+   \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+
+Then from measured Ibit, we also know $m_su_s$.
+    \begin{equation*}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation*}
+ 
+Now the problem is, what are mf & ms, or uf & us?
+%We dont know how much of our mass is the fast species and how much is the slow species.
+
+We find the answer in Cosmology, more specifically a theory for the origin of the solar system by Hannes Alfven (Nobel Prize in Physics 1970).  Alfven's paper "On the Origin of the Solar System" assumed the Sun and a magnetized dust cloud.
+ 
+ 
+ 
+ %The critical velo
+ 
+ 
+ 
+ 
+ 
+Alfven: When KE = ionization energy, particle falling in is ionized, losing all energy, so stops.  In this way, atoms of H, He, Ne, etc. stop at different radii.
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+So for the PPT it is assumed that $u_f$ cannot exceed $u_s$ by more than $u_c$:
+ %If we have this mass of slow species moving along, then the ions cannot leave faster than this critical speed. Whenever the KE = Ionization, the particles transfers all of its KE to Ionization energy and no longer moves, genreally caused by collisions. 
+ 
+    \begin{equation}
+\begin{aligned}
+a
+\end{aligned}
+\end{equation}
+ 
+What is $u_c$ for Teflon (CF2)?%What would tehrse values be for teflon that we are wokring with. 
+%Critical velocity for carbon
+Carbon:
+%Critical velocity for fluorine
+Fluorine:
+\begin{framed}
+Example, assume
+ 
+ %Asume the net exit velocity is 10.5 km/s due to both ms and mf. 
+ %Then we can write
+ 
+ %That net exausht velocity is the mass average of the fast and slow species. Then we have
+ 
+ %
+ 
+ \end{framed}
+ 
+ 
+ 
+Conclusion:  Most efficient PPT has highest degree of ionization, which minimizes ms and raises Isp.
+ 
+ 
+
+
+
+  \newpage
+ \subsection{PPT Modelling}
+
+%Breaking up PPT into phases (ablation, discharge model/electrothemra/magneticl model)
+%Start with ana ablation model like the the (heat of vaporiation, )
+
+\end{document}

@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {3}Pulse Forming Networks}{27}
+\contentsline {subsection}{\numberline {3.1}Basic circuit theory:}{28}
+\contentsline {subsubsection}{\numberline {3.1.1}LC Circuit:}{28}
+\contentsline {subsubsection}{\numberline {3.1.2}LRC Circuit:}{29}
+\contentsline {subsection}{\numberline {3.2}Pulse forming network}{31}
+\contentsline {subsection}{\numberline {3.3}Problems with Pulse Forming Networks:}{33}

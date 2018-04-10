@@ -41,13 +41,13 @@ close all; clear all; clc;
 L = 1; %x-dimension of domain (m)
 H = 0.2; %y-direction of step (m)
 
-Ny1= 1; %input(' Enter number of grid spacings in y (Ny) ')
+Ny1= 20; %input(' Enter number of grid spacings in y (Ny) ')
 Nx1= 2*Ny1; %input(' Enter number of grid spacings in x (Nx) ')
-Ny2 = 10;
+Ny2 = 40;
 Nx2 = 2*Ny2;
-Ny3 = 20;
+Ny3 = 80;
 Nx3 = 2*Ny3;
-Ny4 = 40;
+Ny4 = 160;
 Nx4 = 2*Ny4;
 
 dx1=L/Nx1;  % grid spacing in x direction
@@ -67,24 +67,11 @@ Psimat2 = computeStream(Nx2, Ny2,L,H,V,dx2,dy2);
 Psimat3 = computeStream(Nx3, Ny3,L,H,V,dx3,dy3);
 Psimat4 = computeStream(Nx4, Ny4,L,H,V,dx4,dy4);
 
-format long
-exactV = (2+1)/2
-[vx,vy]=Velocity(Psimat1,Nx1,Ny1,V,dx1,dy1);
-Vapprox1 = mean(vx(:,end))
-[vx,vy]=Velocity(Psimat2,Nx2,Ny2,V,dx2,dy2);
-Vapprox2 = mean(vx(:,end))
-[vx,vy]=Velocity(Psimat3,Nx3,Ny3,V,dx3,dy3);
-Vapprox3 = mean(vx(:,end))
-[vx,vy]=Velocity(Psimat4,Nx4,Ny4,V,dx4,dy4);
-Vapprox4 = mean(vx(:,end))
-%{
 plotContour(Psimat4,Nx4,Ny4,L,H)
-%}
-%{
+
 figure(2)
 plotVectorField(Psimat1,Nx1,Ny1,L,H,V,dx1,dy1)
-%}
-%{
+
 figure(3)
 subplot(2, 2,1);
 plotContourPressures(Psimat1,Nx1,Ny1,L,H,V,dx1,dy1,rho)
@@ -104,11 +91,10 @@ subplot(2, 2,3);
 plotContourPressuresZoomed(Psimat3,Nx3,Ny3,L,H,V,dx3,dy3,rho)
 subplot(2, 2,4);
 plotContourPressuresZoomed(Psimat4,Nx4,Ny4,L,H,V,dx4,dy4,rho)
-%}
-%{
+
 figure(4)
 plotPressures(Psimat1,Psimat2, Psimat3, Psimat4,Nx1,Ny1,Nx2,Ny2,Nx3,Ny3,Nx4,Ny4,H,V,dx1,dy1,dx2,dy2,dx3,dy3,dx4,dy4,rho)
-%}
+
 end
 
 function [Psimat] = computeStream(Nx, Ny, L, H,V,dx,dy)
@@ -331,7 +317,7 @@ function plotPressures(Psimat1,Psimat2, Psimat3, Psimat4,Nx1,Ny1,Nx2,Ny2,Nx3,Ny3
 [vx3,vy3] = Velocity(Psimat3,Nx3,Ny3,V,dx3,dy3);
 [vx4,vy4] = Velocity(Psimat4,Nx4,Ny4,V,dx4,dy4);
 
-pressure1=0.5*rho*(vx1.^2+vy1.^2);
+pressure1=0.5*rho*(vx1.^2+vy1.^2)
 pressure2=0.5*rho*(vx2.^2+vy2.^2);
 pressure3=0.5*rho*(vx3.^2+vy3.^2);
 pressure4=0.5*rho*(vx4.^2+vy4.^2);
@@ -341,7 +327,7 @@ yvalues2=linspace(0,H,Ny2+1);
 yvalues3=linspace(0,H,Ny3+1);
 yvalues4=linspace(0,H,Ny4+1);
 
-pvalues1(1:Ny1+1)=pressure1(Nx1+1,1:Ny1+1);  % extract pressure values along CD from pressure array
+pvalues1(1:Ny1+1)=pressure1(Nx1+1,1:Ny1+1)  % extract pressure values along CD from pressure array
 pvalues2(1:Ny2+1)=pressure2(Nx2+1,1:Ny2+1);
 pvalues3(1:Ny3+1)=pressure3(Nx3+1,1:Ny3+1);
 pvalues4(1:Ny4+1)=pressure4(Nx4+1,1:Ny4+1);
