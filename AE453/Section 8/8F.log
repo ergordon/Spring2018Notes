@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 APR 2018 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 APR 2018 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1460,6 +1460,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
+Overfull \hbox (11.4271pt too wide) in paragraph at lines 250--251
+[]\OT1/cmr/m/n/10.95 Equation 8.75 is the elec-tro-mag-netic impedance for coax
+-ial elec-trodes. The elec-tro-mag-netic impedance
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1467,33 +1472,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [53]
-./8F.tex:304: Misplaced alignment tab character &.
-l.304 Experimentally we can measure Ibit, m &
-                                              Eo.  But cannot know $mf_$, $u...
-
-? r
-OK, entering \nonstopmode...
-./8F.tex:304: Missing { inserted.
-<to be read again> 
-                   $
-l.304 ...sure Ibit, m & Eo.  But cannot know $mf_$
-                                                  , $u_f$, $m_s$, $u_s$.  We...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-./8F.tex:304: Missing } inserted.
-<inserted text> 
-                }
-l.304 ...sure Ibit, m & Eo.  But cannot know $mf_$
-                                                  , $u_f$, $m_s$, $u_s$.  We...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1501,25 +1479,23 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54]
-./8F.tex:327: Misplaced alignment tab character &.
-l.327 Now the problem is, what are mf &
-                                        ms, or uf & us?
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-./8F.tex:327: Misplaced alignment tab character &.
-l.327 ...the problem is, what are mf & ms, or uf &
-                                                   us?
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55] <pictures/f1.png, id=75, 564.60938pt x 523.9575pt>
+File: pictures/f1.png Graphic file (type png)
+ <use pictures/f1.png>
+Package pdftex.def Info: pictures/f1.png used on input line 399.
+(pdftex.def)             Requested size: 282.30399pt x 261.9781pt.
+
+<pictures/f2.png, id=76, 1044.15094pt x 610.53094pt>
+File: pictures/f2.png Graphic file (type png)
+ <use pictures/f2.png>
+Package pdftex.def Info: pictures/f2.png used on input line 417.
+(pdftex.def)             Requested size: 417.65298pt x 244.20804pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1527,7 +1503,20 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] 
+[56 <./pictures/f1.png>] <pictures/f3.png, id=80, 685.8122pt x 603.75563pt>
+File: pictures/f3.png Graphic file (type png)
+
+<use pictures/f3.png>
+Package pdftex.def Info: pictures/f3.png used on input line 429.
+(pdftex.def)             Requested size: 342.90526pt x 301.87708pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57 <./pictures/f2.png>] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1535,28 +1524,31 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56] (./8F.aux) ) 
+[58 <./pictures/f3.png>] (./8F.aux) ) 
 Here is how much of TeX's memory you used:
- 28837 strings out of 493014
- 585053 string characters out of 6133351
- 653243 words of memory out of 5000000
- 31893 multiletter control sequences out of 15000+600000
+ 28854 strings out of 493014
+ 585321 string characters out of 6133351
+ 656243 words of memory out of 5000000
+ 31905 multiletter control sequences out of 15000+600000
  11161 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,101p,10480b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb>
-Output written on 8F.pdf (8 pages, 105227 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb>
+Output written on 8F.pdf (10 pages, 280994 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

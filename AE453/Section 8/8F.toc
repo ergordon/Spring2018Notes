@@ -2,4 +2,7 @@
 \contentsline {subsection}{\numberline {6.1}Pulsed Plasma Thruster}{50}
 \contentsline {subsection}{\numberline {6.2}Efficiency}{52}
 \contentsline {subsection}{\numberline {6.3}Two Stream Model}{54}
-\contentsline {subsection}{\numberline {6.4}PPT Modelling}{56}
+\contentsline {subsection}{\numberline {6.4}More Advanced PPT Modeling}{56}
+\contentsline {subsubsection}{\numberline {6.4.1}Ablation Model:}{56}
+\contentsline {subsubsection}{\numberline {6.4.2}Electrothermal Model}{57}
+\contentsline {subsubsection}{\numberline {6.4.3}Electromagnetic Model with Plume}{58}

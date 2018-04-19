@@ -1,6 +1,6 @@
 function HW6
     %Given Parameters
-    MW = 29.948;             % Argon Molecular Weight [amu]
+    MW = 39.948*0.001;             % Argon Molecular Weight [amu]
     ei = 15.76;              % Ionization Energy [eV] 
     G = 2e11;                % Scaling Constant [K^{-3/4}*m^{-3/2}]
     T_low = 5000;            % Lower Temperature Bound [K]   
@@ -8,7 +8,6 @@ function HW6
     k = 8.6173303e-5;        % Boltzmann's constant [eV/K]
     k2 = 1.38064852e-23;     % Boltzmann's Constant [J/K] or [m^2 kg s^-2 K^-1]
     %Conversions 
-    MW = MW*(1.66054e-27); % [amu] to [kg]
     
     %STP Conditions
     T_STP = 273.15; % STP Temperature [K]
@@ -16,7 +15,7 @@ function HW6
     
     no = P_STP/(k2*T_STP); %Total Density of Heavy Particles
     %10% from STP
-    no = no*.1;
+    no = no*.1
     
     T = T_low:1:T_high;
     alpha = zeros(length(T),1);

@@ -82,42 +82,42 @@ Parallel plate design.   JxB acceleration.
 Stored energy is:
   \begin{equation}
 \begin{aligned}
-\frac{1}{2} C V_o^2
+\frac{1}{2} C V_o^2 \qquad [J]
 \end{aligned}
 \end{equation}
 For a pulse rate f,  then the average power is
   \begin{equation}
 \begin{aligned}
-a
+P_{\text{avg}} = f \, E_o \qquad [W]
 \end{aligned}
 \end{equation}
-Typically f ~ 1-5 Hz.
+Typically $f \sim 1-5 Hz$.
  
 Each pulse creates thrust, and evaporates mass, m.
 
   \begin{center}
  \vspace{70mm}
- \textbf{Figure 9: PPT Diagram}
+ \textbf{Figure 10: Thrust to Propulsion Time}
  \end{center}
  
  
 Impulse bit is:%We alsway use bit when talking about pulse devices. The total is over entire time, the impulse bit is the amount of impulse for one single pulse. 
   \begin{equation}
 \begin{aligned}
-a
+\int \, T \, \mathrm{d}t = I_{\text{bit}}
 \end{aligned}
 \end{equation}
 Specific impulse is then:
   \begin{equation}
 \begin{aligned}
-a
+I_{SP} = \frac{I_{\text{bit}}}{g_o \, m}
 \end{aligned}
 \end{equation}
  
 Average thrust:
    \begin{equation}
 \begin{aligned}
-a
+\bar{T} \text{ or } T_{\text{avg}} = f \, I_{\text{bit}} \qquad \qquad P_{\text{avg}} = f \, E_o
 \end{aligned}
 \end{equation}
  
@@ -126,7 +126,7 @@ The arc heats the Teflon to $\sim600-700K$, so it ablates.  This ablation contin
  %This is a major source of inefficinenty, we ablate the mass of teflon and when we heat the surface of the teflon, now we have a hot propellant and some of that propellant mass will ablate which is a neutral and slowly drift out of the thruster at a later time. 
    \begin{center}
  \vspace{70mm}
- \textbf{Figure 10: Late Time Ablation Illustration}
+ \textbf{Figure 11: Late Time Ablation Illustration}
  \end{center}
  %ther is no current being forced through the vapor after the mass has be ablated. 
  \newpage
@@ -150,13 +150,13 @@ R_L + Z_L = Z_o
 \end{aligned}
 \end{equation}
 
-Thus the voltage drop across the load is equal to that across $Z_o$, that is:
+Thus the voltage drop across the load is equal to that across $Z_o$, that is: $\frac{V_o}{2}$
  
 Thus the current is:
  
     \begin{equation}
 \begin{aligned}
-a
+J = \frac{\frac{V_o}{2}}{Z_o} = \frac{\frac{V_o}{2}}{R_L + Z_L}
 \end{aligned}
 \end{equation}
  
@@ -172,22 +172,23 @@ And the length of the pulse is
 
    \begin{equation}
 \begin{aligned}
-a
+\frac{Q_o}{J} = \frac{C_o \, V_o}{(V_o/2)/Z_o} = 2 \, C_o \, Z_o = t_p
 \end{aligned}
 \end{equation}
  
-Since                      	where L, C are per section of the PFN, and
+Since       $ Z_o = \sqrt{\frac{L}{C}}$               	where L, C are per section of the PFN, and
  
     \begin{equation*}
 \begin{aligned}
-a
+C_o = N\, C
 \end{aligned}
 \end{equation*}
- %We assume each section has the same capacitance
-Then $t_p$
+Where N is the number of sections in the PFN number. We assume each section has the same capacitance
+
+Then
     \begin{equation}
 \begin{aligned}
-a
+t_p = 2 \, N \sqrt{L \, C}
 \end{aligned}
 \end{equation}
  
@@ -196,19 +197,19 @@ Recognize that for cases where Electromagnetic energy does work on a mass:
  
     \begin{equation*}
 \begin{aligned}
-a
+\text{Thrust} = F_{em} = \frac{1}{2} \, L' \, J^2
 \end{aligned}
 \end{equation*}
  and the resulting power
     \begin{equation*}
 \begin{aligned}
-a
+P = \frac{1}{2} \, F \, u_e = J^2 \, Z_o = \frac{1}{2} \bigg( \frac{1}{2} \, L' \, J^2\bigg)\, u_e
 \end{aligned}
 \end{equation*}
- which means the imepednace is
+ which means the impedance is
     \begin{equation*}
 \begin{aligned}
-a
+Z_o = \frac{1}{4} \, L' \, u_e
 \end{aligned}
 \end{equation*}
  
@@ -219,12 +220,13 @@ Also, for coaxial electrodes, Maecker (8.22) with (8.53) is:
  
     \begin{equation*}
 \begin{aligned}
-a
+F = \frac{\mu \, J^2}{4 \, \pi} \, \bigg(\ln \bigg(\frac{r_a}{r_c}\bigg) + \frac{3}{4}\bigg) = \frac{1}{2} \, L' \, J^2
 \end{aligned}
 \end{equation*}
+
    \begin{equation}
 \begin{aligned}
-a
+L' = \frac{2 \, \mu}{4 \, \pi} \, \bigg(\ln \bigg(\frac{r_a}{r_c}\bigg) + \frac{3}{4}\bigg)
 \end{aligned}
 \end{equation}
  
@@ -233,7 +235,7 @@ Returning to efficiency, $R_L$ represents losses in capacitors, switches, electr
  
     \begin{equation}
 \begin{aligned}
-a
+\eta = \frac{Z_L}{R_L + Z_L} = \frac{1}{\frac{R_L}{Z_L}+1}
 \end{aligned}
 \end{equation}
  %Imepedance of the laod over entire impedance. R_L is the resistaive lost in the circuit itself, 
@@ -241,10 +243,11 @@ a
  so
     \begin{equation}
 \begin{aligned}
-a
+Z_L = \frac{1}{4} \, L' \, u_e = \frac{1}{2} \, \frac{\mu}{4 \, \pi} \, \bigg(\ln \bigg(\frac{r_a}{r_c}\bigg) + \frac{3}{4}\bigg) \, u_e
 \end{aligned}
 \end{equation}
-%8.75 is the electromagnetic impednace for coaxial electrodes. The electromagnetic impedance for parralale plate electodes is somewhere in our notes.
+
+Equation 8.75 is the electromagnetic impedance for coaxial electrodes. The electromagnetic impedance for parallel plate electrodes is somewhere in our notes.
  \begin{framed}
 For Example:
 %The resistance R_L is not easy to estimate and is sually done experimentally.
@@ -284,47 +287,52 @@ Impulse bit is then:
  
     \begin{equation}
 \begin{aligned}
-a
+I_{\text{bit}} = m_f \, u_f + m_s \, u_s
 \end{aligned}
 \end{equation}
  
-Thus Isp and efficiency are:
+Thus $I_{SP}$ and efficiency are:
  
     \begin{equation}
 \begin{aligned}
-a
-\end{aligned}
-\end{equation}
-    \begin{equation}
-\begin{aligned}
-a%Just the jet power over total input inergy.
+I_{SP} = \frac{I_{\text{bit}}}{m \, g_o} = \frac{m_f \, u_f + m_s \, u_s}{(m_f + m_s) \, g_o}
 \end{aligned}
 \end{equation}
 
-Experimentally we can measure Ibit, m & Eo.  But cannot know $mf_$, $u_f$, $m_s$, $u_s$.  We can also calculate the Electromagnetic portion of Ibit:
     \begin{equation}
 \begin{aligned}
-a
+\eta = \frac{\frac{1}{2} \, I_{\text{bit}}^2}{m \, E_o}%Just the jet power over total input inergy.
 \end{aligned}
 \end{equation}
+
+Experimentally we can measure $I_{\text{bit}}$, m and $E_o = \frac{1}{2} \, C \, V_o^2$.  But cannot know $m_f$, $u_f$, $m_s$, $u_s$.  We can also calculate the Electromagnetic portion of $I_{\text{bit}}$:
+
+    \begin{equation}
+\begin{aligned}
+I_{\text{bit}} = \int \, T_{ET} \, \mathrm{d}t + \int \frac{1}{2}\, L'\, J^2 \, \mathrm{d}t
+\end{aligned}
+\end{equation}
+
  %This total impulse bit is due to two matin things, 1) the electrothemral acceleration of the particles 2) The electromagnetic flow of the thrust, the acceleration of the charged species. This is the total electromagentic energy deposited in. 
  %We know geometry, we can measure J so we can evaluate the second integral  
 If we say
+
 %This term is equal to the impulse deliveered by the fast species, we can solve for the slow species. 
    \begin{equation}
 \begin{aligned}
-a
+\int \, \frac{1}{2} \, L' \, J^2 \, \mathrm{d}t = m_f \, u_f
 \end{aligned}
 \end{equation}
 
-Then from measured Ibit, we also know $m_su_s$.
+Then from measured $I_{\text{bit}}$, we also know $m_s u_s$; solve Equation 8.80 for 
+
     \begin{equation*}
 \begin{aligned}
-a
+\int \, T_{ET} \, \mathrm{d}t = m_s u_s
 \end{aligned}
 \end{equation*}
  
-Now the problem is, what are mf & ms, or uf & us?
+Now the problem is, what are $m_f$ and $m_s$, or $u_f$ and $u_s$?
 %We dont know how much of our mass is the fast species and how much is the slow species.
 
 We find the answer in Cosmology, more specifically a theory for the origin of the solar system by Hannes Alfven (Nobel Prize in Physics 1970).  Alfven's paper "On the Origin of the Solar System" assumed the Sun and a magnetized dust cloud.
@@ -341,7 +349,7 @@ Alfven: When KE = ionization energy, particle falling in is ionized, losing all 
  
     \begin{equation}
 \begin{aligned}
-a
+\frac{1}{2} \, m \, u_c^2 = e \, \varepsilon_i
 \end{aligned}
 \end{equation}
  
@@ -350,15 +358,15 @@ So for the PPT it is assumed that $u_f$ cannot exceed $u_s$ by more than $u_c$:
  
     \begin{equation}
 \begin{aligned}
-a
+u_f - u_s = u_c
 \end{aligned}
 \end{equation}
  
-What is $u_c$ for Teflon (CF2)?%What would tehrse values be for teflon that we are wokring with. 
+What is $u_c$ for Teflon (CF$_2$)?%What would tehrse values be for teflon that we are wokring with. 
 %Critical velocity for carbon
-Carbon:
+Carbon: $u_c = 13 \, [km/s]$
 %Critical velocity for fluorine
-Fluorine:
+Fluorine: $u_c = 13 \, [km/s]$
 \begin{framed}
 Example, assume
  
@@ -380,8 +388,50 @@ Conclusion:  Most efficient PPT has highest degree of ionization, which minimize
 
 
   \newpage
- \subsection{PPT Modelling}
+ \subsection{More Advanced PPT Modeling}
+More advanced PPT models use an ablation model
+connected with an electrothermal or electromagnetic (i.e.,
+electromechanical) acceleration model connected with a
+plume model.
 
+\subsubsection{Ablation Model:}
+\begin{center}
+{\includegraphics[scale=0.5]{f1.png}}
+\end{center}
+Non-equilibrium kinetic layer near the surface of ablating
+material. Two extremes are the surface and the plasma
+bulk. In between one can imagine a kinetic non-equilibrium
+layer close to the surface with a thickness a
+few mean free paths (Knudsen layer). Then a collision dominated
+non-equilibrium layer where electron and
+heavy particle temperatures differ. At the right, all
+species reach thermal equilibrium.
+
+Michael, K., Iain, D. B., Isak, I. B., "On the model of
+Teflon ablation in an ablation-controlled discharge,"
+Journal of Physics D: Applied Physics, Vol. 34, No. 11,
+pp. 1675, 2001.
+
+\subsubsection{Electrothermal Model}
+\begin{center}
+{\includegraphics[scale=0.4]{f2.png}}
+\end{center}
+Plasma heating with electrothermal acceleration.
+Energy balance in the quasineutral plasma column is:
+
+Keidar, M., Boyd, I. D., Beilis, I. I., "Electrical discharge
+in the Teflon cavity of a coaxial pulsed plasma thruster,"
+Plasma Science, IEEE Transactions on, Vol. 28, No. 2,
+pp. 376-385, 2000
+
+\subsubsection{Electromagnetic Model with Plume}
+\begin{center}
+{\includegraphics[scale=0.5]{f3.png}}
+\end{center}
+Boyd, I. D., Keidar, M., McKeon, W., "Modeling of a
+Pulsed Plasma Thruster from Plasma Generation to Plume
+Far Field," Journal of Spacecraft and Rockets, Vol. 37,
+No. 3, pp. 399-407, 2000/05/01.
 %Breaking up PPT into phases (ablation, discharge model/electrothemra/magneticl model)
 %Start with ana ablation model like the the (heat of vaporiation, )
 
