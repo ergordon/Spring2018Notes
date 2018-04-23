@@ -2,3 +2,5 @@
 \contentsline {subsubsection}{\numberline {1.0.1}Electrical Schematic:}{4}
 \contentsline {subsection}{\numberline {1.1} Plasma Generator - Discharge Chamber}{5}
 \contentsline {subsubsection}{\numberline {1.1.1}Idealized Model for Predicting Discharge Chamber Performance}{7}
+\contentsline {subsection}{\numberline {1.2}Grid Ion Optics}{18}
+\contentsline {subsubsection}{\numberline {1.2.1}Cross-over limit to Perveance limit}{19}

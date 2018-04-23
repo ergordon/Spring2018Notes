@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 APR 2018 11:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 APR 2018 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,37 +1488,196 @@ File: uesvect.fd
 \tf@toc=\write6
 \openout6 = `9B.toc'.
 
- [1
+ [24
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<picturesB/15.png, id=49, 566.115pt x 672.5125pt>
+File: picturesB/15.png Graphic file (type png)
+ <use picturesB/15.png>
+Package pdftex.def Info: picturesB/15.png used on input line 81.
+(pdftex.def)             Requested size: 311.36421pt x 369.88301pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
+[25 <./picturesB/15.png>] <picturesB/16.png, id=55, 295.1025pt x 240.9pt>
+File: picturesB/16.png Graphic file (type png)
+
+<use picturesB/16.png>
+Package pdftex.def Info: picturesB/16.png used on input line 86.
+(pdftex.def)             Requested size: 472.16461pt x 385.4405pt.
+
+Overfull \hbox (2.40959pt too wide) in paragraph at lines 86--87
+ [] 
+ []
+
+<picturesB/17.jpg, id=56, 250.7769pt x 167.4255pt>
+File: picturesB/17.jpg Graphic file (type jpg)
+ <use picturesB/17.jpg>
+Package pdftex.def Info: picturesB/17.jpg used on input line 89.
+(pdftex.def)             Requested size: 376.16441pt x 251.13762pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
+[26 <./picturesB/16.png>] <picturesB/18.jpg, id=60, 794.97pt x 530.2209pt>
+File: picturesB/18.jpg Graphic file (type jpg)
+
+<use picturesB/18.jpg>
+Package pdftex.def Info: picturesB/18.jpg used on input line 93.
+(pdftex.def)             Requested size: 397.48402pt x 265.10979pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[27 <./picturesB/17.jpg> <./picturesB/18.jpg>]
+<picturesB/19.jpg, id=64, 481.8pt x 642.4pt>
+File: picturesB/19.jpg Graphic file (type jpg)
+ <use picturesB/19.jpg>
+Package pdftex.def Info: picturesB/19.jpg used on input line 98.
+(pdftex.def)             Requested size: 240.8994pt x 321.19922pt.
+
+<picturesB/20.jpg, id=65, 301.125pt x 313.17pt>
+File: picturesB/20.jpg Graphic file (type jpg)
+ <use picturesB/20.jpg>
+Package pdftex.def Info: picturesB/20.jpg used on input line 103.
+(pdftex.def)             Requested size: 150.56212pt x 156.58461pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] 
+[28 <./picturesB/19.jpg> <./picturesB/20.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29] <picturesB/21.png, id=77, 608.2725pt x 406.51875pt>
+File: picturesB/21.png Graphic file (type png)
+
+<use picturesB/21.png>
+Package pdftex.def Info: picturesB/21.png used on input line 149.
+(pdftex.def)             Requested size: 395.37245pt x 264.23404pt.
+ <picturesB/22.png, id=78, 566.86781pt x 426.84468pt>
+File: picturesB/22.png Graphic file (type png)
+
+<use picturesB/22.png>
+Package pdftex.def Info: picturesB/22.png used on input line 152.
+(pdftex.def)             Requested size: 368.4597pt x 277.44576pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./picturesB/21.png> <./picturesB/22.png>]
+<picturesB/23.png, id=83, 458.46281pt x 318.43968pt>
+File: picturesB/23.png Graphic file (type png)
+ <use picturesB/23.png>
+Package pdftex.def Info: picturesB/23.png used on input line 163.
+(pdftex.def)             Requested size: 297.99728pt x 206.98334pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./picturesB/23.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+Overfull \vbox (63.68887pt too high) detected at line 311
+ []
+
+
+Overfull \hbox (1.91362pt too wide) in paragraph at lines 311--311
+[][] 
+ []
+
+
+Overfull \vbox (78.9276pt too high) detected at line 315
+ []
+
+
+Overfull \hbox (4.04279pt too wide) in paragraph at lines 315--315
+[][] 
+ []
+
+
+Overfull \vbox (77.9543pt too high) detected at line 319
+ []
+
+
+Overfull \hbox (4.04279pt too wide) in paragraph at lines 319--319
+[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35] <picturesB/24.png, id=101, 870.25125pt x 547.04375pt>
+File: picturesB/24.png Graphic file (type png)
+
+<use picturesB/24.png>
+Package pdftex.def Info: picturesB/24.png used on input line 339.
+(pdftex.def)             Requested size: 435.12456pt x 273.5212pt.
+ <picturesB/25.png, id=102, 561.59813pt x 313.9228pt>
+File: picturesB/25.png Graphic file (type png)
+
+<use picturesB/25.png>
+Package pdftex.def Info: picturesB/25.png used on input line 351.
+(pdftex.def)             Requested size: 280.79837pt x 156.96101pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./picturesB/24.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./picturesB/25.png>] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1526,33 +1685,37 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[38]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] (./9B.aux) ) 
+[39] (./9B.aux) ) 
 Here is how much of TeX's memory you used:
- 29936 strings out of 493014
- 603482 string characters out of 6133351
- 674780 words of memory out of 5000000
- 32983 multiletter control sequences out of 15000+600000
+ 30000 strings out of 493014
+ 604593 string characters out of 6133351
+ 681783 words of memory out of 5000000
+ 33034 multiletter control sequences out of 15000+600000
  11161 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,12n,101p,10480b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+ 63i,14n,101p,10480b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb>
-Output written on 9B.pdf (7 pages, 84501 bytes).
+/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on 9B.pdf (16 pages, 2200161 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -50,6 +50,11 @@ end
     title('v(t) - Problem 1 Part D')
     ylabel('v')
     xlabel('Time')
+    
+    set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P1D.pdf')
 
 %% Problem 1 Part E
 R = [10^-2 10^-1 10^0 10^1 10^2];
@@ -101,3 +106,8 @@ end
     title('v(t) - Problem 1 Part E')
     ylabel('v')
     xlabel('Time')
+    
+    set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P1E.pdf')

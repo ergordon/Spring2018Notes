@@ -18,7 +18,7 @@
 \usepackage{multicol}
 \usepackage{cancel}
 \usepackage{graphicx}
-\graphicspath{ {pictures/} }
+\graphicspath{ {picturesB/} }
 \usepackage[retainorgcmds]{IEEEtrantools}
 \usepackage[margin=3cm]{geometry}
 \usepackage{amsmath}
@@ -111,11 +111,11 @@ units)
 \subsubsection{Electrical Schematic:}
 
 \begin{center}
-{\includegraphics[scale=0.5]{3.png}}
+{\includegraphics[scale=0.7]{3.png}}
 \end{center}
 
-Decel grid to protect accel grid from CEX ions that cause pit-ngroove
-erosion of accel grid.
+Decceleration grid to protect acceleration grid from CEX ions that cause pit-ngroove
+erosion of acceleration grid.
 
 \newpage
 \subsection{ Plasma Generator - Discharge Chamber}
@@ -127,11 +127,8 @@ large volume of uniform plasma from which ions can be extracted
 and accelerated by the ion accelerator.
 
 \begin{center}
-{\includegraphics[scale=0.5]{4.png}}
-\end{center}
-
-\begin{center}
-{\includegraphics[scale=0.5]{5.png}}
+{\includegraphics[scale=0.47]{4.png}}
+{\includegraphics[scale=0.47]{5.png}}
 \end{center}
 
 
@@ -179,7 +176,7 @@ An example of modern state-of-the-art discharge chamber is shown
 here, the NEXIS ion engine.
 
 \begin{center}
-{\includegraphics[scale=0.5]{6.jpg}}
+{\includegraphics[scale=0.65]{6.jpg}}
 \end{center}
 
 
@@ -222,7 +219,7 @@ charge.
 \end{itemize}
 
 \begin{center}
-{\includegraphics[scale=0.5]{7.png}}
+{\includegraphics[scale=0.6]{7.png}}
 \end{center}
 
 
@@ -250,14 +247,18 @@ A &= \text{Area of Grid}
 The fraction of ions that arrive at the grids and get accelerated into
 the beam is $T_g$, the "effective grid transparency", so the beam
 current is:
+\begin{shaded}
+\textbf{Beam Current}
 \begin{equation}
 \begin{aligned}
 I_b = \frac{1}{2} \, n_i \, e \, v_a \, A \, T_g
 \end{aligned}
 \end{equation}
+\end{shaded}
 Ions in the discharge chamber are produced at a rate given by the
 ionization rate coefficient:
-
+\begin{shaded}
+\textbf{Ionization Rate Coefficient:}
 \begin{equation}
 \begin{aligned}
 I_p = n_o \, n_e \, e \, <\sigma_i \, v_e> \, \volume
@@ -270,7 +271,7 @@ n_o &= \text{Neutral Density} \\
  <\sigma_i \, v_e> &= \text{Ionization Rate Coefficient; Average over Velocity Distribution Function}
 \end{aligned}
 \end{equation*}
-
+\end{shaded}
 Power is conserved in the system, so the power put into the plasma
 is equal to the power that comes out in the form of charged
 particles and radiation. To first order, the power put in goes into
@@ -307,11 +308,9 @@ I^* = \sum_j \, n_o \, n_e \, e \, <\sigma^* \, v_e >_j \, \volume
 \end{aligned}
 \end{equation}
 
-Where $\sigma^*$ is the cross-section for excitation to level j.
-
-And we sum over all possible excitation levels.
-
-Then, with (9.5), (9.7), Eqn. (9.6) becomes:
+Where $\sigma^*$ is the cross-section for excitation to level $j$ and we sum over all possible excitation levels.
+\newpage
+With Equation 9.5, 9.7, Equation 9.6 becomes:
 
 \begin{equation}
 \begin{aligned}
@@ -319,8 +318,8 @@ P_{in} = n_o \, n_e \, <\sigma_i \, v_e > \, \volume \,  \bigg[U^+ + \frac{<\sig
 \end{aligned}
 \end{equation}
 
-where we assume there is one "average" excited state, j, with
-corresponding energy U*. (U* $\sim$ 10 eV for Xe)
+where we assume there is one "average" excited state, $j$, with
+corresponding energy $U^*$. ($U^* \sim$ 10 eV for Xe)
 
 Assuming the plasma is quasi-neutral ,$n_e \approx n_i$ , and that ions
 and electrons leave at the same rate, such that the confinement time
@@ -354,10 +353,10 @@ repelling sheath, since the plasma potential is higher than the
 anode potential.
 
 \begin{center}
-\vspace{30mm}
+\vfill
 \textbf{Figure: Potential Profile at the Anode Wall}
 \end{center}
-
+\newpage
 Assuming Maxwellian electrons in the bulk plasma, these electrons
 are decelerated and repelled by the sheath potential. The electron
 current density reaching the wall is given by moments (integral) of
@@ -412,8 +411,7 @@ leaving the plasma, which for a stable sheath is:
 I_{\text{anode}} = \frac{1}{4} \, \sqrt{\frac{8 \, k \, T_e}{\pi \, m}} \, e \, n_e \, A_a \, \exp\bigg(\frac{-e \, \phi}{k \, T_e}\bigg)
 \end{aligned}
 \end{equation}
-
-
+\newpage
 Since we have assumed ambipolar ion and electron flow to the
 wall (ion and electron loss rates are same), we can equate (9.15)
 and (9.3):
@@ -467,7 +465,7 @@ reaction rate coefficient has been calculated using empirically
 determined collision cross-sections:
 
 \begin{center}
-{\includegraphics[scale=0.5]{8.png}}
+{\includegraphics[scale=0.6]{8.png}}
 \end{center}
 \begin{center}
 {\includegraphics[scale=0.5]{9.png}}
@@ -479,7 +477,8 @@ Now to calculate the discharge loss (a.k.a. Ion Production Cost):
 \textbf{Discharge Loss}
 \begin{equation}
 \begin{aligned}
-\eta_d = \frac{P_{in}}{I_b}=\frac{2 \, n_o \, <\sigma_i \, v_e> \,\volume}{v_a \, A \, T_g} \, \bigg[U^+ + \frac{<\sigma^* \, v_e>}{<\sigma_i \, v_e>} \, U^* \bigg] + \frac{1}{T_g \, e} \Bigg[ 2.5 \, k \, T_e + 2 \, k \, T_e \, \ln \bigg(\frac{A_a}{A} \, \sqrt{\frac{2 \, M}{m \, \pi}} \bigg)\Bigg]
+\eta_d = \frac{P_{in}}{I_b}&=\frac{2 \, n_o \, <\sigma_i \, v_e> \,\volume}{v_a \, A \, T_g} \, \bigg[U^+ + \frac{<\sigma^* \, v_e>}{<\sigma_i \, v_e>} \, U^* \bigg] \\ \\
+&+ \frac{1}{T_g \, e} \Bigg[ 2.5 \, k \, T_e + 2 \, k \, T_e \, \ln \bigg(\frac{A_a}{A} \, \sqrt{\frac{2 \, M}{m \, \pi}} \bigg)\Bigg]
 \end{aligned}
 \end{equation}
 Where
@@ -493,16 +492,17 @@ M &= \text{Ion Mass}
 \begin{itemize}
 \item Grid transparency, $T_g$, directly affects the discharge loss
 \item Input power is distributed between:
-\end{itemize}
-
 \begin{enumerate}
 \item 1st term: producing ions and excited neutrals
 \item 2nd term: heating the electrons that are lost to the walls
 \end{enumerate}
+\end{itemize}
+
+
 
 Need the ratio of the excitation to ionization reaction rates:
 \begin{center}
-{\includegraphics[scale=0.5]{10.png}}
+{\includegraphics[scale=0.6]{10.png}}
 \end{center}
 
 
@@ -513,41 +513,77 @@ explains at least part of the inefficiency inherent in XENON
 plasma generators, but similar results are found for other inert gas
 propellants.
 
-Also need Tg (~80%), xenon ionization potential (12.13 eV), xenon
-excitation potential (~10 eV), diameter of grids (A), electron loss
-area (Aa ~chamber wall and screen grid).
+Also need $T_g \, (\sim 80\%)$, xenon ionization potential (12.13 eV), xenon
+excitation potential ($\sim$10 eV), diameter of grids (A), electron loss
+area ($A_a \sim$chamber wall and screen grid).
 
 The other performance parameter is the mass utilization efficiency.
+
 To calculate it we recognize that neutrals entering the discharge
 chamber can leave the discharge chamber as neutrals through the
 grid, or become ionization and leave as ions through the grids.
 
+ \begin{equation}
+ \begin{aligned}
+ \dot{m}_{o,out} =  \dot{m}_{o,in} - \frac{I_b \, M}{e}
+ \end{aligned}
+ \end{equation}
+
 The mass flow rate of neutrals out of the discharge chamber can be
 written as:
-Neutral velocity
-Neutral density
-Grid area
-Grid transparency to neutrals
-Clausing factor
+\begin{shaded}
+\textbf{Mass Flow Rate of Neutrals Out of Discharge Chamber}
+ \begin{equation}
+ \begin{aligned}
+  \dot{m}_{o,out} = \frac{1}{4} \, M \, n_o \, v_o \, A_g \, T_a \, \eta_c
+ \end{aligned}
+ \end{equation}
+ Where
+ \begin{equation*}
+ \begin{aligned}
+V_o &= \text{Neutral velocity} = \sqrt{\frac{8 \, k \, T_o}{\pi \, M}} \\
+&\qquad T_o - \text{Neutral Temp} \\
+&\qquad T_o \sim 200-300^{\circ}C \\
+n_o &= \text{Neutral density} \\
+A_g &= \text{Grid area} \\
+T_a &= \text{Grid transparency to neutrals} \\
+\eta_c &= \text{Clausing factor} \\
+\frac{1}{4} \, M \, n_o \, v_o \, A_g &= \text{Random flux of neutrals to grid}\\
+\end{aligned}
+\end{equation*}
+\end{shaded}
 
-The Clausing factor accounts for the fact that the grids are finite
+The \textbf{Clausing Factor} accounts for the fact that the grids are finite
 thickness (not infinitely thin), related to gas flow restriction in
 short tubes. Typical grids have small thickness-to-length ratios, so
 Clausing factor must be calculated with numerical kinetic
-theory/Monte Carlo techniques, but a value of ~0.5 is typical for
+theory/Monte Carlo techniques, but a value of $\sim0.5$ is typical for
 ion engines.
 
 The mass utilization efficiency was given as (9.2), which will us
 (9.4) for the beam current.
 
+ \begin{equation*}
+ \begin{aligned}
+ \eta_{md} = \frac{I_b}{\frac{\dot{m}_{o,in} \, e}{M}}
+ \end{aligned}
+ \end{equation*}
+
 Using (9.19) and (9.20), we can solve for the neutral density in the
 discharge chamber:
 
-Typical efficiencies for a discharge chamber:
+ \begin{equation}
+ \begin{aligned}
+ n_o = \frac{\frac{4 \, \dot{m}_{o,in} \, e}{M} \, (1 - \eta_{md})}{v_o \, A_g \, T_a \, \eta_c} = \frac{4 \, I_b}{v_o \, e \, A_g \, T_a \, \eta_c} \, \frac{(1-\eta_{md})}{\eta_{md}}
+ \end{aligned}
+ \end{equation}
 
+
+Typical efficiencies for a discharge chamber using Equation 9.2 and Equation 9.18:
 20-cm diameter, 30-cm long.
+
 \begin{center}
-{\includegraphics[scale=0.5]{11.png}}
+{\includegraphics[scale=0.6]{11.png}}
 \end{center}
 
 Amount of power to produce 1A of beam current (with 80$\%$
@@ -558,10 +594,13 @@ other losses.
 
 What are the losses??
 \begin{center}
-{\includegraphics[scale=0.5]{12.png}}
+{\includegraphics[scale=0.6]{12.png}}
 \end{center}
 
-This plot assumes the ionization power is constant
+This plot assumes the ionization power is constant, with 1A beam
+current $(1/0.8 *12.13eV = 15.1 W)$. Electrons lost to screen grid
+and anode (20cm diam, 30cm long, $A_a = 2200 cm^2$).
+
 Major power loss is excitation at low mass utilization where
 electron temp is low. Electron and ion convection losses to the
 wall increase with mass utilization because there are less neutrals,
@@ -569,12 +608,256 @@ so have higher electron temp, higher plasma potential, and thereby
 increased energy lost per electron and ion.
 
 State-of-the-art discharge chambers use magnetic confinement to
-reduce the effective anode area (Aa), the Bfield reduces the area of
+reduce the effective anode area ($A_a$), the Bfield reduces the area of
 the anode the electrons can actually get to. This effect is illustrated
 below:
 \begin{center}
-{\includegraphics[scale=0.5]{13.png}}
+{\includegraphics[scale=0.6]{13.png}}
 \end{center}
 
-Effective anode area reduced to 1$cm^2$
+Effective anode area reduced to 1$cm^2$.  Reduced anode area does not affect electron loss rate, since ion and electron loss rates are same in this model (electron loss is same as ion loss to grid).  Reduced area changes plasma potential relative to loss area potential in order to maintain charge balance as seen in (9.16).  As seen in figure, ionization and excitation power is not changed.   But the energy loss due to electron and ion convection out of the system is significantly reduced (from 15-30W to 2-10W).
+
+\newpage
+\subsection{Grid Ion Optics}
+To accelerate ions a potential difference must be established between the plasma produced inside the thruster plasma generator (discharge chamber), and the ambient space plasma.
+ 
+A grid is used to establish this potential difference.
+The grid must have holes smaller than the Debye length of the plasma, otherwise the plasma would simply leak out through the holes.
+ 
+ \begin{center}
+ \vspace{70mm}
+ \textbf{Figure 2: Grid Optics}
+ \end{center}
+ 
+At very high grid potential ( $V_g \gg T_e$) the thin sheath boundary is in the Child-Langmuir sheath regime, and the current flow into the sheath is limited.
+ 
+\begin{shaded}
+ \textbf{Child-Langmuir Law (Current Limit in a Plane Diode):}
+ \begin{equation}
+ \begin{aligned}
+ j_i = \frac{4}{9} \, \varepsilon_o \, \bigg(\frac{2 \, q}{M}\bigg)^{\frac{1}{2}} \, \frac{V^{\frac{3}{2}}}{d^2}
+ \end{aligned}
+ \end{equation}
+ Where
+  \begin{equation*}
+ \begin{aligned}
+V & = \text{Voltage across gap/grids}\\
+d &= \text{Distance across gap/between grids}
+ \end{aligned}
+ \end{equation*}
+\end{shaded}
+ 
+The amount of current that an ion accelerator can extract and focus into a beam is limited by the Child-Langmuir law, and is called the perveance:
+ \begin{shaded}
+ \textbf{Perveance}
+  \begin{equation*}
+ \begin{aligned}
+ P \equiv \frac{I_B}{V^{\frac{3}{2}}}
+ \end{aligned}
+ \end{equation*}
+ \end{shaded}
+ 
+The maximum perveance would be the perveance with the maximum current, which is the Child-Langmuir current, so:
+ \begin{shaded}
+ \textbf{Maximum Perveance}
+  \begin{equation}
+ \begin{aligned}
+ P_{\text{max}} = \frac{4}{9} \, \varepsilon_o \, \sqrt{\frac{2 \, q}{M}} \qquad \qquad \bigg[\frac{\text{Amps}}{\text{Volts}^{3/2}}\bigg]
+  \end{aligned}
+ \end{equation}
+ \end{shaded}
+ Where $P_{\text{max}} = 4.8\times10^{-9}$ for a singly-ionized xenon. 
+  
+With a beamlet area of        $\frac{\pi}{4} \, D^2$         	, the max perveance is:
+ \begin{shaded}
+ \textbf{Maximum Perveance with Beamlet Area $\bf{\frac{\pi}{4} \, D^2}$}
+ 
+  \begin{equation}
+ \begin{aligned}
+  P_{\text{max}} = \frac{\pi \, \varepsilon_o}{9} \, \sqrt{\frac{2 \, q}{M}}\,\bigg(\frac{D^2}{d^2}\bigg) \qquad \qquad \bigg[\frac{\text{Amps}}{\text{Volts}^{3/2}}\bigg]
+ \end{aligned}
+ \end{equation}
+Where
+
+  \begin{equation*}
+ \begin{aligned}
+ d & = \text{Effective grid gap}\\
+D & = \text{Beamlet diameter}
+ \end{aligned}
+ \end{equation*}
+
+ \end{shaded}
+ 
+Maximum perveance requires the grid gap be smaller than the beamlet diameter.
+ 
+\subsubsection{Cross-over limit to Perveance limit}
+Ion trajectories that do not intersect the grids and have minimal divergence result from operating at or near the optimal ion current density and voltage for the grid geometry (center figure).   Operating at significantly less than the optimal perveance, called "under-perveance" (corresponding to higher voltages or lower beamlet currents), increase the Child-Langmuir sheath length and pushes the sheath farther into the discharge plasma.  This causes ions to be launch from the edge of the sheath and "cross-over" producing excessive erosion of the grids (far left figure).	Similar, operating at higher than optimal perveance (higher beamlet current, lower voltage), reduces the CL sheath thickness and the plasma boundary pushes toward the screen grid (far right figure).
+
+\begin{center}
+{\includegraphics[scale=0.65]{14.png}}
+\end{center}
+Farnell, AIAA-2004-3818
+ 
+The thruster ion optics assembly serves three main purposes:
+\begin{itemize}
+\item Extract ions from the discharge chamber
+\item Accelerate ions to generate thrust
+\item Prevent electron backstreaming
+\end{itemize}
+ 
+Ideal grid assembly would extract and accelerate all ions that approach the grid, and block all neutral gas outflow.  Also would want long lifetime, high current densities, and ion trajectories that are parallel with the thrust axis (no cosine-losses/divergence).
+ 
+But grids have finite transparency, the screen grid transparency is:
+ 
+  \begin{equation}
+ \begin{aligned}
+ T_s = \frac{I_b}{I_i}
+ \end{aligned}
+ \end{equation}
+ 
+It depends on the plasma parameters in the discharge chamber because the sheath edge is normally pushed slightly into the plasma by the applied voltage if the screen grid is relatively thin, creating a non-planar, hemispherical sheath boundary.  This modified sheath thickness can be accounted for.
+ \newpage
+Consider a typical two grid ion optics setup:
+ 
+ \begin{center}
+ \vspace{70mm}
+ \textbf{Figure 3: Two Grid Ion Optics Setup}
+ \end{center}
+
+ 
+
+\begin{shaded}
+\textbf{Maximum Current Density given by Child-Langmuir:}
+  \begin{equation}
+ \begin{aligned}
+ j_{\text{max}} = j_{cl} =  P_{\text{max}} = \frac{4}{9} \, \varepsilon_o \, \sqrt{\frac{2 \, e}{M}}\,\frac{V_T^{3/2}}{l_e^2}
+ \end{aligned}
+ \end{equation}
+where
+\begin{equation*}
+\begin{aligned}
+V_t &= \text{Total Voltage Across Sheath Between The Two Grids}\\
+l_e &= \text{Sheath Thickness}
+\end{aligned}
+\end{equation*}
+\end{shaded}
+
+Sheath Thickness is given by:
+\begin{shaded}
+\textbf{Sheath Thickness}
+  \begin{equation}
+ \begin{aligned}
+ l_e = \sqrt{(l_g+t_s)^2 + \frac{d_s^2}{4}}
+ \end{aligned}
+ \end{equation}
+ \end{shaded}
+ 
+This sheath thickness accounts for this non-planar condition and has been found to be useful in predicting the space-charge limited (Child-Langmuir) current in ion thruster grid configurations.  Note, the value of the grid gap, $l_g$	, is the "hot" grid gap.  The grids expand during operation due to increased temperature!
+ \newpage
+ We can now find the maximum thrust per unit area of an ion thruster.  The thrust of an ion thruster is:
+ \begin{shaded}
+\textbf{Thrust of an Ion Thruster}
+   \begin{equation}
+ \begin{aligned}
+ T = \frac{\mathrm{d}}{\mathrm{d}t}(m\,v) = \gamma \, \dot{m}_i \, v_i
+ \end{aligned}
+ \end{equation}
+where
+   \begin{equation*}
+ \begin{aligned}
+\gamma &= \text{Correction due to divergence (cosine loss) and multiply-charged species}\\
+\dot{m}_i&= \text{Ions mass flow rate}\\
+v_i&= \text{Ions velocity}\\
+ \end{aligned}
+ \end{equation*}
+
+\end{shaded}
+
+Assuming ions start from rest, then:
+ 
+\begin{equation}
+ \begin{aligned}
+v_i = \sqrt{\frac{2 \, e \, V_b}{M}} 
+ \end{aligned}
+ \end{equation}
+where
+\begin{equation*}
+ \begin{aligned}
+V_b &= \text{Net voltage ion accelerated through (beam voltage)}
+ \end{aligned}
+ \end{equation*}
+
+and using mass flow rate (8.34):
+ \begin{equation}
+ \begin{aligned}
+ \dot{m}_i = \frac{I_b \, M}{e}
+ \end{aligned}
+ \end{equation}
+ 
+The thrust is then:
+   \begin{equation*}
+ \begin{aligned}
+ T = \gamma \, I_b \, M \, \sqrt{\frac{2 \, e \, V_b}{M}}
+ \end{aligned}
+ \end{equation*}
+ or
+ \begin{shaded}
+ \textbf{Thrust Density}
+    \begin{equation}
+ \begin{aligned}
+  \frac{T}{A_g} = \frac{j \, \gamma \, T_s \, M}{e} \, \sqrt{\frac{2 \, e \, V_b}{M}}
+ \end{aligned}
+ \end{equation}
+ 
+where $A_g$ is the active area of the grids (with extraction apertures, just the total grid area, e.g., area of a 30-cm-diam circle)
+ \end{shaded}
+ \newpage
+ The effective electric field in the grid gap is:
+  \begin{shaded}
+ \textbf{Effective Electric Field in the Grid Gap:}
+ 
+    \begin{equation}
+ \begin{aligned}
+E = \frac{V_T}{l_e}
+ \end{aligned}
+ \end{equation}
+where
+   \begin{equation*}
+ \begin{aligned}
+ V_T &= \text{Total voltage across the gap,    $V_T$    	, that is:} \\
+ \end{aligned}
+ \end{equation*}
+     \begin{equation}
+ \begin{aligned}
+V_T = V_{\text{screen}} + |V_{\text{acceleration}}| = V_s + |V_a| = \frac{V_b}{R}
+ \end{aligned}
+ \end{equation}
+ 
+ where we get the ratio of the net beam voltage to the total voltage (how much of the total voltage is used to accelerate the ion)
+ \end{shaded}
+
+ 
+ 
+Using the maximum possible current density in (9.31), the Child-Langmuir space-charge limited current (9.26), and the electric field of (9.32), then:
+
+   \begin{equation}
+ \begin{aligned}
+   \frac{T}{A_g} &= \frac{4}{9} \,\frac{\varepsilon_o \, \gamma \, T_s}{e} \, \sqrt{\frac{2 \, e}{M}}\,\frac{V_T^{3/2}}{l_e^2}\,M\sqrt{\frac{2 \, e \, V_b}{M}} \\ \\
+   &= \frac{8}{9} \, \varepsilon_o \, \gamma \, T_s \, \sqrt{R} \, E^2
+ \end{aligned}
+ \end{equation}
+ 
+Max thrust density increases with screen grid transparency and the square of the electric field.  So max thrust is possible if use thin high transparency grids operated near the perveance limit and at max possible electric field in the gap.
+ 
+Also note, thrust density is independent of propellant mass.
+ 
+Finally, note R describes the relative magnitude of the accel grid bias relative to the screen potential.
+ 
+   \begin{equation}
+ \begin{aligned}
+ R = \frac{V_b}{V_T} = \frac{V_b}{V_s + |V_a|}
+ \end{aligned}
+ \end{equation}
+ 
+Operating with small values of R increase the total voltage between the screen and acceleration grids, which from (9.26) results in higher current density of ions accelerated from the thruster.  But, smaller R also results in higher energy ion bombardment of acceleration grid.	Magnitude of acceleration grid bias usually minimized to value required to just avoid electron back streaming and the value of R typically ranges from 0.8 to 0.9.
 \end{document}

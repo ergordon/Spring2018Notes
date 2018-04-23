@@ -1,3 +1,4 @@
+
 function hw6p2t2
 %% theta(t) v(t) and u(t) 2
 J1 = 12;
@@ -23,25 +24,35 @@ for i=1:length(t)
 end
 
 figure(1)
-subplot(1,3,1)
+subplot(3,1,1)
 plot(t,x(1,:));
 legend('\theta_2')
 title('\theta_2 V. Time \newline Problem 2C','Interpreter','tex')
 
-subplot(1,3,2)
+subplot(3,1,2)
 plot(t,x(2,:));
 legend('\theta_2dot')
 title('\theta_2 dot V. Time \newline Problem 2C','Interpreter','tex')
 
-subplot(1,3,3)
+subplot(3,1,3)
 plot(t,x(3,:));
 legend('v_2')
 title('v_2 V. Time \newline Problem 2C','Interpreter','tex')
+
+set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P2C1.pdf')
+
 
 figure(2)
 plot(t,x, 'linewidth',2);
 legend('\theta_2','\theta_2dot','v_2')
 title('x(t) V. Time \newline Problem 2C','Interpreter','tex')
+set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P2C.pdf')
 
 
 %% Animation and integration stuff 

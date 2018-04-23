@@ -44,7 +44,11 @@ plot(t,x,'linewidth',2);
 hold on;
 legend('\theta_1','\theta_3','\theta_1dot','\theta_3dot','v_1','v_3')
 title('x(t) V. Time');
-
+set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P3C1.pdf')
+    
 figure(2)
 subplot(3,2,1)
 plot(t,x(1,:),'linewidth',2);
@@ -75,3 +79,8 @@ subplot(3,2,6)
 plot(t,x(6,:),'linewidth',2);
 title('v_3 V. Time');
 legend('x_6(t) - v_3');
+
+set(gcf,'paperorientation','landscape');
+    set(gcf,'paperunits','normalized');
+    set(gcf,'paperposition',[0 0 1 1]);
+    print(gcf,'-dpdf','HW6P3C2.pdf')

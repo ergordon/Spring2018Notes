@@ -1,3 +1,5 @@
-\contentsline {section}{\numberline {2}Hall-Effect Thrusters}{1}
-\contentsline {subsection}{\numberline {2.1}Operation and Scaling}{3}
-\contentsline {subsection}{\numberline {2.2}Electrical Schematic and Current}{6}
+\contentsline {section}{\numberline {2}Hall-Effect Thrusters}{24}
+\contentsline {subsection}{\numberline {2.1}Operation and Scaling}{29}
+\contentsline {subsubsection}{\numberline {2.1.1}Hall Curent Scaling}{31}
+\contentsline {subsubsection}{\numberline {2.1.2}Ionization Length and Scaling}{32}
+\contentsline {subsection}{\numberline {2.2}Electrical Schematic and Current}{38}

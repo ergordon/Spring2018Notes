@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 APR 2018 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 APR 2018 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1436,16 +1436,9 @@ File: uesvect.fd
 \tf@toc=\write6
 \openout6 = `8F.toc'.
 
- [49
+ [50
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Fancyhdr Warning: \headheight is too small (0.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1460,11 +1453,6 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-Overfull \hbox (11.4271pt too wide) in paragraph at lines 250--251
-[]\OT1/cmr/m/n/10.95 Equation 8.75 is the elec-tro-mag-netic impedance for coax
--ial elec-trodes. The elec-tro-mag-netic impedance
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1472,6 +1460,11 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [53]
+Overfull \hbox (11.4271pt too wide) in paragraph at lines 253--254
+[]\OT1/cmr/m/n/10.95 Equation 8.75 is the elec-tro-mag-netic impedance for coax
+-ial elec-trodes. The elec-tro-mag-netic impedance
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
  Make it at least 13.59999pt.
@@ -1485,13 +1478,27 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] <pictures/f1.png, id=75, 564.60938pt x 523.9575pt>
+[55]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+
+Package Fancyhdr Warning: \headheight is too small (0.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57] <pictures/f1.png, id=78, 564.60938pt x 523.9575pt>
 File: pictures/f1.png Graphic file (type png)
  <use pictures/f1.png>
 Package pdftex.def Info: pictures/f1.png used on input line 399.
 (pdftex.def)             Requested size: 282.30399pt x 261.9781pt.
 
-<pictures/f2.png, id=76, 1044.15094pt x 610.53094pt>
+<pictures/f2.png, id=79, 1044.15094pt x 610.53094pt>
 File: pictures/f2.png Graphic file (type png)
  <use pictures/f2.png>
 Package pdftex.def Info: pictures/f2.png used on input line 417.
@@ -1503,7 +1510,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56 <./pictures/f1.png>] <pictures/f3.png, id=80, 685.8122pt x 603.75563pt>
+[58 <./pictures/f1.png>] <pictures/f3.png, id=83, 685.8122pt x 603.75563pt>
 File: pictures/f3.png Graphic file (type png)
 
 <use pictures/f3.png>
@@ -1516,7 +1523,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57 <./pictures/f2.png>] 
+[59 <./pictures/f2.png>] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1524,7 +1531,7 @@ Package Fancyhdr Warning: \headheight is too small (0.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./pictures/f3.png>] (./8F.aux) ) 
+[60 <./pictures/f3.png>] (./8F.aux) ) 
 Here is how much of TeX's memory you used:
  28854 strings out of 493014
  585321 string characters out of 6133351
@@ -1545,10 +1552,10 @@ ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb>
-Output written on 8F.pdf (10 pages, 280994 bytes).
+Output written on 8F.pdf (11 pages, 286363 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  172 words of extra memory for PDF output out of 10000 (max. 10000000)
 

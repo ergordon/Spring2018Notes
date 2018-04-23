@@ -44,7 +44,7 @@
 \newcommand{\parr}{\mathbin{\|}} % Parralel Symbol
 \begin{document}
 \setcounter{section}{5}%Section we want -1
-\setcounter{page}{49} %Page we want
+\setcounter{page}{50} %Page we want
 \setcounter{equation}{63}%Equation we want -1
 \def\thepart{\arabic{part}}
 \setcounter{part}{8}
@@ -85,23 +85,24 @@ Stored energy is:
 \frac{1}{2} C V_o^2 \qquad [J]
 \end{aligned}
 \end{equation}
+
 For a pulse rate f,  then the average power is
+
   \begin{equation}
 \begin{aligned}
 P_{\text{avg}} = f \, E_o \qquad [W]
 \end{aligned}
 \end{equation}
+
 Typically $f \sim 1-5 Hz$.
  
-Each pulse creates thrust, and evaporates mass, m.
-
-  \begin{center}
- \vspace{70mm}
+\newpage Each pulse creates thrust, and evaporates mass, m.
+\begin{center}
+\vspace{50mm}
  \textbf{Figure 10: Thrust to Propulsion Time}
  \end{center}
- 
- 
-Impulse bit is:%We alsway use bit when talking about pulse devices. The total is over entire time, the impulse bit is the amount of impulse for one single pulse. 
+We always use bit when talking about pulse devices. The total is over the entire time, the impulse bit is the amount of impulse for one single pulse. Impulse bit is:
+
   \begin{equation}
 \begin{aligned}
 \int \, T \, \mathrm{d}t = I_{\text{bit}}
@@ -123,12 +124,13 @@ Average thrust:
  
 The arc heats the Teflon to $\sim600-700K$, so it ablates.  This ablation continues to occur after the pulsed power is applied. 
  And the ablation that occurs after the initial pulse is referred to as "late time ablation".
- %This is a major source of inefficinenty, we ablate the mass of teflon and when we heat the surface of the teflon, now we have a hot propellant and some of that propellant mass will ablate which is a neutral and slowly drift out of the thruster at a later time. 
+ 
+This is a major source of inefficiency. As we ablate the mass of teflon and when we heat the surface of the teflon, now we have a hot propellant and some of that propellant mass will ablate which is a neutral and slowly drift out of the thruster at a later time. 
    \begin{center}
- \vspace{70mm}
+ \vspace{40mm}
  \textbf{Figure 11: Late Time Ablation Illustration}
  \end{center}
- %ther is no current being forced through the vapor after the mass has be ablated. 
+There is no current being forced through the vapor after the mass has be ablated. 
  \newpage
  \subsection{Efficiency}
 
@@ -138,12 +140,11 @@ The efficiency is calculated from a simple circuit model:
  \textbf{Figure 11: Efficiency Circuit Model}
  \end{center}
  
- %Z_o is the impednace of the drive circuit, R_L is the laod resistance (the joule heating that goes into the heating of the plasma, the switch resistance, the intricic pfn resistance), Z_L is the load impedance
+ $Z_o$ is the impedance of the drive circuit, $R_L$ is the load resistance (the joule heating that goes into the heating of the plasma, the switch resistance, the intrinsic PFN resistance), $Z_L$ is the load impedance
  
  
  
 Assume a matched PFN: 
-
    \begin{equation}
 \begin{aligned}
 R_L + Z_L = Z_o
@@ -153,15 +154,13 @@ R_L + Z_L = Z_o
 Thus the voltage drop across the load is equal to that across $Z_o$, that is: $\frac{V_o}{2}$
  
 Thus the current is:
- 
     \begin{equation}
 \begin{aligned}
 J = \frac{\frac{V_o}{2}}{Z_o} = \frac{\frac{V_o}{2}}{R_L + Z_L}
 \end{aligned}
 \end{equation}
  
-Then the charge is
-
+Then the charge is:
    \begin{equation*}
 \begin{aligned}
 Q_o = C_o \, V_o
@@ -186,27 +185,31 @@ C_o = N\, C
 Where N is the number of sections in the PFN number. We assume each section has the same capacitance
 
 Then
+
     \begin{equation}
 \begin{aligned}
 t_p = 2 \, N \sqrt{L \, C}
 \end{aligned}
 \end{equation}
  
-Recognize that for cases where Electromagnetic energy does work on a mass:
- %Thrust in its electromagnetic form is 
+Recognize that for cases where Electromagnetic energy does work on a mass, thrust in its electromagnetic form is:
  
     \begin{equation*}
 \begin{aligned}
 \text{Thrust} = F_{em} = \frac{1}{2} \, L' \, J^2
 \end{aligned}
 \end{equation*}
+
  and the resulting power
+ 
     \begin{equation*}
 \begin{aligned}
 P = \frac{1}{2} \, F \, u_e = J^2 \, Z_o = \frac{1}{2} \bigg( \frac{1}{2} \, L' \, J^2\bigg)\, u_e
 \end{aligned}
 \end{equation*}
+
  which means the impedance is
+ 
     \begin{equation*}
 \begin{aligned}
 Z_o = \frac{1}{4} \, L' \, u_e
@@ -238,7 +241,7 @@ Returning to efficiency, $R_L$ represents losses in capacitors, switches, electr
 \eta = \frac{Z_L}{R_L + Z_L} = \frac{1}{\frac{R_L}{Z_L}+1}
 \end{aligned}
 \end{equation}
- %Imepedance of the laod over entire impedance. R_L is the resistaive lost in the circuit itself, 
+ Impedance of the load over entire impedance. $R_L$ is the resistive lost in the circuit itself, 
  
  so
     \begin{equation}
@@ -248,22 +251,26 @@ Z_L = \frac{1}{4} \, L' \, u_e = \frac{1}{2} \, \frac{\mu}{4 \, \pi} \, \bigg(\l
 \end{equation}
 
 Equation 8.75 is the electromagnetic impedance for coaxial electrodes. The electromagnetic impedance for parallel plate electrodes is somewhere in our notes.
+
  \begin{framed}
-For Example:
-%The resistance R_L is not easy to estimate and is sually done experimentally.
+\textbf{For Example:} \\
+The resistance $R_L$ is not easy to estimate and is usually done experimentally.
 
-%LEt u_e = 2x10^4 m/s and our coaxial PPT has the geometry of...then we will claculate the Z_L for this thruster to be Z_L =
+Let $u_e = 2\times10^4 \, m/s$ and our coaxial PPT has the geometry of $\ln(r_a/r_c) + \frac{3}{4} = 2.5$ then we will calculate the $Z_L$ for this thruster to be $Z_L = 2.5 \, m\Omega$, (Equation 8.54)
 
-%If resistive losses amounted ot 5mOhms then we would have an efficiency, \eta of around 33%.
+If resistive losses amounted to $R_L = 5 \, m\Omega$ then we would have an efficiency, $\eta \sim 33 \%$.
 
-% Unfortunaly those resistive losses tend to be much higher, around 15 mOhms. 
+Unfortunaly those resistive losses tend to be much higher, around 15 mOhms. 
 
-%advantage of using parralel plate electrodes: recall that Z = 0.5*k*u_e where k=
-%We would get a little bit higher load impedence meaning we would get a higher efficieincy. 
+The advantage of using parallel plate electrodes: recall that $Z = 0.5*k*u_e $ where $k=2.57\times10^{-7}$ for a coaxial geometry and $k \sim 5\times10^{-7}$ for parallel plate geometry. 
+
+Therefore, $Z_L = 5 \, m\Omega$
+
+We would get a little bit higher load impedance meaning we would get a higher efficiency. 
  \end{framed}
-  \newpage
  \subsection{Two Stream Model}
- %Going back to the idea of late time ablation. At the beginnign we have the fast plasma current sheet coming out and then the second phase of slow moving particles coming out.
+ Going back to the idea of late time ablation. At the beginning we have the fast plasma current sheet coming out and then the second phase of slow moving particles coming out.
+ 
  The first complication is that Teflon ($C_2F_4$) is dissociated to $C+F+F$ and then is partially ionized ($C^+, F^+$).  Because of pressure, neutrals are accelerates to lower velocity than ions.  This leads to a two-stream model.
  
 The PPT is partially ionized.  Neutral and Ions.  We have a situation in PPT where the pulse results in "fast" ions and "slow" neutrals coexisting in the same channel.  "Two-Fluid" model.
@@ -274,7 +281,7 @@ Consider the situation shown here:
  \vspace{50mm}
  \textbf{Figure 12: Two Fluid Model}
  \end{center}
- 
+ \newpage
 Total ablated mass is the sum of the fast and slow species.
  
     \begin{equation}
@@ -284,7 +291,6 @@ M = M_f + M_s
 \end{equation}
  
 Impulse bit is then:
- 
     \begin{equation}
 \begin{aligned}
 I_{\text{bit}} = m_f \, u_f + m_s \, u_s
@@ -292,7 +298,6 @@ I_{\text{bit}} = m_f \, u_f + m_s \, u_s
 \end{equation}
  
 Thus $I_{SP}$ and efficiency are:
- 
     \begin{equation}
 \begin{aligned}
 I_{SP} = \frac{I_{\text{bit}}}{m \, g_o} = \frac{m_f \, u_f + m_s \, u_s}{(m_f + m_s) \, g_o}
@@ -313,11 +318,11 @@ I_{\text{bit}} = \int \, T_{ET} \, \mathrm{d}t + \int \frac{1}{2}\, L'\, J^2 \, 
 \end{aligned}
 \end{equation}
 
- %This total impulse bit is due to two matin things, 1) the electrothemral acceleration of the particles 2) The electromagnetic flow of the thrust, the acceleration of the charged species. This is the total electromagentic energy deposited in. 
- %We know geometry, we can measure J so we can evaluate the second integral  
-If we say
+This total impulse bit is due to two matin things, 1) the electrothermal acceleration of the particles 2) The electromagnetic flow of the thrust, the acceleration of the charged species. This is the total electromagnetic energy deposited in. 
+ %
+We know geometry, we can measure J so we can evaluate the second integral  
 
-%This term is equal to the impulse deliveered by the fast species, we can solve for the slow species. 
+This term is equal to the impulse delivered by the fast species, we can solve for the slow species. 
    \begin{equation}
 \begin{aligned}
 \int \, \frac{1}{2} \, L' \, J^2 \, \mathrm{d}t = m_f \, u_f
@@ -333,7 +338,8 @@ Then from measured $I_{\text{bit}}$, we also know $m_s u_s$; solve Equation 8.80
 \end{equation*}
  
 Now the problem is, what are $m_f$ and $m_s$, or $u_f$ and $u_s$?
-%We dont know how much of our mass is the fast species and how much is the slow species.
+
+We don't know how much of our mass is the fast species and how much is the slow species.
 
 We find the answer in Cosmology, more specifically a theory for the origin of the solar system by Hannes Alfven (Nobel Prize in Physics 1970).  Alfven's paper "On the Origin of the Solar System" assumed the Sun and a magnetized dust cloud.
  
@@ -354,7 +360,8 @@ Alfven: When KE = ionization energy, particle falling in is ionized, losing all 
 \end{equation}
  
 So for the PPT it is assumed that $u_f$ cannot exceed $u_s$ by more than $u_c$:
- %If we have this mass of slow species moving along, then the ions cannot leave faster than this critical speed. Whenever the KE = Ionization, the particles transfers all of its KE to Ionization energy and no longer moves, genreally caused by collisions. 
+ 
+ If we have this mass of slow species moving along, then the ions cannot leave faster than this critical speed. Whenever the KE = Ionization, the particles transfers all of its KE to Ionization energy and no longer moves, generally caused by collisions. 
  
     \begin{equation}
 \begin{aligned}
@@ -363,20 +370,13 @@ u_f - u_s = u_c
 \end{equation}
  
 What is $u_c$ for Teflon (CF$_2$)?%What would tehrse values be for teflon that we are wokring with. 
-%Critical velocity for carbon
-Carbon: $u_c = 13 \, [km/s]$
-%Critical velocity for fluorine
-Fluorine: $u_c = 13 \, [km/s]$
+
+Critical velocity for Carbon: $u_c = 13 \, [km/s]$
+
+Critical velocity for Fluorine: $u_c = 13 \, [km/s]$
 \begin{framed}
-Example, assume
- 
- %Asume the net exit velocity is 10.5 km/s due to both ms and mf. 
- %Then we can write
- 
- %That net exausht velocity is the mass average of the fast and slow species. Then we have
- 
- %
- 
+Example, assume the net exit velocity is $10.5 \, km/s$ due to both $m_s$ and $m_f$. 
+\vspace{70mm}
  \end{framed}
  
  
