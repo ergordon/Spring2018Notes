@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {3}Electron-Ion Collisions (Coulomb Collisions)}{20}
-\contentsline {subsection}{\numberline {3.1}Elastic}{21}
-\contentsline {subsection}{\numberline {3.2}Inelastic}{23}
-\contentsline {subsection}{\numberline {3.3}Radiation}{23}

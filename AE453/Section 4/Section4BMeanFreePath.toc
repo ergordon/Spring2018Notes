@@ -1,2 +1,0 @@
-\contentsline {section}{\numberline {2}Mean Free Path}{5}
-\contentsline {subsection}{\numberline {2.1}Mean Free Path}{6}

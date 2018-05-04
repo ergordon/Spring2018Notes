@@ -1,4 +1,0 @@
-\contentsline {section}{\numberline {5}Electromagnetic Induction}{48}
-\contentsline {subsection}{\numberline {5.1}Faraday's Induction Law}{49}
-\contentsline {subsection}{\numberline {5.2}Faraday's Law}{51}
-\contentsline {subsection}{\numberline {5.3}Lenz's Law}{52}

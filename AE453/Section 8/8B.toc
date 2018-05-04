@@ -1,2 +1,0 @@
-\contentsline {section}{\numberline {2}Particle Description}{22}
-\contentsline {subsection}{\numberline {2.1}The mass injection problem}{26}

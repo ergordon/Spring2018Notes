@@ -1,3 +1,0 @@
-\contentsline {section}{\numberline {6}Amperes Law}{53}
-\contentsline {subsection}{\numberline {6.1}Faraday's Induction Law}{54}
-\contentsline {section}{\numberline {7}Maxwell's Equations - Summary}{55}

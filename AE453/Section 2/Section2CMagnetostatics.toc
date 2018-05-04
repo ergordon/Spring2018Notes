@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {3}Magnetostatics}{25}
-\contentsline {subsection}{\numberline {3.1}Electric Current}{26}
-\contentsline {subsection}{\numberline {3.2}Current Density}{27}
-\contentsline {subsection}{\numberline {3.3}Continuity}{28}
-\contentsline {subsection}{\numberline {3.4}Ohm's Law}{30}
-\contentsline {subsection}{\numberline {3.5}Magnetic Field}{32}
-\contentsline {subsection}{\numberline {3.6}Forces on Conductors}{34}
-\contentsline {subsection}{\numberline {3.7}Biot-Savart Law}{35}

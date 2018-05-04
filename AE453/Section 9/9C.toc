@@ -1,3 +1,0 @@
-\contentsline {section}{\numberline {3}Electrospray/Colloid Thrusters}{24}
-\contentsline {subsection}{\numberline {3.1}Liquid Surface Physics}{26}
-\contentsline {subsection}{\numberline {3.2}Taylor Cone}{28}
